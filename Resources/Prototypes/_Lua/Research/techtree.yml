@@ -427,7 +427,7 @@
   position: 3, 5
 
 - type: technology
-  id: GravityManipulation
+  id: GravityManipulationTetherGun
   name: research-technology-gravity-manipulation
   entityIcon: WeaponTetherGun
   discipline: NFScience
@@ -438,7 +438,7 @@
   position: 7, 4
 
 - type: technology
-  id: GravityManipulation
+  id: GravityManipulationForceFun
   name: research-technology-gravity-manipulation
   entityIcon: WeaponForceGun
   discipline: NFScience
