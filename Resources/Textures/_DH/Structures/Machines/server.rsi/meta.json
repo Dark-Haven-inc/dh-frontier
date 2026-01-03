@@ -44,6 +44,9 @@
             "name": "variant-prison"
         },
         {
+            "name": "variant-shiparmory"
+        },
+        {
             "name": "variant-syndicate"
         }
     ]

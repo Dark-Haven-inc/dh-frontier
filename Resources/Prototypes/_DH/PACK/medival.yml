@@ -117,9 +117,9 @@
   description: Покоцанная пара толстых сапог, протоптавшая не один десяток руин.
   components:
   - type: Sprite
-    sprite: _DH/Clothing/Shoes/bib_boots.rsi
+    sprite: _DH/Clothing/Shoes/Boots/bib_boots.rsi
   - type: Clothing
-    sprite: _DH/Clothing/Shoes/bib_boots.rsi
+    sprite: _DH/Clothing/Shoes/Boots/bib_boots.rsi
 
 - type: entity
   parent: ClothingUniformBase
