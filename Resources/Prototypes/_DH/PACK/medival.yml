@@ -46,7 +46,7 @@
   description: Полотно позолоченного у кромок лунного шёлка, что принято обвязывать у шеи.
   components:
   - type: Sprite
-    sprite: _DH/Clothing/Cloaks/bib_neck.rsi
+    sprite: _DH/Clothing/Neck/Cloaks/bib_neck.rsi
   - type: Insulated
 
 - type: entity
