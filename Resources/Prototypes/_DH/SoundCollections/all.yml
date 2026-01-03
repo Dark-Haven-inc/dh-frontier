@@ -89,12 +89,12 @@
 - type: soundCollection
   id: PulsePickUp
   files:
-  - /Audio/_DH/Weapons/Guns/Lasers/Pulse/pickup1.ogg
+  - /Audio/_DH/Weapons/Guns/Lasers/pickup1.ogg
 
 - type: soundCollection
   id: PulseDrop
   files:
-  - /Audio/_DH/Weapons/Guns/Lasers/Pulse/drop1.ogg
+  - /Audio/_DH/Weapons/Guns/Lasers/drop1.ogg
 
 - type: soundCollection
   id: SnipersPickUp

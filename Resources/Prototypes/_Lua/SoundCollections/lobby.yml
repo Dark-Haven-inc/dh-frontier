@@ -48,15 +48,16 @@
      - /Audio/Lobby/pwmur.ogg
      - /Audio/Lobby/lasers_rip_apart_the_bulkhead.ogg
      - /Audio/Lobby/every_light_is_blinking_at_once.ogg
-     - /Audio/_Corvax/Lobby/title2.ogg # Corvax-LobbyMusic
+     # - /Audio/_Corvax/Lobby/title2.ogg # Corvax-LobbyMusic
      - /Audio/Lobby/atomicamnesiammx.ogg
-     - /Audio/_Corvax/Lobby/service.ogg # Corvax-LobbyMusic
-    #DH
+     # - /Audio/_Corvax/Lobby/service.ogg # Corvax-LobbyMusic
+    #DH-start
      - /Audio/_DH/Lobby/AUD-20240921-WA0008.ogg
      - /Audio/_DH/Lobby/beat-machine.ogg
      - /Audio/_DH/Lobby/End_of_shift.ogg
      - /Audio/_DH/Lobby/Good-mood.ogg
      - /Audio/_DH/Lobby/Hello_and_goodbye.ogg
      - /Audio/_DH/Lobby/Memories.ogg
-     - /Audio/_DH/Lobby/Space_Citadel.ogg
+     # - /Audio/_DH/Lobby/Space_Citadel.ogg # Сломано было
      - /Audio/_DH/Lobby/Sunrise.ogg
+     #DH-end
