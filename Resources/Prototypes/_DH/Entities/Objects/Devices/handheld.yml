@@ -241,10 +241,10 @@
     state: mecha_analyzer
     layers:
     - state: mecha_analyzer
-    - state: mecha_analyzer_anim
-      shader: unshaded
-      visible: true
-      map: [ "enum.PowerDeviceVisualLayers.Powered" ]
+    # - state: mecha_analyzer_anim # Fix error: нет такого спрайта
+    #   shader: unshaded
+    #   visible: true
+    #   map: [ "enum.PowerDeviceVisualLayers.Powered" ]
   - type: Item
     storedRotation: -90
   - type: ActivatableUI
@@ -289,10 +289,10 @@
     state: mecha_analyzer
     layers:
     - state: mecha_analyzer
-    - state: mecha_analyzer_anim
-      shader: unshaded
-      visible: false
-      map: [ "enum.PowerDeviceVisualLayers.Powered" ]
+    # - state: mecha_analyzer_anim # Fix error: нет такого спрайта
+    #   shader: unshaded
+    #   visible: false
+    #   map: [ "enum.PowerDeviceVisualLayers.Powered" ]
   - type: ItemSlots
     slots:
       cell_slot:
