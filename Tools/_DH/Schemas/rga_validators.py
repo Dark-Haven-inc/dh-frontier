@@ -19,8 +19,7 @@ class License(Validator):
         "MIT",
         "Custom", # implies that the license is described in the copyright field.
         "CLA",
-        "this content is under ICLA licence, read more on https://wiki.imperialspace.net/icla",
-
+        "this content is under ICLA licence, read more on https://wiki.imperialspace.net/icla"
         ]
 
     def _is_valid(self, value):
