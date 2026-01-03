@@ -456,13 +456,13 @@
   components:
   - type: TrayScanner
   - type: Sprite
-    sprite: _DH/special/FS/Tools/multitool.rsi
+    sprite: _DH/special/Fs/Tools/multitool.rsi
     layers:
     - state: icon
     - state: green-unlit
       shader: unshaded
   - type: Clothing
-    sprite: _DH/special/FS/Tools/multitool.rsi
+    sprite: _DH/special/Fs/Tools/multitool.rsi
     quickEquip: false
     slots:
     - Belt
