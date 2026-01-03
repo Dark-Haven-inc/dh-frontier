@@ -16,12 +16,12 @@
   description: Украшена изящными извилистыми узорами, что постоянно играют на свету.
   components:
   - type: Sprite
-    sprite: _DH/Clothing/Gloves/bib_gloves.rsi
+    sprite: _DH/Clothing/Hands/Gloves/bib_gloves.rsi
     layers:
     - state: icon
   - type: Item
   - type: Clothing
-    sprite: _DH/Clothing/Gloves/bib_gloves.rsi
+    sprite: _DH/Clothing/Hands/Gloves/bib_gloves.rsi
 
 - type: entity
   parent: ClothingMaskBase
