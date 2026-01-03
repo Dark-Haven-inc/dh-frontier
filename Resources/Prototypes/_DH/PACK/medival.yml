@@ -5,9 +5,9 @@
   description: Магическая шляпа из лунного шёлка с вкраплениями ярких металлов на полях.
   components:
   - type: Sprite
-    sprite: _DH/Medieval/Clothing/Head/bib_hat.rsi
+    sprite: _DH/Clothing/Head/Hats/bib_hat.rsi
   - type: Clothing
-    sprite: _DH/Medieval/Clothing/Head/bib_hat.rsi
+    sprite: _DH/Clothing/Head/Hats/bib_hat.rsi
 
 - type: entity
   parent: ClothingHandsButcherable
