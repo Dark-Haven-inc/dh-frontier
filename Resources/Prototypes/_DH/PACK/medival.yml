@@ -1538,9 +1538,9 @@
   name: MedievalChest3
   components:
   - type: Sprite
-    sprite: _DH/Structures/Storage/Crateschest3.rsi
+    sprite: _DH/Structures/Storage/Crates/chest3.rsi
   - type: Icon
-    sprite: _DH/Structures/Storage/Crateschest3.rsi
+    sprite: _DH/Structures/Storage/Crates/chest3.rsi
   - type: Destructible
     thresholds:
     - trigger:
