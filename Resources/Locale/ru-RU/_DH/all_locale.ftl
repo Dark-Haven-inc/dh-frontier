@@ -2075,8 +2075,9 @@ PoweredWarmSmallLight = { ent-PoweredSmallLight }
 
 ParcelWrap = обёрточная бумага
     .desc = Бумага используется для упаковки товаров, предназначенных для транспортировки.
-ParcelWrap1 = обёрточная бумага
-    .desc = Бумага используется для упаковки товаров, предназначенных для транспортировки.
+ParcelWrap1 = { ent-ParcelWrap }
+    .desc = { ent-ParcelWrap.desc }
+    .suffix = Один
 CrateCargoParcelWrap = ящик обёрточной бумаги
     .desc = Все необходимое для упаковки посылок в одном ящике: три рулона упаковочной бумани.
 WrappedParcel = завернутая посылка
@@ -2088,9 +2089,6 @@ ParcelDropoff = почтовый ящик
 ParcelDropoffPOI = { ent-ParcelDropoff }
     .desc = { ent-ParcelDropoff.desc }
     .suffix = POI
-ParcelWrap1 = { ent-ParcelWrap }
-    .desc = { ent-ParcelWrap.desc }
-    .suffix = Один
 
 ent-WaterfallOnsen = водопад
 .desc = Водопад. Водо-пад. Это лишь падающая откуда-то сверху вода, так почему же она так прекрасна?
