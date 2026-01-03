@@ -83,7 +83,11 @@
                 "CC-BY-NC-4.0",
                 "CC-BY-NC-SA-3.0",
                 "CC-BY-NC-SA-4.0",
-                "CC0-1.0"
+                "CC0-1.0",
+                "MIT",
+                "Custom",
+                "CLA",
+                "this content is under ICLA licence, read more on https://wiki.imperialspace.net/icla"
             ],
             "examples": [
                 "CC-BY-SA-3.0"
