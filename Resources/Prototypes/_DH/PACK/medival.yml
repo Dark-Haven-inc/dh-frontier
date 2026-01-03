@@ -128,9 +128,9 @@
   description: Грубо сшитая, но инкрустированная яркими металлами роба из лунного шёлка.
   components:
   - type: Sprite
-    sprite: _DH/Clothing/ShitCloth/shit_cloth_78.rsi
+    sprite: _DH/Clothing/Uniforms/Costume/shit_cloth_78.rsi
   - type: Clothing
-    sprite: _DH/Clothing/ShitCloth/shit_cloth_78.rsi
+    sprite: _DH/Clothing/Uniforms/Costume/shit_cloth_78.rsi
 
 - type: entity
   id: MedievalBaseTree
@@ -923,7 +923,7 @@
     mode: SnapgridCenter
   components:
   - type: Sprite
-    sprite: _DH/Structures/Walls/Medieval/Walls/gates.rsi
+    sprite: _DH/Structures/Walls/Medieval/gates.rsi
     drawdepth: BlastDoors
     layers:
     - state: closed
