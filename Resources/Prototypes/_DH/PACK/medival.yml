@@ -1582,9 +1582,9 @@
   name: MedievalChest4
   components:
   - type: Sprite
-    sprite: _DH/Structures/Storage/Crateschest4.rsi
+    sprite: _DH/Structures/Storage/Crates/chest4.rsi
   - type: Icon
-    sprite: _DH/Structures/Storage/Crateschest4.rsi
+    sprite: _DH/Structures/Storage/Crates/chest4.rsi
   - type: Destructible
     thresholds:
     - trigger:
@@ -1627,7 +1627,7 @@
   targetNode: MedievalChest4
   category: construction-category-furniture
   icon:
-    sprite: _DH/Structures/Storage/Crateschest4.rsi
+    sprite: _DH/Structures/Storage/Crates/chest4.rsi
     state: base
   objectType: Structure
   placementMode: SnapgridCenter
