@@ -56,7 +56,7 @@
   description: Мрачная накидка из шкуры вендиго.
   components:
   - type: Sprite
-    sprite: _DH/Clothing/Cloaks/spookyvendigo.rsi
+    sprite: _DH/Clothing/Neck/Cloaks/spookyvendigo.rsi
   - type: Insulated
   - type: IngestionBlocker
   - type: IdentityBlocker
