@@ -10,8 +10,9 @@ public sealed partial class ICCVars
     public static readonly CVarDef<bool>
             WaveShaderEnabled = CVarDef.Create("medieval.wave_shader_enabled", false, CVar.CLIENT | CVar.ARCHIVE); // RETURN TO TRUE AFTER FIX OPTIONS
 
-    public static readonly CVarDef<bool> EnableLanguageFonts =
-        CVarDef.Create("lang.enable_fonts", true, CVar.CLIENTONLY | CVar.ARCHIVE);
+    // DH-Tweak: Зачем нам дубликат конфига такой же если надо переименуйте и раскоментируйте (schrodinger71)
+    // public static readonly CVarDef<bool> EnableLanguageFonts =
+    //     CVarDef.Create("lang.enable_fonts", true, CVar.CLIENTONLY | CVar.ARCHIVE);
 
     public static readonly CVarDef<TimeSpan> StoreBalanceUpdateInterval =
         CVarDef.Create("store.balance_update_interval", TimeSpan.FromSeconds(60), CVar.SERVERONLY);
