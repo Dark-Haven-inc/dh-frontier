@@ -785,7 +785,7 @@
       signProto: ForcefieldFS
       chargeUse: 30
     - type: Sprite
-      sprite: _DH/special/FS/Tools/holofanprojector.rsi
+      sprite: _DH/Special/Fs/Tools/holofanprojector.rsi
       state: icon
 
 - type: entity
