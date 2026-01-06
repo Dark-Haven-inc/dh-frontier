@@ -715,10 +715,10 @@
   description: Улучшенный краскопульт с автоперезарядкой из комплекта "FS".
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Tools/spray_painter.rsi
+    sprite: _DH/special/Fs/Tools/spray_painter.rsi
     state: spray_painter
   - type: Item
-    sprite: _DH/special/FS/Tools/spray_painter.rsi
+    sprite: _DH/special/Fs/Tools/spray_painter.rsi
   - type: ActivatableUI
     key: enum.SprayPainterUiKey.Key
   - type: UserInterface
@@ -762,10 +762,10 @@
   - type: SprayPainterAmmo
     charges: 30
   - type: Sprite
-    sprite: _DH/special/FS/Tools/spray_painter.rsi
+    sprite: _DH/special/Fs/Tools/spray_painter.rsi
     state: ammo
   - type: Item
-    sprite: _DH/special/FS/Tools/spray_painter.rsi
+    sprite: _DH/special/Fs/Tools/spray_painter.rsi
     heldPrefix: ammo
   - type: PhysicalComposition
     materialComposition:
