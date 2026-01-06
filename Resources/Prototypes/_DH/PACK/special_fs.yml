@@ -75,9 +75,9 @@
     grid:
     - 0,0,10,1
   - type: Sprite
-    sprite: _DH/special/FS/Clothing/belt.rsi
+    sprite: _DH/special/Fs/Clothing/belt.rsi
   - type: Clothing
-    sprite: _DH/special/FS/Clothing/belt.rsi
+    sprite: _DH/special/Fs/Clothing/belt.rsi
   - type: Item
     size: Huge
 
