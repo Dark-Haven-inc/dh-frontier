@@ -399,9 +399,9 @@
   suffix: sponsor, FS #DH
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Clothing/gasmask.rsi
+    sprite: _DH/special/Fs/Clothing/gasmask.rsi
   - type: Clothing
-    sprite: _DH/special/FS/Clothing/gasmask.rsi
+    sprite: _DH/special/Fs/Clothing/gasmask.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
