@@ -907,7 +907,7 @@
     grid:
     - 0,0,4,3
   - type: Sprite
-    sprite: _DH/special/FS/Misc/portable_recharger.rsi
+    sprite: _DH/special/Fs/Misc/portable_recharger.rsi
     state: charging
   - type: Clothing
     equippedPrefix: charging
