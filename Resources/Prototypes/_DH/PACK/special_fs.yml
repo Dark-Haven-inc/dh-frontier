@@ -904,6 +904,7 @@
   components:
   - type: Item
     size: Huge
+  - type: Storage
     grid:
     - 0,0,4,3
   - type: Sprite

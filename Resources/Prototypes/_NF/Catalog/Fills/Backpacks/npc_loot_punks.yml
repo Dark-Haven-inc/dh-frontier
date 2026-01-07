@@ -131,12 +131,12 @@
       prob: 0.6
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.45 #DH
-    - id: SpawnDungeonLootMaterialsBasic #DH
+    - id: SpawnDungeonLootMaterialsBasicSingle #DH
       prob: 0.65
       amount: 3
     - id: SpawnDungeonLootMaterialsValuableFull
       prob: 0.35 #DH
-    - id: SpawnDungeonLootMaterialsValuable #DH
+    - id: SpawnDungeonLootMaterialsValuableSingle #DH
       prob: 0.35
       amount: 2
     - id: SpawnDungeonLootPartsEngi
@@ -241,15 +241,12 @@
       prob: 0.55 #DH
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.5 #DH
-    - id: SpawnDungeonLootMaterialsBasic #DH
+    - id: SpawnDungeonLootMaterialsBasicSingle #DH
       prob: 0.7
       amount: 2
-    - id: SpawnDungeonLootMaterialsBasic #DH
-      prob: 0.5
-      amount: 3
     - id: SpawnDungeonLootMaterialsValuableFull
       prob: 0.45 #DH
-    - id: SpawnDungeonLootMaterialsValuable #DH
+    - id: SpawnDungeonLootMaterialsValuableSingle #DH
       prob: 0.60
     - id: SpawnDungeonLootKitsFirstAid #DH
       prob: 0.2

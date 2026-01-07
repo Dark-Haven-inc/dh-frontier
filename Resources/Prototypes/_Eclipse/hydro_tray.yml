@@ -32,9 +32,8 @@
   - type: ApcPowerReceiver
     powerLoad: 5000
   - type: PlantHolder
-    permanentWaterLevel: true
-    permanentNutritionLevel: true
-    consumesElectricity: true
+    waterLevel: 999999
+    nutritionLevel: 999999
   - type: Machine
     board: HydroponicsTrayAdvancedMachineCircuitboard
   - type: WiresPanel

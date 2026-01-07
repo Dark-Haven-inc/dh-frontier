@@ -11,3 +11,122 @@
   icon: { sprite: /Textures/_DH/Objects/Materials/pyroblock.rsi, state: pyro }
   spawn: PyroBlock1
   maxCount: 40
+
+- type: stack
+  id: FloorTileItemWoodBlack
+  name: floorTileItemWoodBlack-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_black }
+  spawn: FloorTileItemWoodBlackOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodDark
+  name: floorTileItemWoodDark-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_dark }
+  spawn: FloorTileItemWoodDarkOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodRed
+  name: floorTileItemWoodRed-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_red }
+  spawn: FloorTileItemWoodRedOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodLargeBlack
+  name: floorTileItemWoodLargeBlack-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_large_black }
+  spawn: FloorTileItemWoodLargeBlackOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodLargeDark
+  name: floorTileItemWoodLargeDark-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_large_dark }
+  spawn: FloorTileItemWoodLargeDarkOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodLargeLight
+  name: floorTileItemWoodLargeLight-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_large_light }
+  spawn: FloorTileItemWoodLargeLightOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodLargeRed
+  name: floorTileItemWoodLargeRed-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_large_red }
+  spawn: FloorTileItemWoodLargeRedOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodParquetBlack
+  name: floorTileItemWoodParquetBlack-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_parquet_black }
+  spawn: FloorTileItemWoodParquetBlackOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodParquetDark
+  name: floorTileItemWoodParquetDark-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_parquet_dark }
+  spawn: FloorTileItemWoodParquetDarkOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodParquetLight
+  name: floorTileItemWoodParquetLight-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_parquet_light }
+  spawn: FloorTileItemWoodParquetLightOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodParquetRed
+  name: floorTileItemWoodParquetRed-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_parquet_red }
+  spawn: FloorTileItemWoodParquetRedOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodChess
+  name: floorTileItemWoodChess-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_chess }
+  spawn: FloorTileItemWoodChessOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodChessBlack
+  name: floorTileItemWoodChessBlack-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_chess_black }
+  spawn: FloorTileItemWoodChessBlackOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodChessDark
+  name: floorTileItemWoodChessDark-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_chess_dark }
+  spawn: FloorTileItemWoodChessDarkOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodChessLight
+  name: floorTileItemWoodChessLight-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_chess_light }
+  spawn: FloorTileItemWoodChessLightOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodChessRed
+  name: floorTileItemWoodChessRed-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_chess_red }
+  spawn: FloorTileItemWoodChessRedOre1
+  maxCount: 30
+
+- type: stack
+  id: FloorTileItemWoodLight
+  name: floorTileItemWoodLight-ore
+  icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_light }
+  spawn: FloorTileItemWoodLightOre1
+  maxCount: 30

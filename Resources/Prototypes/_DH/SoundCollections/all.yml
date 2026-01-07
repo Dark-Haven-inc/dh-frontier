@@ -163,3 +163,18 @@
   - /Audio/_DH/Weapons/Melee/Mace/Mace_smash_air2.ogg
   - /Audio/_DH/Weapons/Melee/Mace/Mace_smash_air3.ogg
   - /Audio/_DH/Weapons/Melee/Mace/Mace_smash_air4.ogg
+
+- type: soundCollection
+  id: BreakWood
+  files:
+  - /Audio/_DH/Medieval/ES_Wood_Break_8_SFX_Producer.ogg
+
+- type: soundCollection
+  id: BreakDoor
+  files:
+  - /Audio/_DH/Medieval/zvuk-vyibivaniya-dveri-24274.ogg
+
+- type: soundCollection
+  id: hit
+  files:
+  - /Audio/Weapons/grille_hit.ogg # /Audio/Weapons/Rapier.ogg -> /Audio/Weapons/grille_hit.ogg. Заглушка, так как я не знаю, что за звук там был изначально + такого файла не было

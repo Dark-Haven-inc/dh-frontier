@@ -49,4 +49,6 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
+    event: !type:ToggleThermalVisionEvent
+  - type: Action
     useDelay: 10

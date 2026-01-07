@@ -481,7 +481,6 @@
   - type: Item
     size: Normal
     sprite: _DH/Structures/Power/Generation/ame_jar.rsi
-    color: "#916439"
   - type: Sprite
     sprite: _DH/Structures/Power/Generation/ame_jar.rsi
     state: jar_expandet

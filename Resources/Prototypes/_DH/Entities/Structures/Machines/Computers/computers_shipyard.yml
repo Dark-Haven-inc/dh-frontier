@@ -143,7 +143,7 @@
     - map: ["computerLayerKeys"]
       state: telesci_key
   - type: ShipyardConsole
-    newAccessLevels: [Captain, Science]
+    newAccessLevels: [Captain, Research]
   - type: ShipyardListing
     shuttles:
     - Investigator

@@ -600,7 +600,8 @@
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
           - !type:PlaySoundBehavior
-            sound: _DH/Medieval/ES_Wood_Break_8_SFX_Producer.ogg
+            sound:
+              collection: BreakWood
   - type: ExplosionResistance
     damageCoefficient: 3
   - type: Appearance
@@ -624,15 +625,10 @@
 
 - type: construction
   id: MedievalStockade
-  name: деревянный частокол
-  description: На случай, если на стену из дерева не хватает.
   graph: MedievalStockade
   startNode: start
   targetNode: medievalstockade
   category: construction-category-furniture
-  icon:
-    sprite: _DH/Structures/Walls/Medieval/wood_wall_light.rsi
-    state: wall0
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -690,7 +686,8 @@
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
           - !type:PlaySoundBehavior
-            sound: _DH/Medieval/ES_Wood_Break_8_SFX_Producer.ogg
+            sound:
+              collection: BreakWood
           - !type:SpawnEntitiesBehavior
             offset: 0.3
             spawn:
@@ -705,15 +702,10 @@
 
 - type: construction
   id: MedievalStockadeHigh
-  name: деревянная стена
-  description: Прочная стена из дерева.
   graph: MedievalStockadeHigh
   startNode: start
   targetNode: medievalstockadeHigh
   category: construction-category-furniture
-  icon:
-    sprite: _DH/Structures/Walls/Medieval/wood_wall_new.rsi
-    state: full
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -870,15 +862,10 @@
 
 - type: construction
   id: WallTentCloth
-  name: стена палатки
-  description: Дешевое укрытие
   graph: WallTentCloth
   startNode: start
   targetNode: WallTentCloth
   category: construction-category-furniture
-  icon:
-    sprite: _DH/Structures/Walls/Medieval/cloth_tent.rsi
-    state: p0
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1058,15 +1045,10 @@
 
 - type: construction
   id: DoorTentCloth
-  name: дверь палатки
-  description: Простая тканевая шторка для палатки
   graph: DoorTentCloth
   startNode: start
   targetNode: DoorTentCloth
   category: construction-category-furniture
-  icon:
-    sprite: _DH/Structures/Walls/Medieval/cloth_tent.rsi
-    state: closed
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1111,9 +1093,9 @@
   - type: DoorBolt
     #boltsDown: True
     boltUpSound:
-      path: /Audio_DH/Medieval/door_lock1.ogg
+      path: /Audio/_DH/Medieval/door_lock1.ogg
     boltDownSound:
-      path: /Audio_DH/Medieval/door_lock2.ogg
+      path: /Audio/_DH/Medieval/door_lock2.ogg
   - type: InteractionOutline
   - type: Sprite
     netsync: false
@@ -1149,11 +1131,11 @@
     openingAnimationTime: 1.2
     closingAnimationTime: 1.2
     openSound:
-      path: _DH/Medieval/derevyannuyu-dver-zakryili.ogg
+      path: /Audio/_DH/Medieval/derevyannuyu-dver-zakryili.ogg
     closeSound:
-      path: _DH/Medieval/otkryili-steklyannuyu-dver.ogg
+      path: /Audio/_DH/Medieval/otkryili-steklyannuyu-dver.ogg
     denySound:
-      path: _DH/Medieval/lyazg-visyaschego-zamka-na-zakryitoy-dveri.ogg
+      path: /Audio/_DH/Medieval/lyazg-visyaschego-zamka-na-zakryitoy-dveri.ogg
   - type: Appearance
   - type: Airtight
     fixVacuum: true
@@ -1169,7 +1151,8 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
       - !type:PlaySoundBehavior
-        sound: _DH/Medieval/zvuk-vyibivaniya-dveri-24274.ogg
+        sound:
+          collection: BreakDoor
   - type: IconSmooth
     key: walls
     mode: NoSprite
@@ -1180,15 +1163,10 @@
 
 - type: construction
   id: MedievalAirlock
-  name: деревянная дверь
-  description: Простая деревянная дверь.
   graph: MedievalAirlock
   startNode: start
   targetNode: medievalairlock
   category: construction-category-furniture
-  icon:
-    sprite: _DH/Structures/Walls/Medieval/medieval_door.rsi
-    state: closed
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1231,9 +1209,9 @@
   - type: DoorBolt
     #boltsDown: True
     boltUpSound:
-      path: _DH/Medieval/metal_door_lock2.ogg
+      path: /Audio/_DH/Medieval/door_lock2.ogg
     boltDownSound:
-      path: _DH/Medieval/metal_door_lock1.ogg
+      path: /Audio/_DH/Medieval/door_lock1.ogg
   - type: InteractionOutline
   - type: Sprite
     netsync: false
@@ -1272,7 +1250,7 @@
     closeSound:
       path: /Audio/Effects/stonedoor_openclose.ogg
     denySound:
-      path: _DH/Medieval/lyazg-visyaschego-zamka-na-zakryitoy-dveri.ogg
+      path: /Audio/_DH/Medieval/lyazg-visyaschego-zamka-na-zakryitoy-dveri.ogg
   - type: Appearance
   - type: Airtight
     fixVacuum: true
@@ -1288,7 +1266,8 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
       - !type:PlaySoundBehavior
-        sound: _DH/Medieval/zvuk-vyibivaniya-dveri-24274.ogg
+        sound:
+          collection: BreakDoor
   - type: IconSmooth
     key: walls
     mode: NoSprite
@@ -1305,9 +1284,9 @@
   - type: DoorBolt
     #boltsDown: True
     boltUpSound:
-      path: _DH/Medieval/door_lock1.ogg
+      path: /Audio/_DH/Medieval/door_lock1.ogg
     boltDownSound:
-      path: _DH/Medieval/door_lock2.ogg
+      path: /Audio/_DH/Medieval/door_lock2.ogg
   - type: InteractionOutline
   - type: Sprite
     netsync: false
@@ -1342,11 +1321,11 @@
     openingAnimationTime: 1.2
     closingAnimationTime: 1.2
     openSound:
-      path: _DH/Medieval/derevyannuyu-dver-zakryili.ogg
+      path: /Audio/_DH/Medieval/derevyannuyu-dver-zakryili.ogg
     closeSound:
-      path: _DH/Medieval/otkryili-steklyannuyu-dver.ogg
+      path: /Audio/_DH/Medieval/otkryili-steklyannuyu-dver.ogg
     denySound:
-      path: _DH/Medieval/lyazg-visyaschego-zamka-na-zakryitoy-dveri.ogg
+      path: /Audio/_DH/Medieval/lyazg-visyaschego-zamka-na-zakryitoy-dveri.ogg
   - type: Appearance
   - type: Airtight
     fixVacuum: true
@@ -1362,7 +1341,8 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
       - !type:PlaySoundBehavior
-        sound: _DH/Medieval/zvuk-vyibivaniya-dveri-24274.ogg
+        sound:
+          collection: BreakDoor
   - type: IconSmooth
     key: walls
     mode: NoSprite
@@ -1401,7 +1381,7 @@
   - type: SpawnAfterInteract
     prototype: MedievalPrisonGrille
     doAfter: 5
-    deleteOnInteract: true
+    removeOnInteract: true
   - type: Sprite
     sprite: _DH/Structures/Walls/Medieval/stone_wall.rsi
     state: icon
@@ -1423,7 +1403,7 @@
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          path: _DH/Medieval/ES_Wood_Break_8_SFX_Producer.ogg
+          collection: BreakWood
       - !type:SpawnEntitiesBehavior
         spawn:
           MaterialWoodPlank1:
@@ -1452,13 +1432,11 @@
 
 - type: construction
   hide: true
-  name: Ящик
   id: CrateLivestockM
   graph: CrateLivestockM
   startNode: start
   targetNode: CrateLivestockM
   category: construction-category-storage
-  description: Деревянный ящик.
   objectType: Structure
 
 - type: constructionGraph
@@ -1505,7 +1483,7 @@
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          path: _DH/Medieval/ES_Wood_Break_8_SFX_Producer.ogg
+          collection: BreakWood
       - !type:SpawnEntitiesBehavior
         spawn:
           MaterialWoodPlank1:
@@ -1549,7 +1527,7 @@
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          path: _DH/Medieval/ES_Wood_Break_8_SFX_Producer.ogg
+            collection: BreakWood
       - !type:SpawnEntitiesBehavior
         spawn:
           MaterialWoodPlank1:
@@ -1593,7 +1571,7 @@
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          path: _DH/Medieval/ES_Wood_Break_8_SFX_Producer.ogg
+          collection: BreakWood
       - !type:SpawnEntitiesBehavior
         spawn:
           MaterialWoodPlank1:
@@ -1620,15 +1598,10 @@
 
 - type: construction
   id: MedievalChest4
-  name: деревянный сундук
-  description: Самый простой сундук.
   graph: MedievalChest4
   startNode: start
   targetNode: MedievalChest4
   category: construction-category-furniture
-  icon:
-    sprite: _DH/Structures/Storage/Crates/chest4.rsi
-    state: base
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -2191,7 +2164,7 @@
     volume: -13
     range: 2
     sound:
-      path: _DH/Medieval/water.ogg
+      path: /Audio/_DH/Medieval/water.ogg
 
 - type: entity
   id: MedievalWaterDeepDarkEntity
@@ -2213,11 +2186,8 @@
     sprite: _DH/Tiles/Planet/water_new.rsi
     drawdepth: Overdoors
   - type: MovementSpeedModifier
-    walkSpeedModifier: 0.25
-    sprintSpeedModifier: 0.25
-    ignoreWhitelist:
-      tags:
-      - Lamian
+    baseWalkSpeed: 0.25
+    baseSprintSpeed: 0.25
   - type: Physics
     bodyType: Static
   - type: Fixtures

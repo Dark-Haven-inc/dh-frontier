@@ -46,6 +46,9 @@
 - type: Tag
   id: NAMEFuel
 
+- type: Tag
+  id: BluespaceBox
+
 #ADT
 - type: Tag
   id: ADTCartridgeBibis # Обычне

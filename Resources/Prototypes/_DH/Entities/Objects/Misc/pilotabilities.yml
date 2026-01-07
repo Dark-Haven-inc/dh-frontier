@@ -44,7 +44,7 @@
       - FullAuto
     soundGunshot: /Audio/Weapons/Guns/Gunshots/gun_sentry.ogg
   - type: BallisticAmmoProvider
-    proto: CartridgeRifleLight762x39
+    proto: NFCartridgeRifle30 # По файлу all_mag.yml укзано, что это - 762x39
     capacity: 500
   - type: TimedDespawn
     lifetime: 60

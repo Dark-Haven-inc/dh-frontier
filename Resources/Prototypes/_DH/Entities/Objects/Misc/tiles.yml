@@ -105,6 +105,14 @@
     stackType: FloorTileItemWoodBlack
 
 - type: entity
+  parent: FloorTileItemWoodBlack
+  id: FloorTileItemWoodBlackOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
   name: tiles-wood-dark
   parent: FloorTileItemBase
   id: FloorTileItemWoodDark
@@ -121,6 +129,14 @@
       - FloorWoodDark
   - type: Stack
     stackType: FloorTileItemWoodDark
+
+- type: entity
+  parent: FloorTileItemWoodDark
+  id: FloorTileItemWoodDarkOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
 
 - type: entity
   name: tiles-wood-light
@@ -141,6 +157,14 @@
     stackType: FloorTileItemWoodLight
 
 - type: entity
+  parent: FloorTileItemWoodLight
+  id: FloorTileItemWoodLightOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
   name: tiles-wood-red
   parent: FloorTileItemBase
   id: FloorTileItemWoodRed
@@ -157,6 +181,14 @@
       - FloorWoodRed
   - type: Stack
     stackType: FloorTileItemWoodRed
+
+- type: entity
+  parent: FloorTileItemWoodRed
+  id: FloorTileItemWoodRedOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
 
 - type: entity
   name: large black wood floor
@@ -177,6 +209,14 @@
     stackType: FloorTileItemWoodLargeBlack
 
 - type: entity
+  parent: FloorTileItemWoodLargeBlack
+  id: FloorTileItemWoodLargeBlackOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
   name: large dark wood floor
   parent: FloorTileItemBase
   id: FloorTileItemWoodLargeDark
@@ -193,6 +233,14 @@
       - FloorWoodLargeDark
   - type: Stack
     stackType: FloorTileItemWoodLargeDark
+
+- type: entity
+  parent: FloorTileItemWoodLargeDark
+  id: FloorTileItemWoodLargeDarkOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
 
 - type: entity
   name: large light wood floor
@@ -213,6 +261,14 @@
     stackType: FloorTileItemWoodLargeLight
 
 - type: entity
+  parent: FloorTileItemWoodLargeLight
+  id: FloorTileItemWoodLargeLightOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
   name: large red wood floor
   parent: FloorTileItemBase
   id: FloorTileItemWoodLargeRed
@@ -229,6 +285,14 @@
       - FloorWoodLargeRed
   - type: Stack
     stackType: FloorTileItemWoodLargeRed
+
+- type: entity
+  parent: FloorTileItemWoodLargeRed
+  id: FloorTileItemWoodLargeRedOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
 
 - type: entity
   name: parquet black wood floor
@@ -249,6 +313,14 @@
     stackType: FloorTileItemWoodParquetBlack
 
 - type: entity
+  parent: FloorTileItemWoodParquetBlack
+  id: FloorTileItemWoodParquetBlackOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
   name: parquet dark wood floor
   parent: FloorTileItemBase
   id: FloorTileItemWoodParquetDark
@@ -265,6 +337,14 @@
       - FloorWoodParquetDark
   - type: Stack
     stackType: FloorTileItemWoodParquetDark
+
+- type: entity
+  parent: FloorTileItemWoodParquetDark
+  id: FloorTileItemWoodParquetDarkOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
 
 - type: entity
   name: parquet light wood floor
@@ -285,6 +365,14 @@
     stackType: FloorTileItemWoodParquetLight
 
 - type: entity
+  parent: FloorTileItemWoodParquetLight
+  id: FloorTileItemWoodParquetLightOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
   name: parquet red wood floor
   parent: FloorTileItemBase
   id: FloorTileItemWoodParquetRed
@@ -301,6 +389,14 @@
       - FloorWoodParquetRed
   - type: Stack
     stackType: FloorTileItemWoodParquetRed
+
+- type: entity
+  parent: FloorTileItemWoodParquetRed
+  id: FloorTileItemWoodParquetRedOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
 
 - type: entity
   name: chess wood floor
@@ -321,6 +417,14 @@
     stackType: FloorTileItemWoodChess
 
 - type: entity
+  parent: FloorTileItemWoodChess
+  id: FloorTileItemWoodChessOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
   name: chess black wood floor
   parent: FloorTileItemBase
   id: FloorTileItemWoodChessBlack
@@ -337,6 +441,14 @@
       - FloorWoodChessBlack
   - type: Stack
     stackType: FloorTileItemWoodChessBlack
+
+- type: entity
+  parent: FloorTileItemWoodChessBlack
+  id: FloorTileItemWoodChessBlackOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
 
 - type: entity
   name: chess dark wood floor
@@ -357,6 +469,14 @@
     stackType: FloorTileItemWoodChessDark
 
 - type: entity
+  parent: FloorTileItemWoodChessDark
+  id: FloorTileItemWoodChessDarkOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
   name: chess light wood floor
   parent: FloorTileItemBase
   id: FloorTileItemWoodChessLight
@@ -375,6 +495,14 @@
     stackType: FloorTileItemWoodChessLight
 
 - type: entity
+  parent: FloorTileItemWoodChessLight
+  id: FloorTileItemWoodChessLightOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
   name: chess red wood floor
   parent: FloorTileItemBase
   id: FloorTileItemWoodChessRed
@@ -391,3 +519,11 @@
       - FloorWoodChessRed
   - type: Stack
     stackType: FloorTileItemWoodChessRed
+
+- type: entity
+  parent: FloorTileItemWoodChessRed
+  id: FloorTileItemWoodChessRedOre1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
