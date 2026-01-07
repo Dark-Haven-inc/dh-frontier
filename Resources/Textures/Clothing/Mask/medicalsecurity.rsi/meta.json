@@ -39,6 +39,18 @@
       "directions": 4
     },
     {
+      "name": "equipped-MASK-chicken",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-vulpkanin",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-pitbull",
+      "directions": 4
+    },
+    {
       "name": "equipped-MASK-pig",
       "directions": 4
     },

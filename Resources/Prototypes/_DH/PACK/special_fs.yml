@@ -75,9 +75,9 @@
     grid:
     - 0,0,10,1
   - type: Sprite
-    sprite: _DH/special/FS/Clothing/belt.rsi
+    sprite: _DH/special/Fs/Clothing/belt.rsi
   - type: Clothing
-    sprite: _DH/special/FS/Clothing/belt.rsi
+    sprite: _DH/special/Fs/Clothing/belt.rsi
   - type: Item
     size: Huge
 
@@ -399,9 +399,9 @@
   suffix: sponsor, FS #DH
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Clothing/gasmask.rsi
+    sprite: _DH/special/Fs/Clothing/gasmask.rsi
   - type: Clothing
-    sprite: _DH/special/FS/Clothing/gasmask.rsi
+    sprite: _DH/special/Fs/Clothing/gasmask.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -715,10 +715,10 @@
   description: Улучшенный краскопульт с автоперезарядкой из комплекта "FS".
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Tools/spray_painter.rsi
+    sprite: _DH/special/Fs/Tools/spray_painter.rsi
     state: spray_painter
   - type: Item
-    sprite: _DH/special/FS/Tools/spray_painter.rsi
+    sprite: _DH/special/Fs/Tools/spray_painter.rsi
   - type: ActivatableUI
     key: enum.SprayPainterUiKey.Key
   - type: UserInterface
@@ -762,10 +762,10 @@
   - type: SprayPainterAmmo
     charges: 30
   - type: Sprite
-    sprite: _DH/special/FS/Tools/spray_painter.rsi
+    sprite: _DH/special/Fs/Tools/spray_painter.rsi
     state: ammo
   - type: Item
-    sprite: _DH/special/FS/Tools/spray_painter.rsi
+    sprite: _DH/special/Fs/Tools/spray_painter.rsi
     heldPrefix: ammo
   - type: PhysicalComposition
     materialComposition:
@@ -785,7 +785,7 @@
       signProto: ForcefieldFS
       chargeUse: 30
     - type: Sprite
-      sprite: _DH/special/FS/Tools/holofanprojector.rsi
+      sprite: _DH/Special/Fs/Tools/holofanprojector.rsi
       state: icon
 
 - type: entity
@@ -908,7 +908,7 @@
     grid:
     - 0,0,4,3
   - type: Sprite
-    sprite: _DH/special/FS/Misc/portable_recharger.rsi
+    sprite: _DH/special/Fs/Misc/portable_recharger.rsi
     state: charging
   - type: Clothing
     equippedPrefix: charging

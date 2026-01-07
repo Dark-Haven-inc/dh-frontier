@@ -36,6 +36,22 @@
     {
       "name": "equipped-HELMET-unshaded",
       "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-light",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-unshaded-vox",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-light-vox",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-vox",
+      "directions": 4
     }
   ]
 }
