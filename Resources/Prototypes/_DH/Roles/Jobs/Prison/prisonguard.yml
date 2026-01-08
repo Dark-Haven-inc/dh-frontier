@@ -10,7 +10,7 @@
       time: 10800 # 3 hrs
     - !type:OverallPlaytimeRequirement
       time: 36000 # Frontier - 10 hrs
-  startingGear: PrisonGuardGearDH
+  # startingGear: PrisonGuardGearDH # Зачем? Есть лодаут, да и гир с id PrisonGuardGearDH не находит
   icon: "JobIconPrisonGuardDH"
   supervisors: job-supervisors-headofprison # Frontier
   canBeAntag: false

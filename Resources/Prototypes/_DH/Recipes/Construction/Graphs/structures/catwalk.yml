@@ -9,7 +9,7 @@
             - !type:SnapToGrid
               southRotation: true
           steps:
-            - material: MaterialWoodPlank
+            - material: MaterialWoodPlank1
               amount: 4
 
     - node: WCatwalk

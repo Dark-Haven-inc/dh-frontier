@@ -53,7 +53,7 @@
 
 - type: material
   id: FakeCredit
-  name: speso
+  name: title-speso
   unit: materials-unit-bill
   stackEntity: FakeSpaceCash
   icon: { sprite: /Textures/Objects/Economy/cash.rsi, state: cash }
@@ -61,7 +61,7 @@
 
 - type: stack
   id: FakeCredit
-  name: speso
+  name: title-speso
   icon: { sprite: /Textures/Objects/Economy/cash.rsi, state: cash }
   spawn: FakeSpaceCash
 

@@ -2240,3 +2240,51 @@ ShiparmoryResearchAndDevelopmentServerFlatpack = упакованный кора
     .desc = Упаковка, при помощи которой можно создать корабельный сервер РНД
 NFSDResearchAndDevelopmentServerFlatpack = упакованный сервер РНД ДСБФ
     .desc = Упаковка, при помощи которой можно создать сервер РНД ДСБФ
+
+# DH
+construction-graph-tag-paper = Бумага
+
+stack-wood-floor-herringbone = деревянный пол ёлочкой
+stack-wood-floor-herringbonealt = деревянный пол ёлочкой
+stack-wood-floor-diagonal = диагональный деревянный пол
+stack-wood-floor-diagonalmini = диагональный деревянный пол
+
+stack-rough-pyro = грубая пиротехника
+stack-pyro = пиротехника
+
+floorTileItemWoodBlack-ore = чёрный деревянный пол
+floorTileItemWoodDark-ore = тёмный деревянный пол
+floorTileItemWoodRed-ore = красный деревянный пол
+floorTileItemWoodLargeBlack-ore = высокий чёрный деревянный пол
+floorTileItemWoodLargeDark-ore = высокий тёмный деревянный пол
+floorTileItemWoodLargeLight-ore = высокий светлый деревянный пол
+floorTileItemWoodLargeRed-ore = высокий красный деревянный пол
+floorTileItemWoodParquetBlack-ore = чёрный деревянный паркет
+floorTileItemWoodParquetDark-ore = тёмный деревянный паркет
+floorTileItemWoodParquetLight-ore = светлый деревянный паркет
+floorTileItemWoodParquetRed-ore = красный деревянный паркет
+floorTileItemWoodChess-ore = тёмный шахматный пол
+floorTileItemWoodChessBlack-ore = чёрный шахматный пол
+floorTileItemWoodChessDark-ore = тёмный шахматный пол
+floorTileItemWoodChessLight-ore = светлый шахматный пол
+floorTileItemWoodChessRed-ore = красный шахматный пол
+floorTileItemWoodLight-ore = светлый шахматный пол
+
+title-speso = спесо
+
+loadout-group-security-trinkets = Охранник, снаряжение
+loadout-group-prison-guard-Ears = Охранник, уши
+
+title-surveillance = Слежка
+title-painting = Покраска
+title-painting-update = Улучшенная покраска
+title-painting-experemental = Эксперементальная покраска
+title-hyper-power-cells = Гипер заряженная батарея
+title-security-borg-modules = Модуль защитного борга
+
+department-Outpost-Syndicate = Департамент Синдикат
+department-Outpost-Syndicate-description = Вы из департамента синдиката
+department-pison-description = Вы из департамента тюрьмы
+
+title-double-bed = This is used to lie in, sleep in or strap on. Resting here provides extremely slow healing.
+title-SpacePrisonerGreyUniform = серая униформа охранника тюрьмы

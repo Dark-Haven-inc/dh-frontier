@@ -65,7 +65,7 @@
   id: MiningDrillDiamond
   result: MiningDrillDiamond
   materials:
-    PlaSteel: 500
+    Plasteel: 500
     Plastic: 200
     Silver: 300
     Diamond: 150

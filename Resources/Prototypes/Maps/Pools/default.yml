@@ -6,14 +6,14 @@
   - Box
   - Elkridge
   - Fland
-  - Gate
-  - Loop
+  # - Gate # DH-Tweak-start. Судя по всему, на данный момент карты нет, поэтому закомментировал
+  # - Loop # DH-Tweak-start. Судя по всему, на данный момент карты нет, поэтому закомментировал
   - Marathon
   - Oasis
   - Packed
   - Plasma
   - Reach
-  - Train
+  # - Train # DH-Tweak-start. Судя по всему, на данный момент карты нет, поэтому закомментировал
   - Exo
 
 - type: gameMapPool

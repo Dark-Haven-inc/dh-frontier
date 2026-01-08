@@ -352,8 +352,8 @@
     title: comms-console-announcement-title-station
     global: true #SR WILL NOT BE IGNORED
     canShuttle: false
-    InitialDelay: 60
-    Delay: 120
+    initialDelay: 60
+    delay: 120
 
 - type: entity
   parent: [BaseStructureComputerTabletop, ComputerComms]

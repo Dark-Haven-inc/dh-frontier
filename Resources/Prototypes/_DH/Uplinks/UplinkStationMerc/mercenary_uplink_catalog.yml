@@ -311,7 +311,7 @@
   name:  uplink-merc-lightrifle-name
   description: uplink-merc-lightrifle-desc
   productEntity: NFMagazineRifle30
-  icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_mag.rsi, state: red }
+  icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_mag.rsi, state: base }
   cost:
     Speso: 1000
   categories:
@@ -329,7 +329,7 @@
   id: UplinkStationMercenaryAmmoMagazinePistol
   name:  uplink-merc-magazineoistol-name
   description: uplink-merc-magazineoistol-desc
-  productEntity: .35 пистолетные
+  productEntity: NFMagazinePistol35
   icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_mag.rsi, state: red-icon }
   cost:
     Speso: 150
@@ -1490,7 +1490,7 @@
   id: UplinkStationMercenaryMachineFTLDriveFSS35Flatpack
   name: упакованный FSS-3.5 блюспейс двигатель
   description: Упакованный FTL-двигатель FSS-3.5, который увеличивает дальность сверхсветового перемещения корабля до ~3.5 километров. Этот FTL двигатель хорошо экономит энергию.
-  productEntity: MachineFTLDriveFSS35Flatpack
+  productEntity: MachineFTLDriveFSS35
   cost:
     Speso: 41850
   categories:
@@ -1508,7 +1508,7 @@
   id: UplinkStationMercenaryMachineFTLDriveFSS2Flatpack
   name: упакованный FSS-2.0 блюспейс двигатель
   description: Упакованный FTL-двигатель FSS-2.0, который увеличивает дальность сверхсветового перемещения корабля до ~2 километров. Дешёвый FTL двигатель.
-  productEntity: MachineFTLDriveFSS2Flatpack
+  productEntity: MachineFTLDriveFSS2
   cost:
     Speso: 28500
   categories:
@@ -1526,7 +1526,7 @@
   id: UplinkStationMercenaryMachineFTLDriveMXSS44Flatpack
   name: упакованный MXSS-4.4 блюспейс двигатель
   description: Упакованный FTL-двигатель MXSS-4.4, который увеличивает дальность сверхсветового перемещения корабля до ~4.4 километров. Прожорливый и дорогой FTL двигатель.
-  productEntity: MachineFTLDriveMXSS44Flatpack
+  productEntity: MachineFTLDriveMXSS44
   cost:
     Speso: 67900
   categories:

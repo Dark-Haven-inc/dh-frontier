@@ -26,7 +26,7 @@
             - material: Cloth
               amount: 2
               doAfter: 1
-            - material: bluespace
+            - material: MaterialBluespace1
               amount: 1
               doAfter: 2
 

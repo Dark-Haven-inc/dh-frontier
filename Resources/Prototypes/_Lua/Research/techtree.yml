@@ -1426,7 +1426,7 @@
 
 - type: technology
   id: DHPowerCellHyper
-  name: Hyper power cells
+  name: title-hyper-power-cells
   entityIcon: PowerCellMicroreactor
   discipline: NFEngineering
   tier: 1
@@ -1923,7 +1923,7 @@
 
 - type: technology
   id: DHSecurityBorgModules
-  name: Security Borg Modules
+  name: title-security-borg-modules
   entityIcon: BorgModuleSecurity
   discipline: NFArsenalNfsd
   tier: 1

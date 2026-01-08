@@ -1,6 +1,5 @@
 - type: department
   id: SpacePrison
-  sort: 0
   name: department-prison
   description: department-pison-description
   color: "#9f4000"

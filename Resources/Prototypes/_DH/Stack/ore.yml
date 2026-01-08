@@ -8,7 +8,7 @@
 - type: stack
   id: Pyro
   name: stack-pyro
-  icon: { sprite: /Textures/_DH/Objects/Materials/pyroblock.rsi, state: pyro }
+  icon: { sprite: /Textures/_DH/Objects/Materials/pyroblock.rsi, state: pyroblock }
   spawn: PyroBlock1
   maxCount: 40
 
@@ -130,3 +130,17 @@
   icon: { sprite: /Textures/Corvax/Objects/Tiles/wood.rsi, state: wood_light }
   spawn: FloorTileItemWoodLightOre1
   maxCount: 30
+
+- type: stack
+  id: Bluecrystal
+  name: stack-rough-pyro
+  icon: { sprite: /Textures/_DH/Objects/Specific/bluecrystal.rsi, state: bluecrystal }
+  spawn: Bluecrystal1
+  maxCount: 1
+
+- type: stack
+  id: Crystallite
+  name: stack-rough-pyro
+  icon: { sprite: /Textures/_DH/Objects/Specific/crystallite.rsi, state: crystallite }
+  spawn: Crystallite1
+  maxCount: 1

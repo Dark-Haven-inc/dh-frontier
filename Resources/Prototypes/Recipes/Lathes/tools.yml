@@ -168,7 +168,7 @@
     Steel: 300
     Plastic: 150
     Silver: 200
-    bluespace: 100
+    Bluespace: 100
 
 - type: latheRecipe
   parent: BaseToolRecipe
@@ -222,7 +222,7 @@
     Steel: 2000
     Plasma: 1000
     Silver: 900
-    bluespace: 120
+    Bluespace: 120
 
 # - type: latheRecipe
 #   parent: BaseToolRecipe
