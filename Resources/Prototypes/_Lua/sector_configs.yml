@@ -3,7 +3,7 @@
 - type: sectorSystemPrototype # базовый прототип в C# там описаны все возможные методы для создания прототипа сектора
   id: AsteroidSectorDefault # ID нашего будущего сектора
   name: "Поле Астероидов" # Название нашего сектора, будет видно в БСС карте
-  station: Beacon # id прототипа нашего грида, основной карты сектора, будь то маяк норд или тортуга
+  station: [ Beacon ] # id прототипа нашего грида, основной карты сектора, будь то маяк норд или тортуга
   worldgenConfig: AsteroidSectorDefault # будут ли в нашем секторе спавнится астероиды, тут указывается тип спавна астероидов, есть 2 типа Default где их минимум и AsteroidSectorDefault, где их обилие и большие размеры
   autoStart: true # Необходим для основной группы секторов, более понятно для чего и зачем не буду пояснять, просто включайте если используете в стандартном режиме игры, выключить если не нужно загружать сектор
   defaultGamePreset: NFPirates # Режим игры который мы используем по дефолту на нашем фронтире
@@ -25,7 +25,7 @@
 - type: sectorSystemPrototype
   id: TypanSector
   name: "Сектор Нордфолл"
-  station: Typan
+  station: [ Typan ] # DH-Tweak: в массивах храним
   worldgenConfig: Default
   autoStart: true
   defaultGamePreset: NFPirates
@@ -41,7 +41,7 @@
 - type: sectorSystemPrototype
   id: PirateSector
   name: "Сектор Пиратов"
-  station: Cove
+  station: [ Cove ] # DH-Tweak: в массивах храним
   autoStart: true
   defaultGamePreset: NFPirates
   parallaxPool: [ CoreStation, Tortuga ]
@@ -53,7 +53,7 @@
 - type: sectorSystemPrototype
   id: MercenarySector
   name: "Сектор Наёмников"
-  station: MercMap
+  station: [ MercMap ] # DH-Tweak: в массивах храним
   autoStart: true
   defaultGamePreset: NFPirates
   parallaxPool: [ MercenaryPlanet, Sky ]
@@ -66,7 +66,7 @@
 - type: sectorSystemPrototype
   id: PrisonSector
   name: "Сектор КТ"
-  station: SpacePrison
+  station: [ SpacePrison ] # DH-Tweak: в массивах храним
   worldgenConfig: Default
   autoStart: true
   defaultGamePreset: NFPirates
@@ -79,7 +79,7 @@
 - type: sectorSystemPrototype
   id: ShipVsShipRed
   name: "Сектор Красных"
-  station: ShipVsShipRedGrid
+  station: [ ShipVsShipRedGrid ] # DH-Tweak: в массивах храним
   requiredGamePreset: ShipVsShip
   parallaxPool: [ LuaDarkSpace ]
   poiGroups:
@@ -89,7 +89,7 @@
 - type: sectorSystemPrototype
   id: ShipVsShipBlue
   name: "Сектор Синих"
-  station: ShipVsShipBlueGrid
+  station: [ ShipVsShipBlueGrid ] # DH-Tweak: в массивах храним
   requiredGamePreset: ShipVsShip
   parallaxPool: [ LuaDarkSpace ]
   poiGroups:
