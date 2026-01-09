@@ -162,10 +162,10 @@
     - LaserTurretSpawn
     - LandMineWeakExplosiveSpawn
   - type: Sprite
-    sprite: _DH/Objects/Tools/RCD/sec-tech-RCD.rsi
+    sprite: _DH/Objects/Tools/Rcd/sec-tech-RCD.rsi
     state: icon
   - type: Clothing
-    sprite: _DH/Objects/Tools/RCD/sec-tech-RCD.rsi
+    sprite: _DH/Objects/Tools/Rcd/sec-tech-RCD.rsi
     quickEquip: false
     slots:
     - Belt
