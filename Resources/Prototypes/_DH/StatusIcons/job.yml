@@ -2,7 +2,7 @@
   parent: JobIcon
   id: JobIconPermaPrisoner
   icon:
-    sprite: /Textures/_DH/Interface/Misc/job_icons.rsi
+    sprite: /Textures/_DH/interface/Misc/job_icons.rsi
     state: perma_prisoner
   jobName: job-name-prisoner-perma
 
@@ -10,7 +10,7 @@
   parent: JobIcon
   id: JobIconPrisonGuardDH
   icon:
-    sprite: /Textures/_DH/Interface/Misc/job_icons.rsi
+    sprite: /Textures/_DH/interface/Misc/job_icons.rsi
     state: PrisonGuard
   jobName: job-name-prisonguard
 
@@ -18,7 +18,7 @@
   parent: JobIcon
   id: JobIconHeadOfPrison
   icon:
-    sprite: /Textures/_DH/Interface/Misc/job_icons.rsi
+    sprite: /Textures/_DH/interface/Misc/job_icons.rsi
     state: HeadOfPrison
   jobName: job-name-headofprison
 
@@ -26,6 +26,6 @@
   parent: JobIcon
   id: JobIconPrisonDoctor
   icon:
-    sprite: /Textures/_DH/Interface/Misc/job_icons.rsi
+    sprite: /Textures/_DH/interface/Misc/job_icons.rsi
     state: PrisonDoctor
   jobName: job-name-prisondoctor

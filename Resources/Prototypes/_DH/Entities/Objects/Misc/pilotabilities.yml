@@ -176,7 +176,7 @@
 - type: rcd
   id: BaseTurretSpawn
   category: Electrical
-  sprite: _DH/Interface/Radial/sec-tech-RCD/radial-temp-base.png
+  sprite: _DH/interface/Radial/sec-tech-RCD/radial-temp-base.png
   mode: ConstructObject
   prototype: WeaponTurretSecBase
   cost: 10
@@ -188,7 +188,7 @@
 - type: rcd
   id: RifleTurretSpawn
   category: Electrical
-  sprite: _DH/Interface/Radial/sec-tech-RCD/radial-temp-rifle.png
+  sprite: _DH/interface/Radial/sec-tech-RCD/radial-temp-rifle.png
   mode: ConstructObject
   prototype: WeaponTurretSecRifle
   cost: 10
@@ -200,7 +200,7 @@
 - type: rcd
   id: DisablerTurretSpawn
   category: Electrical
-  sprite: _DH/Interface/Radial/sec-tech-RCD/radial-temp-disabler.png
+  sprite: _DH/interface/Radial/sec-tech-RCD/radial-temp-disabler.png
   mode: ConstructObject
   prototype: WeaponTurretSecDisabler
   cost: 10
@@ -212,7 +212,7 @@
 - type: rcd
   id: LaserTurretSpawn
   category: Electrical
-  sprite: _DH/Interface/Radial/sec-tech-RCD/radial-temp-laser.png
+  sprite: _DH/interface/Radial/sec-tech-RCD/radial-temp-laser.png
   mode: ConstructObject
   prototype: WeaponTurretSecLaser
   cost: 10
@@ -224,7 +224,7 @@
 - type: rcd
   id: LandMineWeakExplosiveSpawn
   category: Electrical
-  sprite: _DH/Interface/Radial/sec-tech-RCD/radial-landmine.png
+  sprite: _DH/interface/Radial/sec-tech-RCD/radial-landmine.png
   mode: ConstructObject
   prototype: LandMineWeakExplosive
   cost: 5
