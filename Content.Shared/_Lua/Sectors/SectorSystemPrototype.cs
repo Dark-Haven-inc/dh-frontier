@@ -16,9 +16,8 @@ public sealed partial class SectorSystemPrototype : IPrototype
     [DataField(required: true)]
     public string Name = string.Empty;
 
-    //DH массив строк
     [DataField("station")]
-    public string[] Stations = Array.Empty<string>();
+    public string[] Stations = Array.Empty<string>(); // DH-Tweak: Изменено на массив строк
 
     [DataField]
     public string? WorldgenConfig;

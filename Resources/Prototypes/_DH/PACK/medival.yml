@@ -1197,7 +1197,7 @@
               prototype: MaterialWoodPlank
               amount: 10
           steps:
-            - tool: MedievalBlacksmithing
+            - tool: Sawing
               doAfter: 150
 
 - type: entity
@@ -1665,11 +1665,9 @@
   footstepSounds:
     collection: FootstepAsteroid
   heatCapacity: 99910000
-  badSmellMod: 1.5
 
 
 - type: tile
-  editorHidden: false
   id: FloorPlanetDirtMedieval
   name: грязь (переход)
   sprite: /Textures/_DH/Tiles/Planet/DirtCP/cavedrought.png
@@ -1987,7 +1985,7 @@
   deconstructTools: [ Digging ]
   #baseTurf: FloorPlanetDirt
   isSubfloor: true
-  canCrowbar: false
+  # canCrowbar: false
   footstepSounds:
     collection: FootstepGrass
   itemDrop: FloorTileItemGrass
@@ -2019,7 +2017,7 @@
   baseTurf: FloorDirt
   deconstructTools: [ Digging ]
   isSubfloor: true
-  canCrowbar: false
+  # canCrowbar: false
   footstepSounds:
     collection: FootstepGrass
   itemDrop: FloorTileItemGrass
@@ -2051,7 +2049,7 @@
   baseTurf: FloorDirt
   deconstructTools: [ Digging ]
   isSubfloor: true
-  canCrowbar: false
+  # canCrowbar: false
   footstepSounds:
     collection: FootstepGrass
   itemDrop: FloorTileItemGrass
@@ -2083,7 +2081,7 @@
   baseTurf: FloorDirt
   deconstructTools: [ Digging ]
   isSubfloor: true
-  canCrowbar: false
+  # canCrowbar: false
   footstepSounds:
     collection: FootstepGrass
   itemDrop: FloorTileItemGrass
