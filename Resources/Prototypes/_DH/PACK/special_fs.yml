@@ -475,7 +475,7 @@
   suffix: sponsor, FS #DH
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Tools/jaws.rsi
+    sprite: _DH/Special/Fs/Tools/jaws.rsi
     state: syn_jaws_pry
   - type: Item
     inhandVisuals:
@@ -488,13 +488,13 @@
     entries:
     - behavior: Prying
       sprite:
-        sprite: _DH/special/FS/Tools/jaws.rsi
+        sprite: _DH/Special/Fs/Tools/jaws.rsi
         state: syn_jaws_pry
       useSound: /Audio/Items/jaws_pry.ogg
       changeSound: /Audio/Items/change_jaws.ogg
     - behavior: Cutting
       sprite:
-        sprite: _DH/special/FS/Tools/jaws.rsi
+        sprite: _DH/Special/Fs/Tools/jaws.rsi
         state: syn_jaws_cutter
       useSound: /Audio/Items/jaws_cut.ogg
       changeSound: /Audio/Items/change_jaws.ogg
@@ -503,7 +503,7 @@
       types:
         Blunt: 12
   - type: Clothing
-    sprite: _DH/special/FS/Tools/jaws.rsi
+    sprite: _DH/Special/Fs/Tools/jaws.rsi
     quickEquip: false
     slots:
     - Belt
@@ -516,13 +516,13 @@
   suffix: sponsor, FS #DH
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Tools/powerdrill.rsi
+    sprite: _DH/Special/Fs/Tools/powerdrill.rsi
     state: drill_screw
   - type: Item
-    sprite: _DH/special/FS/Tools/powerdrill.rsi
+    sprite: _DH/Special/Fs/Tools/powerdrill.rsi
     size: Small
   - type: Clothing
-    sprite: _DH/special/FS/Tools/powerdrill.rsi
+    sprite: _DH/Special/Fs/Tools/powerdrill.rsi
     quickEquip: false
     slots:
       - Belt
@@ -531,7 +531,7 @@
     entries:
       - behavior: Screwing
         sprite:
-          sprite: _DH/special/FS/Tools/powerdrill.rsi
+          sprite: _DH/Special/Fs/Tools/powerdrill.rsi
           state: drill_screw
         useSound:
           path: /Audio/Items/drill_use.ogg
@@ -539,7 +539,7 @@
           path: /Audio/Items/change_drill.ogg
       - behavior: Anchoring
         sprite:
-          sprite: _DH/special/FS/Tools/powerdrill.rsi
+          sprite: _DH/Special/Fs/Tools/powerdrill.rsi
           state: drill_bolt
         useSound:
           path: /Audio/Items/drill_use.ogg
@@ -554,12 +554,12 @@
   suffix: sponsor, FS
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Tools/rcd.rsi
+    sprite: _DH/Special/Fs/Tools/rcd.rsi
     state: icon
   - type: Item
     size: Normal
   - type: Clothing
-    sprite: _DH/special/FS/Tools/rcd.rsi
+    sprite: _DH/Special/Fs/Tools/rcd.rsi
     quickEquip: false
     slots:
     - Belt
@@ -576,10 +576,10 @@
   - type: RCDAmmo
     charges: 120
   - type: Sprite
-    sprite: _DH/special/FS/Tools/rcd.rsi
+    sprite: _DH/Special/Fs/Tools/rcd.rsi
     state: ammo
   - type: Item
-    sprite: _DH/special/FS/Tools/rcd.rsi
+    sprite: _DH/Special/Fs/Tools/rcd.rsi
     heldPrefix: ammo
   - type: PhysicalComposition
     materialComposition:
@@ -596,7 +596,7 @@
   suffix: sponsor, FS
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Tools/welder.rsi
+    sprite: _DH/Special/Fs/Tools/welder.rsi
     layers:
     - state: icon
     - state: welder_flame
@@ -605,7 +605,7 @@
       map: ["enum.ToggleableVisuals.Layer"]
   - type: Item
     size: Small
-    sprite: _DH/special/FS/Tools/welder.rsi
+    sprite: _DH/Special/Fs/Tools/welder.rsi
   - type: Tool
     speedModifier: 1.6
   - type: SolutionContainerManager
@@ -629,7 +629,7 @@
   components:
   - type: Item
   - type: Sprite
-    sprite: _DH/special/FS/Tools/massscanner.rsi
+    sprite: _DH/Special/Fs/Tools/massscanner.rsi
     state: icon
     layers:
       - state: icon
@@ -646,7 +646,7 @@
   suffix: sponsor, FS
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Tools/hypo.rsi
+    sprite: _DH/Special/Fs/Tools/hypo.rsi
     layers:
     - state: hypo
       map: ["enum.SolutionContainerLayers.Base"]
@@ -654,7 +654,7 @@
       map: ["enum.SolutionContainerLayers.Fill"]
       visible: false
   - type: Item
-    sprite: _DH/special/FS/Tools/hypo.rsi
+    sprite: _DH/Special/Fs/Tools/hypo.rsi
   - type: SolutionContainerManager
     solutions:
       hypospray:
@@ -677,7 +677,7 @@
   - type: PirateBountyItem
     id: HypoMini
   - type: Clothing
-    sprite: _DH/special/FS/Tools/hypo.rsi
+    sprite: _DH/Special/Fs/Tools/hypo.rsi
     quickEquip: false
     slots:
     - Belt
@@ -690,7 +690,7 @@
   suffix: sponsor, FS
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Tools/crewmonitor.rsi
+    sprite: _DH/Special/Fs/Tools/crewmonitor.rsi
     state: icon
     layers:
       - state: icon
