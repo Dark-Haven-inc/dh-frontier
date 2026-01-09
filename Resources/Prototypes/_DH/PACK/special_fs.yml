@@ -9,9 +9,9 @@
   suffix: sponsor, FS #DH
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Clothing/backpack.rsi
+    sprite: _DH/Special/Fs/Clothing/backpack.rsi
   - type: Clothing
-    sprite: _DH/special/FS/Clothing/backpack.rsi
+    sprite: _DH/Special/Fs/Clothing/backpack.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -108,9 +108,9 @@
   suffix: sponsor #DH
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Clothing/headset.rsi
+    sprite: _DH/Special/Fs/Clothing/headset.rsi
   - type: Clothing
-    sprite: _DH/special/FS/Clothing/headset.rsi
+    sprite: _DH/Special/Fs/Clothing/headset.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
   - type: ContainerFill
@@ -171,7 +171,7 @@
   suffix: sponsor, FS #DH
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Clothing/cloak.rsi
+    sprite: _DH/Special/Fs/Clothing/cloak.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -183,9 +183,9 @@
   suffix: sponsor, FS #DH
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Clothing/hardsuit.rsi
+    sprite: _DH/Special/Fs/Clothing/hardsuit.rsi
   - type: Clothing
-    sprite: _DH/special/FS/Clothing/hardsuit.rsi
+    sprite: _DH/Special/Fs/Clothing/hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitOmniFS
   - type: Item
@@ -217,9 +217,9 @@
   description: Отдельная вариация сверхпрочного шлема скафандра "Omni", которая выпускалась в "FS" комплектации.
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Clothing/helmet.rsi
+    sprite: _DH/Special/Fs/Clothing/helmet.rsi
   - type: Clothing
-    sprite: _DH/special/FS/Clothing/helmet.rsi
+    sprite: _DH/Special/Fs/Clothing/helmet.rsi
   - type: PointLight
     color: "#20bfe7"
     radius: 7
@@ -261,12 +261,12 @@
         Slash: 0.96
         Piercing: 0.99
   - type: Sprite
-    sprite: _DH/special/FS/Clothing/gloves.rsi
+    sprite: _DH/Special/Fs/Clothing/gloves.rsi
     layers:
     - state: icon
       map: [ "enum.ToggleableVisuals.Layer" ]
   - type: Clothing
-    sprite: _DH/special/FS/Clothing/gloves.rsi
+    sprite: _DH/Special/Fs/Clothing/gloves.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
   - type: GenericVisualizer
@@ -274,10 +274,10 @@
       enum.ToggleableVisuals.Enabled:
         enum.ToggleableVisuals.Layer:
           True:
-            sprite: _DH/special/FS/Clothing/gloves.rsi
+            sprite: _DH/Special/Fs/Clothing/gloves.rsi
             state: icon_active
           False:
-            sprite: _DH/special/FS/Clothing/gloves.rsi
+            sprite: _DH/Special/Fs/Clothing/gloves.rsi
             state: icon
   - type: PointLight
     color: "#3af5f5"
@@ -322,7 +322,7 @@
   - type: Action
     useDelay: 1.0
     icon:
-      sprite: _DH/special/FS/Clothing/gloves.rsi
+      sprite: _DH/Special/Fs/Clothing/gloves.rsi
       state: icon_active
     itemIconStyle: NoItem
   - type: InstantAction
@@ -336,10 +336,10 @@
   suffix: sponsor #DH
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Clothing/magboots.rsi
+    sprite: _DH/Special/Fs/Clothing/magboots.rsi
     state: icon
   - type: Clothing
-    sprite: _DH/special/FS/Clothing/magboots.rsi
+    sprite: _DH/Special/Fs/Clothing/magboots.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
   - type: ClothingSpeedModifier
@@ -362,9 +362,9 @@
   suffix: sponsor, FS #DH
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Clothing/hud.rsi
+    sprite: _DH/Special/Fs/Clothing/hud.rsi
   - type: Clothing
-    sprite: _DH/special/FS/Clothing/hud.rsi
+    sprite: _DH/Special/Fs/Clothing/hud.rsi
   - type: FlashImmunity
   - type: SolutionScanner
   - type: ShowHealthBars
@@ -385,9 +385,9 @@
     walkModifier: 1
     sprintModifier: 1.02
   - type: Sprite
-    sprite: _DH/special/FS/Clothing/jumpsuit.rsi
+    sprite: _DH/Special/Fs/Clothing/jumpsuit.rsi
   - type: Clothing
-    sprite: _DH/special/FS/Clothing/jumpsuit.rsi
+    sprite: _DH/Special/Fs/Clothing/jumpsuit.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -425,9 +425,9 @@
         components:
         - PAI
   - type: Icon
-    sprite: _DH/special/FS/Clothing/pda.rsi
+    sprite: _DH/Special/Fs/Clothing/pda.rsi
   - type: Sprite
-    sprite: _DH/special/FS/Clothing/pda.rsi
+    sprite: _DH/Special/Fs/Clothing/pda.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
   - type: CartridgeLoader
@@ -800,7 +800,7 @@
   - type: Airtight
     noAirWhenFullyAirBlocked: false
   - type: Sprite
-    sprite: _DH/special/FS/Structures/holo.rsi
+    sprite: _DH/Special/Fs/Structures/holo.rsi
     state: icon
   - type: PointLight
     enabled: true
@@ -825,7 +825,7 @@
   description: Кружка из комплекта "FS". Довольно крупная и хорошо сидит в руке.
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Misc/mug.rsi
+    sprite: _DH/Special/Fs/Misc/mug.rsi
   - type: SolutionContainerManager
     solutions:
       drink:
@@ -839,7 +839,7 @@
   description: Дорогая и модная ручка из комплекта "FS".
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Misc/pen.rsi
+    sprite: _DH/Special/Fs/Misc/pen.rsi
     state: pen
   - type: Item
     heldPrefix: pen
@@ -852,7 +852,7 @@
   description: Ваш электронный друг, с которым весело! Теперь в цветах комплекта "FS"!
   components:
   - type: Sprite
-    sprite: _DH/special/FS/Misc/pai.rsi
+    sprite: _DH/Special/Fs/Misc/pai.rsi
     layers:
     - state: pai-base
     - state: pai-off-overlay
