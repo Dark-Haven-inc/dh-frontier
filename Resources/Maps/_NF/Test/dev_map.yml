@@ -8740,7 +8740,7 @@ entities:
     - type: Transform
       pos: -3.5,2.5
       parent: 179
-- proto: SpawnPointPrisonGuard
+- proto: DHSpawnPointPrisonGuard
   entities:
   - uid: 1491
     components:

@@ -40712,7 +40712,7 @@ entities:
     - type: Transform
       pos: 50.5,52.5
       parent: 1
-- proto: SpawnPointPrisonGuard
+- proto: DHSpawnPointPrisonGuard
   entities:
   - uid: 353
     components:

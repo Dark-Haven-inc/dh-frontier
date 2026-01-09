@@ -29120,7 +29120,7 @@ entities:
     - type: Transform
       pos: 24.5,10.5
       parent: 1
-- proto: SpawnPointPrisonGuard
+- proto: DHSpawnPointPrisonGuard
   entities:
   - uid: 3814
     components:
