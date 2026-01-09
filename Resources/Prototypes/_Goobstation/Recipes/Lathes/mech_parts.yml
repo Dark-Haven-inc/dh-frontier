@@ -336,16 +336,17 @@
     Bananium: 300
 
 # Misc
-- type: latheRecipe
-  id: MechPhasicScanningModule
-  result: MechPhasicScanningModule
-  categories:
-  - MechEquipment
-  completetime: 30
-  materials:
-    Steel: 2000
-    Glass: 500
-    Silver: 100
+# DH-Tweak_start. Закомменчен до добавления MechPhasicScanningModule
+# - type: latheRecipe
+#   id: MechPhasicScanningModule
+#   result: MechPhasicScanningModule
+#   categories:
+#   - MechEquipment
+#   completetime: 30
+#   materials:
+#     Steel: 2000
+#     Glass: 500
+#     Silver: 100
 
 - type: latheRecipe
   id: MechAirTank
@@ -368,102 +369,103 @@
     Glass: 150
 
 # MechPaint
-- type: latheRecipe
-  id: PaintClarkeOrangey
-  result: MechPaintClarkeOrangey
-  categories:
-  - MechEquipment
-  completetime: 30
-  materials:
-    Steel: 500
-    Plasma: 100
-    Glass: 100
+# DH-Tweak_start. Закомменчен до добавления частей MechPaintClarkeOrangey, MechPaintRipleyAluminizer, MechPaintRipleyFirestarter, MechPaintRipleyHauler, MechPaintRipleyZairjah, MechPaintDurandExecutor, MechPaintDurandShire, MechPaintGygaxOld, MechPaintGygaxWhite
+# - type: latheRecipe
+#   id: PaintClarkeOrangey
+#   result: MechPaintClarkeOrangey
+#   categories:
+#   - MechEquipment
+#   completetime: 30
+#   materials:
+#     Steel: 500
+#     Plasma: 100
+#     Glass: 100
 
-- type: latheRecipe
-  id: PaintRipleyAluminizer
-  result: MechPaintRipleyAluminizer
-  categories:
-  - MechEquipment
-  completetime: 30
-  materials:
-    Steel: 800
-    Plasma: 200
-    Glass: 200
+# - type: latheRecipe
+#   id: PaintRipleyAluminizer
+#   result: MechPaintRipleyAluminizer
+#   categories:
+#   - MechEquipment
+#   completetime: 30
+#   materials:
+#     Steel: 800
+#     Plasma: 200
+#     Glass: 200
 
-- type: latheRecipe
-  id: PaintRipleyFirestarter
-  result: MechPaintRipleyFirestarter
-  categories:
-  - MechEquipment
-  completetime: 30
-  materials:
-    Steel: 800
-    Plasma: 200
-    Glass: 200
+# - type: latheRecipe
+#   id: PaintRipleyFirestarter
+#   result: MechPaintRipleyFirestarter
+#   categories:
+#   - MechEquipment
+#   completetime: 30
+#   materials:
+#     Steel: 800
+#     Plasma: 200
+#     Glass: 200
 
-- type: latheRecipe
-  id: PaintRipleyHauler
-  result: MechPaintRipleyHauler
-  categories:
-  - MechEquipment
-  completetime: 30
-  materials:
-    Steel: 800
-    Plasma: 200
-    Glass: 200
+# - type: latheRecipe
+#   id: PaintRipleyHauler
+#   result: MechPaintRipleyHauler
+#   categories:
+#   - MechEquipment
+#   completetime: 30
+#   materials:
+#     Steel: 800
+#     Plasma: 200
+#     Glass: 200
 
-- type: latheRecipe
-  id: PaintRipleyZairjah
-  result: MechPaintRipleyZairjah
-  categories:
-  - MechEquipment
-  completetime: 30
-  materials:
-    Steel: 800
-    Plasma: 200
-    Glass: 200
+# - type: latheRecipe
+#   id: PaintRipleyZairjah
+#   result: MechPaintRipleyZairjah
+#   categories:
+#   - MechEquipment
+#   completetime: 30
+#   materials:
+#     Steel: 800
+#     Plasma: 200
+#     Glass: 200
 
-- type: latheRecipe
-  id: PaintDurandExecutor
-  result: MechPaintDurandExecutor
-  categories:
-  - MechEquipment
-  completetime: 30
-  materials:
-    Steel: 1600
-    Plasma: 500
-    Glass: 500
+# - type: latheRecipe
+#   id: PaintDurandExecutor
+#   result: MechPaintDurandExecutor
+#   categories:
+#   - MechEquipment
+#   completetime: 30
+#   materials:
+#     Steel: 1600
+#     Plasma: 500
+#     Glass: 500
 
-- type: latheRecipe
-  id: PaintDurandShire
-  result: MechPaintDurandShire
-  categories:
-  - MechEquipment
-  completetime: 30
-  materials:
-    Steel: 1600
-    Plasma: 500
-    Glass: 500
+# - type: latheRecipe
+#   id: PaintDurandShire
+#   result: MechPaintDurandShire
+#   categories:
+#   - MechEquipment
+#   completetime: 30
+#   materials:
+#     Steel: 1600
+#     Plasma: 500
+#     Glass: 500
 
-- type: latheRecipe
-  id: PaintGygaxOld
-  result: MechPaintGygaxOld
-  categories:
-  - MechEquipment
-  completetime: 30
-  materials:
-    Steel: 1800
-    Plasma: 600
-    Glass: 600
+# - type: latheRecipe
+#   id: PaintGygaxOld
+#   result: MechPaintGygaxOld
+#   categories:
+#   - MechEquipment
+#   completetime: 30
+#   materials:
+#     Steel: 1800
+#     Plasma: 600
+#     Glass: 600
 
-- type: latheRecipe
-  id: PaintGygaxWhite
-  result: MechPaintGygaxWhite
-  categories:
-  - MechEquipment
-  completetime: 30
-  materials:
-    Steel: 1800
-    Plasma: 600
-    Glass: 600
+# - type: latheRecipe
+#   id: PaintGygaxWhite
+#   result: MechPaintGygaxWhite
+#   categories:
+#   - MechEquipment
+#   completetime: 30
+#   materials:
+#     Steel: 1800
+#     Plasma: 600
+#     Glass: 600
 
