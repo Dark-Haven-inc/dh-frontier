@@ -1,23 +1,13 @@
-# Author Info
-# GitHub: arimah
-# Discord: arimah
-
-# Maintainer Info
-# GitHub: arimah
-# Discord: arimah
-
-# Shuttle Notes:
-#
 - type: vessel
-  id: Hammer
+  id: Gaslight
   parent: BaseVessel
-  name: BB Hammer
+  name: BB Gaslight
   description: A mobile engineering platform for deep-space repairs, upgrades and remodelling.
   price: 129420 # 32107 0.15 36923.05
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/hammer.yml
-  guidebookPage: ShipyardHammer
+  shuttlePath: /Maps/_NF/Shuttles/gaslight.yml
+  guidebookPage: ShipyardGaslight
   class:
   - Engineering
   engine:
@@ -26,17 +16,18 @@
 
     - type: IFF
       color: "#ffffff"
+
 - type: gameMap
-  id: Hammer
-  mapName: 'BB Hammer'
-  mapPath: /Maps/_NF/Shuttles/hammer.yml
+  id: Gaslight
+  mapName: 'BB Gaslight'
+  mapPath: /Maps/_NF/Shuttles/gaslight.yml
   minPlayers: 0
   stations:
-    Hammer:
-      stationProto: StandardFrontierVessel
+    Kestrel:
+      stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Hammer {1}'
+          mapNameTemplate: 'Gaslight {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

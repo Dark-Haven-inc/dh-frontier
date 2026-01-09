@@ -179,9 +179,6 @@
   - type: HealthAnalyzer
     scanningEndSound:
       path: "/Audio/Items/Medical/healthscanner.ogg"
-    damageContainers:
-    - Synth
-    - Silicon
   - type: Tag
     tags:
     - DiscreteHealthAnalyzer
@@ -256,8 +253,6 @@
   - type: HealthAnalyzer
     scanningEndSound:
       path: "/Audio/Items/Medical/healthscanner.ogg"
-    damageContainers:
-    - Mech
   - type: Tag
     tags:
     - DiscreteHealthAnalyzer
@@ -371,8 +366,6 @@
       visible: true
       map: [ "enum.PowerDeviceVisualLayers.Powered" ]
   - type: AtmosAlertsComputer
-    beepSound:
-      path: /Audio/_DH/Effects/beeps.ogg
   - type: ActivatableUI
     singleUser: true
     key: enum.AtmosAlertsComputerUiKey.Key

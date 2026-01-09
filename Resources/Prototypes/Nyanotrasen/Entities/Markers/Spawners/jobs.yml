@@ -34,14 +34,16 @@
       - state: green
       - state: passenger
 
-- type: entity
-  id: SpawnPointPrisonGuard
-  parent: SpawnPointJobBase
-  name: prison guard
-  components:
-  - type: SpawnPoint
-    job_id: PrisonGuard
-  - type: Sprite
-    layers:
-      - state: green
-      - state: prisonguard
+# DH-Tweak-start. Сама профессия полностью закомменчена, так что добавить этот спавн при добавлении роли
+# Роль по пути - Resources\Prototypes\_NF\Roles\Jobs\Security\prisonguard.yml
+# - type: entity
+#   id: SpawnPointPrisonGuard
+#   parent: SpawnPointJobBase
+#   name: prison guard
+#   components:
+#   - type: SpawnPoint
+#     job_id: PrisonGuard
+#   - type: Sprite
+#     layers:
+#       - state: green
+#       - state: prisonguard

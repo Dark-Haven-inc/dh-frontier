@@ -6,3 +6,21 @@
   icon: { sprite: _DH/Objects/Materials/pyroblock.rsi, state: pyroblock }
   color: "#eb4200"
   price: 14
+
+- type: material
+  id: MaterialBluespace
+  stackEntity: MaterialBluespace1
+  name: materials-pyro
+  unit: materials-unit-piece
+  icon: { sprite: Nyanotrasen/Objects/Materials/materials.rsi, state: bluespace }
+  color: "#eb4200"
+  price: 14
+
+- type: material
+  id: MaterialWoodPlank
+  stackEntity: MaterialWoodPlank1
+  name: materials-pyro
+  unit: materials-unit-piece
+  icon: { sprite: Objects/Materials/materials.rsi, state: wood }
+  color: "#eb4200"
+  price: 14

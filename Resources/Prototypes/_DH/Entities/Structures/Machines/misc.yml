@@ -85,4 +85,3 @@
   name: mini chemical dispenser
   components:
   - type: ReagentDispenser
-    pack: EmptyInventory

@@ -17,7 +17,7 @@
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/legman.yml
-  guidebookPage: ShipyardLegman
+  guidebookPage: ShipyardLoader # ShipyardLegman -> ShipyardLoader. Пока что не существует гайда, либо у него другое id, поэтому поставлю заглушку
   class:
   - Civilian
   engine:

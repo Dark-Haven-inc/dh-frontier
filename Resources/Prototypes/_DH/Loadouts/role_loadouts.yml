@@ -78,7 +78,7 @@
    - PrisonGuardJumpsuit
    - PrisonGuardGloves
    - PrisonGuardBackpack
-   - PrisonGuardOuterClothing
+  #  - PrisonGuardOuterClothing # Смотреть примечания для этой группы по пути Resources\Prototypes\_DH\Loadouts\Jobs\all.yml
    - NfsdForcedOuterClothing
    - PrisonGuardShoes
    - NfsdFace

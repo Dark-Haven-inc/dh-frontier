@@ -1706,7 +1706,6 @@
     collection: FootstepAsteroid
   heatCapacity: 999100000
   weather: true
-  badSmellMod: 2
 
 - type: tile
   id: FloorDirtMedieval
@@ -1735,7 +1734,6 @@
     collection: FootstepAsteroid
   heatCapacity: 999100000
   weather: true
-  badSmellMod: 2
 
 - type: tile
   id: FloorDesertMedieval
@@ -1765,7 +1763,6 @@
     collection: FootstepSnow #TODO
   heatCapacity: 99910000
   weather: true
-  badSmellMod: 1.5
 
 - type: tile
   id: FloorAstroGrassMedieval
@@ -1796,7 +1793,6 @@
     collection: FootstepGrass
   heatCapacity: 99910000
   weather: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass2
@@ -1827,7 +1823,6 @@
     collection: FootstepGrass
   heatCapacity: 99910000
   weather: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass1
@@ -1858,7 +1853,6 @@
     collection: FootstepGrass
   heatCapacity: 99910000
   weather: true
-  badSmellMod: 0
 
 - type: tile
   id: FloorPlanetGrassAutumn
@@ -1889,7 +1883,6 @@
     collection: FootstepGrass
   heatCapacity: 99910000
   weather: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass2Autumn
@@ -1920,7 +1913,6 @@
     collection: FootstepGrass
   heatCapacity: 99910000
   weather: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass1Autumn
@@ -1951,7 +1943,6 @@
     collection: FootstepGrass
   heatCapacity: 99910000
   weather: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass3
@@ -1984,7 +1975,6 @@
   heatCapacity: 99910000
   weather: true
   indestructible: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass4
@@ -2016,7 +2006,6 @@
   heatCapacity: 99910000
   weather: true
   indestructible: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass5
@@ -2048,7 +2037,6 @@
   heatCapacity: 99910000
   weather: true
   indestructible: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass6
@@ -2080,7 +2068,6 @@
   heatCapacity: 99910000
   weather: true
   indestructible: true
-  badSmellMod: 1.25
 
 #Water
 
