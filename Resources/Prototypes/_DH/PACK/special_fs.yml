@@ -75,9 +75,9 @@
     grid:
     - 0,0,10,1
   - type: Sprite
-    sprite: _DH/special/Fs/Clothing/belt.rsi
+    sprite: _DH/Special/Fs/Clothing/belt.rsi
   - type: Clothing
-    sprite: _DH/special/Fs/Clothing/belt.rsi
+    sprite: _DH/Special/Fs/Clothing/belt.rsi
   - type: Item
     size: Huge
 
@@ -399,9 +399,9 @@
   suffix: sponsor, FS #DH
   components:
   - type: Sprite
-    sprite: _DH/special/Fs/Clothing/gasmask.rsi
+    sprite: _DH/Special/Fs/Clothing/gasmask.rsi
   - type: Clothing
-    sprite: _DH/special/Fs/Clothing/gasmask.rsi
+    sprite: _DH/Special/Fs/Clothing/gasmask.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -456,13 +456,13 @@
   components:
   - type: TrayScanner
   - type: Sprite
-    sprite: _DH/special/Fs/Tools/multitool.rsi
+    sprite: _DH/Special/Fs/Tools/multitool.rsi
     layers:
     - state: icon
     - state: green-unlit
       shader: unshaded
   - type: Clothing
-    sprite: _DH/special/Fs/Tools/multitool.rsi
+    sprite: _DH/Special/Fs/Tools/multitool.rsi
     quickEquip: false
     slots:
     - Belt
@@ -715,10 +715,10 @@
   description: Улучшенный краскопульт с автоперезарядкой из комплекта "FS".
   components:
   - type: Sprite
-    sprite: _DH/special/Fs/Tools/spray_painter.rsi
+    sprite: _DH/Special/Fs/Tools/spray_painter.rsi
     state: spray_painter
   - type: Item
-    sprite: _DH/special/Fs/Tools/spray_painter.rsi
+    sprite: _DH/Special/Fs/Tools/spray_painter.rsi
   - type: ActivatableUI
     key: enum.SprayPainterUiKey.Key
   - type: UserInterface
@@ -762,10 +762,10 @@
   - type: SprayPainterAmmo
     charges: 30
   - type: Sprite
-    sprite: _DH/special/Fs/Tools/spray_painter.rsi
+    sprite: _DH/Special/Fs/Tools/spray_painter.rsi
     state: ammo
   - type: Item
-    sprite: _DH/special/Fs/Tools/spray_painter.rsi
+    sprite: _DH/Special/Fs/Tools/spray_painter.rsi
     heldPrefix: ammo
   - type: PhysicalComposition
     materialComposition:
