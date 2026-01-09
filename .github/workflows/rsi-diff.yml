@@ -17,7 +17,7 @@ jobs:
         id: files
         uses: Ana06/get-changed-files@v2.3.0
         with:
-          format: 'space-delimited'
+          format: 'newline-delimited' # DH-Fix
           filter: |
             **.rsi
             **.png
