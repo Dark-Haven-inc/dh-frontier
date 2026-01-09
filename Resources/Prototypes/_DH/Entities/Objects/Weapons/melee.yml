@@ -320,7 +320,7 @@
   description: Большой и мощный молот с длинной ручкой. Точечные удары значительно сильнее.
   components:
   - type: Sprite
-    sprite: _DH/Objects/Weapons/Melee/mace.rsi
+    sprite: _DH/Objects/Weapons/Melee/Mace.rsi
     state: icon
   - type: Item
     size: Huge

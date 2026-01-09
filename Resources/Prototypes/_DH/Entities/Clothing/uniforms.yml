@@ -230,9 +230,9 @@
   description: Униформа сотрудника компании ViF.
   components:
   - type: Sprite
-    sprite: _DH/Clothing/Uniforms/jumpsuit/dirF.rsi
+    sprite: _DH/Clothing/Uniforms/Jumpsuit/dirF.rsi
   - type: Clothing
-    sprite: _DH/Clothing/Uniforms/jumpsuit/dirF.rsi
+    sprite: _DH/Clothing/Uniforms/Jumpsuit/dirF.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -241,9 +241,9 @@
   description: Униформа сотрудника компании ViF.
   components:
   - type: Sprite
-    sprite: _DH/Clothing/Uniforms/jumpsuit/worker.rsi
+    sprite: _DH/Clothing/Uniforms/Jumpsuit/worker.rsi
   - type: Clothing
-    sprite: _DH/Clothing/Uniforms/jumpsuit/worker.rsi
+    sprite: _DH/Clothing/Uniforms/Jumpsuit/worker.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -252,9 +252,9 @@
   description: Костюм сделанный по специальному заказу, ранее пренадлежал агенту 47
   components:
   - type: Sprite
-    sprite: _DH/Clothing/Uniforms/jumpsuit/syndicatetactic.rsi
+    sprite: _DH/Clothing/Uniforms/Jumpsuit/syndicatetactic.rsi
   - type: Clothing
-    sprite: _DH/Clothing/Uniforms/jumpsuit/syndicatetactic.rsi
+    sprite: _DH/Clothing/Uniforms/Jumpsuit/syndicatetactic.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -263,9 +263,9 @@
   description: Что вы знаете о нулях и хроносе?
   components:
   - type: Sprite
-    sprite: _DH/Clothing/Uniforms/jumpsuit/psycrimson.rsi
+    sprite: _DH/Clothing/Uniforms/Jumpsuit/psycrimson.rsi
   - type: Clothing
-    sprite: _DH/Clothing/Uniforms/jumpsuit/psycrimson.rsi
+    sprite: _DH/Clothing/Uniforms/Jumpsuit/psycrimson.rsi
 
 - type: entity
   parent: ClothingUniformBase
