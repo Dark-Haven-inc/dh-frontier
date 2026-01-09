@@ -49701,7 +49701,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2595.7307376
-      storeEntity: invalid
+      # storeEntity: invalid
     - type: InsideEntityStorage
   - uid: 63
     mapInit: true
@@ -49775,7 +49775,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2772.8638938
-      storeEntity: invalid
+      # storeEntity: invalid
     - type: InsideEntityStorage
   - uid: 85
     mapInit: true
@@ -49849,7 +49849,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2773.7305596
-      storeEntity: invalid
+      # storeEntity: invalid
     - type: InsideEntityStorage
   - uid: 107
     mapInit: true
@@ -49923,7 +49923,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2777.1972228
-      storeEntity: invalid
+      # storeEntity: invalid
     - type: InsideEntityStorage
   - uid: 129
     mapInit: true
@@ -49997,7 +49997,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2779.3972206
-      storeEntity: invalid
+      # storeEntity: invalid
     - type: InsideEntityStorage
   - uid: 154
     mapInit: true
@@ -50070,7 +50070,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2593.4640731
-      storeEntity: invalid
+      # storeEntity: invalid
   - uid: 175
     mapInit: true
     paused: true
@@ -50142,7 +50142,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2781.2638854
-      storeEntity: invalid
+      # storeEntity: invalid
 - proto: CircuitImprinter
   entities:
   - uid: 7585
@@ -50899,7 +50899,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2546.7307866
-      storeEntity: invalid
+      # storeEntity: invalid
 - proto: ClothingBackpackDuffelSyndicateFilledMedical
   entities:
   - uid: 7648
@@ -51135,7 +51135,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2740.663926
-      storeEntity: invalid
+      # storeEntity: invalid
 - proto: ClothingHandsGlovesArcadiaCombat
   entities:
   - uid: 7640
@@ -51299,7 +51299,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2564.664102
-      storeEntity: invalid
+      # storeEntity: invalid
     - type: InsideEntityStorage
 - proto: ClothingHandsGlovesNitrile
   entities:
@@ -94492,7 +94492,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 13164.5868354
-      storeEntity: invalid
+      # storeEntity: invalid
 - proto: KitchenKnife
   entities:
   - uid: 14008
