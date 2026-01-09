@@ -576,6 +576,7 @@ loadout-group-prisoner-jumpsuit = Заключённый, комбинезон
 loadout-group-prison-guard-backpack = Охранник, рюкзак
 loadout-group-prison-guard-head = Охранник, головной убор
 loadout-group-prison-guard-jumpsuit = Охранник, комбинезон
+loadout-group-prison-guard-pda = Охранник, КПК
 
 ent-WeaponPistolG22 = Glock-22
     .desc = Популярное полицейское огнестрельное оружие в наши дни. Использует патрон калибра  .35 авто.
