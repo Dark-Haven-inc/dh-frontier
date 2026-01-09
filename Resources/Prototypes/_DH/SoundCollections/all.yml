@@ -10,16 +10,16 @@
 - type: soundCollection
   id: Nanati
   files:
-  - /Audio/_DH/Nanati/Nanati1.ogg
-  - /Audio/_DH/Nanati/Nanati2.ogg
-  - /Audio/_DH/Nanati/Nanati3.ogg
-  - /Audio/_DH/Nanati/Nanati4.ogg
-  - /Audio/_DH/Nanati/Nanati5.ogg
-#  - /Audio/_DH/Nanati/Nanati6.ogg #не оч
-  - /Audio/_DH/Nanati/Nanati7.ogg
-  - /Audio/_DH/Nanati/Nanati8.ogg
-  - /Audio/_DH/Nanati/Nanati9.ogg
-  - /Audio/_DH/Nanati/Nanati10.ogg
+  - /Audio/_DH/Nanati/nanati1.ogg
+  - /Audio/_DH/Nanati/nanati2.ogg
+  - /Audio/_DH/Nanati/nanati3.ogg
+  - /Audio/_DH/Nanati/nanati4.ogg
+  - /Audio/_DH/Nanati/nanati5.ogg
+#  - /Audio/_DH/Nanati/nanati6.ogg #не оч
+  - /Audio/_DH/Nanati/nanati7.ogg
+  - /Audio/_DH/Nanati/nanati8.ogg
+  - /Audio/_DH/Nanati/nanati9.ogg
+  - /Audio/_DH/Nanati/nanati10.ogg
 
 - type: soundCollection
   id: deagle

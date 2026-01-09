@@ -15,7 +15,7 @@
    - Nfsd
   engine:
    - Singularity
-  shuttlePath: /Maps/_Lua/Shuttles/SD/tuman.yml
+  shuttlePath: /Maps/_Lua/Shuttles/SD/Tuman.yml
   addComponents:
     - type: IFF
       color: "#96B089"
@@ -24,7 +24,7 @@
 - type: gameMap
   id: GFTuman
   mapName: 'SD-GF Туман'
-  mapPath: /Maps/_Lua/Shuttles/SD/tuman.yml
+  mapPath: /Maps/_Lua/Shuttles/SD/Tuman.yml
   minPlayers: 0
   stations:
    GFTuman:
