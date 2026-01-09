@@ -1709,7 +1709,6 @@
   badSmellMod: 2
 
 - type: tile
-  editorHidden: false
   id: FloorDirtMedieval
   name: грязь (переход)
   sprite: /Textures/_DH/Tiles/Planet/Dirt/dirt.png
@@ -1739,7 +1738,6 @@
   badSmellMod: 2
 
 - type: tile
-  editorHidden: false
   id: FloorDesertMedieval
   name: песок (переход)
   sprite: /Textures/_DH/Tiles/Planet/Sand/sand.png
@@ -1771,7 +1769,6 @@
 
 - type: tile
   id: FloorAstroGrassMedieval
-  editorHidden: false
   name: трава (переход)
   sprite: /Textures/_DH/Tiles/Planet/GrassCP/grass.png
   variants: 6
@@ -1803,7 +1800,6 @@
 
 - type: tile
   id: MedievalFloorPlanetGrass2
-  editorHidden: false
   name: трава светлая (переход)
   sprite: /Textures/_DH/Tiles/Planet/GrassLightCP/grass.png
   variants: 6
@@ -1835,7 +1831,6 @@
 
 - type: tile
   id: MedievalFloorPlanetGrass1
-  editorHidden: false
   name: трава кислотная (переход)
   sprite: /Textures/_DH/Tiles/Planet/GrassTallCP/grass.png
   variants: 6
@@ -1867,7 +1862,6 @@
 
 - type: tile
   id: FloorPlanetGrassAutumn
-  editorHidden: false
   name: трава (переход) осень
   sprite: /Textures/_DH/Tiles/Planet/GrassCPAutumn/grass.png
   variants: 6
@@ -1899,7 +1893,6 @@
 
 - type: tile
   id: MedievalFloorPlanetGrass2Autumn
-  editorHidden: false
   name: трава светлая (переход) осень
   sprite: /Textures/_DH/Tiles/Planet/GrassLightCPAutumn/grass.png
   variants: 6
@@ -1931,7 +1924,6 @@
 
 - type: tile
   id: MedievalFloorPlanetGrass1Autumn
-  editorHidden: false
   name: трава кислотная (переход) осень
   sprite: /Textures/_DH/Tiles/Planet/GrassTallCPAutumn/grass.png
   variants: 6
