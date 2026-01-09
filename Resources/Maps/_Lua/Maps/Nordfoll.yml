@@ -50742,8 +50742,7 @@ entities:
           - 7640
     - type: UserInterface
       actors:
-        enum.StorageUiKey.Key:
-        - invalid
+        enum.StorageUiKey.Key: []
     - type: Physics
       canCollide: False
       bodyType: Static
