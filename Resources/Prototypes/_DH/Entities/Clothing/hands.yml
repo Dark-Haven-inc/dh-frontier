@@ -9,7 +9,6 @@
   - type: Clothing
     sprite: _DH/Clothing/Hands/Gloves/insulated_gloves.rsi
   - type: Insulated
-    preventOpperatinGuns: true
   - type: FireProtection
     reduction: 0.96
   - type: TemperatureProtection
