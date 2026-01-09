@@ -14,7 +14,7 @@
       - FullAuto
     soundGunshot: /Audio/Weapons/Guns/Gunshots/gun_sentry.ogg
   - type: BallisticAmmoProvider
-    proto: CartridgePistolACP
+    proto: NFCartridgeRifle20
     capacity: 500
   - type: TimedDespawn
     lifetime: 60
@@ -104,7 +104,7 @@
       - FullAuto
     soundGunshot: /Audio/_DH/Weapons/Energy/Resources_Audio_DeltaV_Weapons_Guns_Gunshots_laser.ogg
   - type: BallisticAmmoProvider
-    proto: BulletEnergyGunLaserMk2
+    proto: NFCartridgeRifle20
     capacity: 500
   - type: TimedDespawn
     lifetime: 60
