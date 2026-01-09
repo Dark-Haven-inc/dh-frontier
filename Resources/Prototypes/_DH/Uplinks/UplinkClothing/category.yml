@@ -17,7 +17,3 @@
 - type: storeCategory
   id: UplinkClothingMisc
   name: Разное
-
-- type: storeCategory
-  id: UplinkClothing
-  name: Одежда
