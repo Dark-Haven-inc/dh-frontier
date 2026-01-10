@@ -1,7 +1,7 @@
 <p align="center"> <img width="4736" height="3456" alt="image" src="https://github.com/user-attachments/assets/f8cf5242-83d1-4c78-a54c-20cbd6759bf8" /> </p>
 
 
-![Alt](https://repobeats.axiom.co/api/embed/c952b4552bf0f50fd5cc7f247c6636779fa87f4a.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/7bd106d85ae03bdcb640e513b23feab6c5879339.svg "Repobeats analytics image")
 
 Sector Frontier 14 — это форк [Frontier Station 14](https://github.com/new-frontiers-14/frontier-station-14)/[Space Station 14](https://github.com/space-wizards/space-station-14), работающий на движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
 
