@@ -6,7 +6,7 @@
   id: EagleMercenary
   name: NM Eagle Mercenary
   description: Современное судно переделанное под нужды Наёмников.
-  price: 59715 #89550 #DH Shuttle price balance
+  price: 90336 #89550 #DH Shuttle price balance
   category: Medium
   group: Mercenary
   access: Mercenary

@@ -12,7 +12,7 @@
   parent: BaseVesselAntag
   name: Turncoat
   description: A mercenaries pride and joy, repurposed at illicit shipyards for nefarious ends. Suited to a crew of 4.
-  price: 39930
+  price: 40611
   category: Medium
   group: BlackMarket
   shuttlePath: /Maps/_NF/Shuttles/BlackMarket/turncoat.yml

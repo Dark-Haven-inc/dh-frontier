@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: BB Lyrae
   description: A medium size science vessel with laboratories for both anomalous and xenoarchaeology research.
-  price: 59507 # 53624 0.1 58986.4
+  price: 60346 # 53624 0.1 58986.4
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/lyrae.yml

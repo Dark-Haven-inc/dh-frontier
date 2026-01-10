@@ -3,7 +3,7 @@
   parent: BaseVesselAntag
   name: BM-WK Europa
   description: Большой боевой корабль с тяжелым вооружением и крепкими стенами
-  price: 259537
+  price: 260187
   limit: 1
   category: Large
   group: BlackMarket
