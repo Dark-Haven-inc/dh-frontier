@@ -14,7 +14,7 @@
   parent: BaseVessel
   name: SBI Watchdog
   description: «Отреставрированная и перекрашенная старая модель NSF Templar, предназначенная для использования наемниками и «перепрофилированная» для охраны станции, будьте осторожны с зазором».
-  price: 48900 #13779 0.05 14467.95 leaving this one up researched
+  price: 16670 #13779 0.05 14467.95 leaving this one up researched
   category: Small
   group: Sr
   access: Brig # Oddball, matches guard ID, specific enough to exclude cadets

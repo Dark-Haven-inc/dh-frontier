@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: NSF Wasp-P
   description: Большой экспедиционный корабль, предназначенный для содержания пленных и принуждения их к работе на планете.
-  price: 710200
+  price: 178777
   limit: 1
   category: Large
   group: Security

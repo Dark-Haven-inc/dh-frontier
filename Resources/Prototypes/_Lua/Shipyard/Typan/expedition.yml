@@ -6,7 +6,7 @@
   parent: BaseVessel
   id: Expedition
   name: TY Expedition
-  price: 236000
+  price: 55319
   category: Small
   group: Typan
   access: SyndicateAgent

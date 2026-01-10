@@ -7,7 +7,7 @@
   parent: BaseVesselAntag
   name: ML-Lunar
   description: Небольшой штурмовик обладающий отличной мобильностью.
-  price: 279000
+  price: 61440
   category: medium
   group: Typan
   access: SyndicateAgent

@@ -7,7 +7,7 @@
   parent: BaseVessel
   name: CLS-Mammoth
   description: Судно предназнеченное для экспресс доставки большого количества груза. Производитель - Nakamura Engineering
-  price: 180740 #47150 #DH Shuttle price balance #41000 x 1,15
+  price: 41167 #47150 #DH Shuttle price balance #41000 x 1,15
   category: medium
   group: Shipyard
   shuttlePath: /Maps/_Lua/Shuttles/Civilian/cls-mammoth.yml

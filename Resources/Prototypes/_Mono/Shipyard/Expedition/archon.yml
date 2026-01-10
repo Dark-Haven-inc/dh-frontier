@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: SKR Archon
   description: A entry level expedition ship, outfitted with bare essentials.
-  price: 214650
+  price: 42670
   category: Large
   group: Expedition
   shuttlePath: /Maps/_Mono/Shuttles/Expedition/archon.yml
