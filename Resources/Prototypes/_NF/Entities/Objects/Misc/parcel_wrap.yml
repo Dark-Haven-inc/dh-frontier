@@ -6,5 +6,5 @@
   - type: LimitedCharges
     maxCharges: 1
   - type: StaticPrice
-    price: 20
+    price: 16488
     vendPrice: 750

@@ -30,7 +30,7 @@
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: no-action }
   - type: StaticPrice
-    price: 100
+    price: 18288
   - type: Tag
     tags:
     - BorgModuleGeneric
@@ -1339,7 +1339,7 @@
       - state: base-stripes-inhand-right
         color: "#7B0F12"
   - type: StaticPrice
-    price: 2500
+    price: 18288
 
 - type: entity
   id: BorgModuleOperative
@@ -1432,7 +1432,7 @@
         - state: base-stripes-inhand-right
           color: "#7B0F12"
     - type: StaticPrice
-      price: 2000
+      price: 18288
 
 # xenoborg modules
 - type: entity

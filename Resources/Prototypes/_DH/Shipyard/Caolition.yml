@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: Caolition
   description: Caolition.
-  price: 572567
+  price: 573763
   marker: LuaTech
   group: LuaTech
   shuttlePath: /Maps/_DH/Shuttles/Caolition.yml

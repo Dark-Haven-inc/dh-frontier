@@ -8,7 +8,7 @@
   name: TY Fish
   description: Гордость старого флота Синдиката. Предназначен для перехвата шаттлов
     и экспедиций.
-  price: 93745
+  price: 93795
   category: Small
   group: Typan
   access: SyndicateAgent
