@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: LVHI Broom
   description: A cramped yet reliable shuttle for providing janitorial services.
-  price: 11175 # ~10656 0.05 11188.8
+  price: 11734 # ~10656 0.05 11188.8
   category: Micro
   group: Sr
   access: Janitor

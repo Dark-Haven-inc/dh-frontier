@@ -7,7 +7,7 @@
   id: Mercury
   name: BM Mercury
   description: Шаттл с 6 импульсными пушками, обладающий неплохим бронированием
-  price: 155334
+  price: 163099
   category: Large
   group: BlackMarket
   class:

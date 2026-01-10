@@ -7,7 +7,7 @@
   parent: BaseVessel
   name: SKR Eden
   description: Небольшой ботанический сад с химической лабораторией для расширения границ гидропоники.
-  price: 50205
+  price: 52715
   category: Medium
   group: Medical
   shuttlePath: /Maps/_Mono/Shuttles/eden.yml

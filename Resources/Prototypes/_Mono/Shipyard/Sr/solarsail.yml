@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: Solarsail
   description: A personal transport and mobile office for the colonial liaison. Part of the combined service ship.
-  price: 19550
+  price: 20548
   category: Small
   group: Sr
   access: HeadOfPersonnel

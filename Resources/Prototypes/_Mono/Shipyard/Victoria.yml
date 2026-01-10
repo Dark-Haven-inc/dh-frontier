@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: IHR Victoria
   description: A reworked hull from an unknown salvage ship manufacturer refitted for xenoarcheology that still holds onto some of its mining and salvaging capabilities.
-  price: 36688
+  price: 38522
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/Victoria.yml

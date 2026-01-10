@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: SKR Sakuratsu
   description: A xenoarcheology ship with a dedicated, reinforced chamber. Contains mining equipment too.
-  price: 53443 #58250
+  price: 56115 #58250
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/sakuratsu.yml

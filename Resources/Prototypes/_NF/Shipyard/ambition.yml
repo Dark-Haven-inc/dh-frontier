@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: UAC Ambition
   description: Declassified gas production and distribution platform seized in a hostile takeover of an Atmosian conglomerate. For the ultimate insurgent.
-  price: 145494 #145000 #DH Shuttle price balance # 130304 0.1 143334.4
+  price: 153000 #145000 #DH Shuttle price balance # 130304 0.1 143334.4
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/ambition.yml

@@ -6,7 +6,7 @@
   parent: BaseVessel
   id: Ganger
   name: TY Ganger
-  price: 15513
+  price: 16289
   category: Micro
   group: Typan
   access: SyndicateAgent

@@ -3,7 +3,7 @@
   parent: BaseVesselAntag
   name: NCS Gadyuka
   description: A small attack craft, ideal for dealing with small threats.
-  price: 33724
+  price: 35411
   category: Small
   group: Custom
   access: USSPGadyuka

@@ -4,7 +4,7 @@
   name: TY Hydra
   description: A syndicate missile corvette meant for stealthy hit and runs and harassment.
   limit: 3
-  price: 122721
+  price: 128712
   category: Medium
   group: Typan
   access: SyndicateAgent

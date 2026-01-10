@@ -10,7 +10,7 @@
   name: SKR Seraphim
   description: A large, unarmed heavy freight transport.
   limit: 2
-  price: 67092
+  price: 70447
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/seraphim.yml

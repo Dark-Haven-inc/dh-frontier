@@ -3,7 +3,7 @@
   id: MercXeno
   name: MC Xeno
   description: "Шаттл с тяжелыми артиллерийскими пушками и радаром. Для большой охоты."
-  price: 207812 #255000 #339550 #DH Shuttle price balance
+  price: 218203 #255000 #339550 #DH Shuttle price balance
   category: Large
   group: Mercenary
   access: Mercenary

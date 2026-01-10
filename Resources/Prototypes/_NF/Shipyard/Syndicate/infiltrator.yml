@@ -3,7 +3,7 @@
 #   parent: BaseVesselAntag
 #   name: Infiltrator
 #   description: A Syndicate nuclear operative infiltration ship.
-#   price: 104218
+#   price: 109429
 #   category: Medium
 #   group: Syndicate
 #   shuttlePath: /Maps/_NF/Shuttles/Syndicate/infiltrator.yml

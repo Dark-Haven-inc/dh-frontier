@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: TSF-SKR Praetorian
   description: A more compact and advanced Archer, outfitted with a shield gen, 4 AK570s, 2 L85s, and 2 MARAUDERS. This ship has a military IFF designation.
-  price: 87583 #101520 #DH Shuttle price balance
+  price: 91962 #101520 #DH Shuttle price balance
   category: Medium
   group: Mercenary #DH Civilian<Mercenary
   access: Mercenary
