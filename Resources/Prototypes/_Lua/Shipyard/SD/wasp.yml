@@ -9,7 +9,7 @@
   description: Крупный корабль для патруля космоса. Имеет вооружение и медицинский
     отсек.
   limit: 1
-  price: 694800 #133000
+  price: 168985 #133000
   category: Large
   group: Security
   class:

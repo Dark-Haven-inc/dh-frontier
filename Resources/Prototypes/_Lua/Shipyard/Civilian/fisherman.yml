@@ -5,7 +5,7 @@
   id: GFSYFisherman
   name: GF Fisherman
   description: Старинный корабль некогда крупной судоверфи Гефест. Имеет на борту бар, кухню, ботанику и небольшой пруд с рыбой, окруженный декоративным садом.
-  price: 279200 #98000 #DH Shuttle price balance
+  price: 65611 #98000 #DH Shuttle price balance
   category: Large
   group: Shipyard # Lua ShipyardLarge<Shipyard
   class:

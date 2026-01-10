@@ -8,7 +8,7 @@
   name: SD-GF Пурга
   description: Хорошо бронированный штурмовик первой линии с 6 орудиями типа Marauder
   limit: 4
-  price: 283400
+  price: 133485
   category: Large
   group: Security
   class:

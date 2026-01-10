@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: Letterbox
   description: The mailing segment of the combined service ship.
-  price: 27900
+  price: 12142
   category: Micro
   group: Sr
   access: Mail

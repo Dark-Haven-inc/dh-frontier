@@ -16,7 +16,7 @@
   name: COG Gixon
   description: Созданный Культом Бога Машин как один из их кораблей-ковчегов, это механизированный авианосец размером с капитальный корабль, имеющий специализированный научно-добывающий отсек с пульсарами для добычи ресурсов. Обладает относительно тонкой броней и работает от трех соединенных между собой бананиевых генераторов.
   limit: 1
-  price: 890000 # 244883 - original - 25% markup engine is fueled with bananium, extremely radioactive engine room, thin armor, extremely vulnerable rear E thrusters. Big ow.
+  price: 243189 # 244883 - original - 25% markup engine is fueled with bananium, extremely radioactive engine room, thin armor, extremely vulnerable rear E thrusters. Big ow.
   category: Large
   group: Expedition
   shuttlePath: /Maps/_Mono/Shuttles/Expedition/gixon.yml

@@ -6,7 +6,7 @@
   parent: BaseVessel
   name: CLU Geode
   description: Built into a rock by the finest goblin engineers, this vessel has all the discrete trader needs to conduct business.
-  price: 112565 #51000 #DH Shuttle price balance # 46016 0.1 50617.6
+  price: 46367 #51000 #DH Shuttle price balance # 46016 0.1 50617.6
   category: Medium
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/geode.yml

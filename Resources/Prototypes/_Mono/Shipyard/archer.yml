@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: TSF-SKR Archer
   description: A combat ship outfitted with 4 plasma turrets and 6 light autocannons. This ship has a military IFF designation.
-  price: 609600 #99658 #DH Shuttle price balance #85200 # the plasma and plastitanium tax is real...
+  price: 81142 #99658 #DH Shuttle price balance #85200 # the plasma and plastitanium tax is real...
   category: Large
   group: Mercenary #DH Civilian<Mercenary
   access: Mercenary

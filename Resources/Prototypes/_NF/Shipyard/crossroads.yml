@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: PHI Crossroads
   description: "A spacious and inviting service ship. The crossroads is designed to help with dock crowding, connect communities, and serve as anchors for gatherings."
-  price: 195800 #63452 0.1 69797.2
+  price: 64884 #63452 0.1 69797.2
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/crossroads.yml

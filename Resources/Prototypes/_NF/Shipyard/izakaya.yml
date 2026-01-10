@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: SSS Izakaya
   description: A medium-size, japanese-inspired restaurant/pub ship with a large dining area, and equally large kitchen.
-  price: 301600 #DH 65000<75400 #DH Shuttle price balance # ~57808 0.1 63588.8
+  price: 64922 #DH 65000<75400 #DH Shuttle price balance # ~57808 0.1 63588.8
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/izakaya.yml

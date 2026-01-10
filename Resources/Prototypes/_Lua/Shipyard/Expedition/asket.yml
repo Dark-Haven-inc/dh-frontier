@@ -8,7 +8,7 @@
   id: GFAsket
   name: GF-Asket
   description: Большой корабль для исследования глубокого космоса и экспедиций.
-  price: 565000
+  price: 117118
   category: Large
   group: Expedition
   shuttlePath: /Maps/_Lua/Shuttles/Expedition/asket.yml
