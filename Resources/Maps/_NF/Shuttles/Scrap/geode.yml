@@ -900,6 +900,20 @@ entities:
       - 505
       - 507
       - 530
+  - uid: 429
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 5.5,2.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 575
+      - 517
+      - 573
+      - 518
+      - 520
+      - 450
 - proto: Airlock
   entities:
   - uid: 434

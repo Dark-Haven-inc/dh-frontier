@@ -674,6 +674,18 @@ entities:
       - 833
       - 31
       - 840
+  - uid: 4
+    components:
+    - type: Transform
+      pos: -0.5,-14.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 33
+      - 838
+      - 829
+      - 830
+      - 32
 - proto: AirlockNfsdBrigGlassLocked
   entities:
   - uid: 5

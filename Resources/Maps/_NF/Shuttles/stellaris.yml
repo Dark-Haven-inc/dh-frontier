@@ -374,6 +374,96 @@ entities:
       - 519
       - 457
       - 566
+  - uid: 586
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 7.5,-4.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 476
+      - 509
+      - 623
+      - 622
+  - uid: 587
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -6.5,-4.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 475
+      - 510
+      - 620
+      - 621
+  - uid: 588
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 7.5,-7.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 483
+      - 605
+      - 569
+  - uid: 589
+    components:
+    - type: Transform
+      pos: -0.5,9.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 497
+      - 550
+      - 558
+      - 559
+      - 570
+  - uid: 590
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 3.5,10.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 557
+      - 507
+      - 570
+  - uid: 591
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -2.5,-4.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 579
+      - 578
+      - 577
+      - 576
+      - 575
+      - 574
+      - 573
+      - 572
+      - 571
+      - 531
+      - 466
+      - 559
+      - 558
+      - 580
+      - 581
+      - 582
+      - 583
+      - 567
+      - 568
+      - 566
+      - 620
+      - 621
+      - 623
+      - 622
 - proto: AirCanister
   entities:
   - uid: 508

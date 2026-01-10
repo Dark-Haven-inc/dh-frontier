@@ -532,6 +532,32 @@ entities:
       - 100
       - 233
       - 246
+  - uid: 224
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 5.5,-13.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 84
+      - 102
+      - 219
+      - 223
+      - 43
+      - 218
+      - 222
+  - uid: 349
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 6.5,-2.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 84
+      - 220
+      - 41
 - proto: Airlock
   entities:
   - uid: 339

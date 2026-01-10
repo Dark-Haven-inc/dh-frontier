@@ -1711,6 +1711,318 @@ entities:
       - 2463
       - 170
       - 2464
+  - uid: 16
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -2.5,-18.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2425
+      - 2424
+      - 2423
+      - 2421
+      - 2420
+      - 145
+      - 2797
+      - 2801
+      - 2408
+      - 2407
+      - 2411
+      - 2412
+      - 2474
+      - 2473
+      - 2472
+  - uid: 17
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -5.5,-17.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2415
+      - 2806
+      - 2805
+      - 147
+      - 2410
+      - 2409
+      - 2406
+      - 149
+      - 2794
+      - 2793
+  - uid: 18
+    components:
+    - type: Transform
+      pos: -4.5,-22.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2416
+      - 2422
+      - 142
+  - uid: 19
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,0.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2405
+      - 153
+      - 2395
+      - 2396
+      - 2397
+  - uid: 20
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 5.5,0.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2431
+      - 152
+      - 2392
+      - 2394
+      - 2393
+  - uid: 21
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 6.5,-13.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2417
+      - 2414
+      - 2413
+      - 151
+      - 2803
+      - 2804
+      - 2792
+      - 150
+      - 2791
+  - uid: 22
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 3.5,-26.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2418
+      - 144
+      - 2419
+  - uid: 23
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 3.5,-2.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 146
+      - 2800
+      - 2796
+      - 2382
+      - 2383
+      - 2384
+  - uid: 24
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 5.5,7.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2389
+      - 2390
+      - 2391
+      - 2795
+      - 2404
+      - 2403
+      - 155
+  - uid: 25
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,7.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2401
+      - 2402
+      - 2807
+      - 154
+      - 2400
+      - 2399
+      - 2398
+  - uid: 26
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 1.5,8.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2470
+      - 2469
+      - 156
+  - uid: 27
+    components:
+    - type: Transform
+      pos: -0.5,16.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2471
+      - 2433
+      - 2434
+      - 2435
+      - 159
+      - 2468
+      - 2437
+      - 2436
+      - 2438
+      - 158
+  - uid: 28
+    components:
+    - type: Transform
+      pos: -0.5,22.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 158
+      - 2439
+      - 2440
+      - 160
+      - 2441
+      - 2442
+      - 159
+      - 2435
+      - 2438
+  - uid: 29
+    components:
+    - type: Transform
+      pos: -0.5,25.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2444
+      - 161
+      - 2443
+      - 2440
+      - 2439
+      - 2441
+      - 2442
+  - uid: 30
+    components:
+    - type: Transform
+      pos: 1.5,28.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2445
+      - 162
+      - 2443
+      - 2444
+  - uid: 31
+    components:
+    - type: Transform
+      pos: 3.5,37.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 167
+      - 2449
+      - 166
+      - 2476
+      - 2475
+      - 164
+      - 165
+  - uid: 32
+    components:
+    - type: Transform
+      pos: -2.5,37.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 163
+      - 2380
+      - 2448
+      - 2446
+      - 2447
+  - uid: 33
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,45.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2450
+      - 2452
+      - 2455
+      - 2451
+      - 2454
+      - 2453
+      - 168
+      - 2456
+      - 2457
+      - 2458
+  - uid: 34
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 0.5,68.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2461
+      - 2460
+      - 2459
+      - 169
+      - 2462
+  - uid: 35
+    components:
+    - type: Transform
+      pos: 1.5,96.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2465
+      - 2466
+      - 171
+  - uid: 36
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -0.5,101.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2467
+      - 172
+  - uid: 37
+    components:
+    - type: Transform
+      pos: 3.5,5.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 2386
+      - 2385
+      - 157
+      - 2388
+      - 2387
+      - 2382
+      - 2383
+      - 2384
+      - 2790
+      - 2802
 - proto: AirlockExternalGlassNfsdLocked
   entities:
   - uid: 38

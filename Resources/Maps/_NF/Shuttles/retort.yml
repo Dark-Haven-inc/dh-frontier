@@ -884,6 +884,57 @@ entities:
     - type: DeviceList
       devices:
       - 662
+  - uid: 35
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,-1.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 660
+  - uid: 347
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -4.5,-7.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 448
+      - 731
+      - 680
+      - 685
+  - uid: 353
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,1.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 163
+  - uid: 359
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,-4.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 661
+  - uid: 769
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 5.5,-11.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 681
+      - 571
+      - 624
+      - 683
 - proto: AirlockAtmospherics
   entities:
   - uid: 186

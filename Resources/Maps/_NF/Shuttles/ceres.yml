@@ -882,6 +882,57 @@ entities:
       - 365
       - 366
       - 86
+  - uid: 1849
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 3.5,-2.5
+      parent: 2
+    - type: DeviceList
+      devices:
+      - 257
+      - 262
+      - 353
+  - uid: 1850
+    components:
+    - type: Transform
+      pos: -1.5,-19.5
+      parent: 2
+    - type: DeviceList
+      devices:
+      - 366
+      - 365
+      - 1733
+      - 1701
+      - 1704
+      - 1705
+      - 1731
+      - 1730
+  - uid: 1851
+    components:
+    - type: Transform
+      pos: 4.5,-5.5
+      parent: 2
+    - type: DeviceList
+      devices:
+      - 1624
+      - 1625
+      - 130
+      - 221
+      - 352
+      - 353
+      - 354
+      - 1669
+      - 1683
+      - 355
+      - 348
+      - 347
+      - 1852
+      - 1853
+      - 1636
+      - 1641
+      - 1606
+      - 1607
 - proto: AirAlarmFreezer
   entities:
   - uid: 87

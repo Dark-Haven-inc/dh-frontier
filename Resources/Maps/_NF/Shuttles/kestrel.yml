@@ -613,6 +613,18 @@ entities:
       - 154
       - 97
       - 363
+  - uid: 523
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -0.5,-2.5
+      parent: 3
+    - type: DeviceList
+      devices:
+      - 236
+      - 362
+      - 230
+      - 273
 - proto: AirCanister
   entities:
   - uid: 294

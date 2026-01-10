@@ -599,6 +599,21 @@ entities:
       - 162
       - 132
       - 148
+  - uid: 298
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -5.5,-2.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 233
+      - 222
+      - 309
+      - 80
+      - 223
+      - 288
+      - 171
     - type: DeviceLinkSource
       linkedPorts:
         301:

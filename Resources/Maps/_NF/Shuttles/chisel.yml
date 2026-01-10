@@ -620,6 +620,29 @@ entities:
       devices:
       - 20
       - 96
+  - uid: 192
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -1.5,4.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 387
+      - 360
+      - 66
+  - uid: 240
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -2.5,-4.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 357
+      - 359
+      - 35
+      - 66
 - proto: AirlockCargoGlass
   entities:
   - uid: 272

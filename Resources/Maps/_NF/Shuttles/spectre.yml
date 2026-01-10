@@ -1241,6 +1241,83 @@ entities:
       - 992
       - 964
       - 682
+  - uid: 905
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,23.5
+      parent: 3
+    - type: DeviceList
+      devices:
+      - 1099
+      - 1098
+      - 1113
+      - 1112
+      - 534
+      - 1114
+  - uid: 972
+    components:
+    - type: Transform
+      pos: 1.5,0.5
+      parent: 3
+    - type: DeviceList
+      devices:
+      - 958
+      - 973
+      - 974
+      - 1093
+  - uid: 989
+    components:
+    - type: Transform
+      pos: -9.5,1.5
+      parent: 3
+    - type: DeviceList
+      devices:
+      - 1090
+      - 1091
+      - 962
+      - 966
+      - 977
+  - uid: 990
+    components:
+    - type: Transform
+      pos: -7.5,3.5
+      parent: 3
+    - type: DeviceList
+      devices:
+      - 1102
+      - 1090
+      - 970
+      - 965
+      - 975
+      - 1092
+      - 1096
+  - uid: 991
+    components:
+    - type: Transform
+      pos: 8.5,3.5
+      parent: 3
+    - type: DeviceList
+      devices:
+      - 976
+      - 968
+      - 959
+      - 1101
+      - 1104
+      - 1094
+      - 1097
+  - uid: 1045
+    components:
+    - type: Transform
+      pos: 2.5,19.5
+      parent: 3
+    - type: DeviceList
+      devices:
+      - 1095
+      - 1098
+      - 535
+      - 963
+      - 1110
 - proto: AirCanister
   entities:
   - uid: 473

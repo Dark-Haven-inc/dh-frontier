@@ -744,6 +744,30 @@ entities:
       - 418
       - 409
       - 479
+  - uid: 650
+    components:
+    - type: Transform
+      pos: 1.5,-2.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 514
+      - 529
+      - 556
+      - 531
+      - 332
+      - 282
+      - 283
+      - 480
+      - 533
+      - 331
+      - 291
+      - 481
+      - 550
+      - 498
+      - 549
+      - 665
+      - 638
 - proto: AirlockChemistryGlass
   entities:
   - uid: 58
