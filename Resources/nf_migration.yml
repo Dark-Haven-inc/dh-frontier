@@ -410,8 +410,8 @@ MagazineLightRifleLowCapacityEmpty: NFMagazineLowCapacityRifle30Empty
 MagazineLightRifleLowCapacityPractice: NFMagazineLowCapacityRifle30Practice
 MagazineLightRifleLowCapacityRubber: NFMagazineLowCapacityRifle30Rubber
 MagazineLightRifleLowCapacityUranium: NFMagazineLowCapacityRifle30Uranium
-#MagazineLightRiflePkBox: null #DH
-#MagazineLightRifleMaxim: null
+MagazineLightRiflePkBox: null
+MagazineLightRifleMaxim: null
 MagazineLightRiflePractice: NFMagazineRifle30Practice
 MagazineLightRifleRubber: NFMagazineRifle30Rubber
 MagazineLightRifleUranium: NFMagazineRifle30Uranium
@@ -493,7 +493,7 @@ WeaponDisablerSMG: NFWeaponEnergySubMachineGunDisabler
 # WeaponEmpEmitter: ? # not migrated
 WeaponEnergyGun: NFWeaponEnergySubMachineGunDeltaV
 WeaponEnergyGunMultiphase: NFWeaponEnergyPistolLaserX01Multiphase
-#WeaponEnergyShotgun: null
+WeaponEnergyShotgun: null
 WeaponLaserCannon: NFWeaponEnergyRifleSniperCannon
 WeaponLaserCarbine: NFWeaponEnergyRifleCarbine
 WeaponLaserCarbinePractice: NFWeaponEnergyRifleCarbinePractice
@@ -547,7 +547,7 @@ WeaponRevolverMatebaAP: NFWeaponRevolverWard45
 WeaponRevolverPirate: NFWeaponRevolverPirate
 WeaponRevolverPython: NFWeaponRevolverRitland45
 WeaponRevolverPythonAP: NFWeaponRevolverRitland45
-#WeaponRifleAk: NFWeaponRifleAssaultSm #DH
+WeaponRifleAk: NFWeaponRifleAssaultSm
 WeaponRifleFoam: NFWeaponRifleFoam
 WeaponRifleGestio: NFWeaponRifleAssaultGestio
 WeaponRifleJackdaw: NFWeaponRifleAssaultJackdaw
@@ -581,9 +581,9 @@ WeaponSubMachineGunDrozd: NFWeaponSubMachineGunDrozd
 WeaponSubMachineGunDrozdRubber: NFWeaponSubMachineGunDrozdLessLethal
 WeaponSubMachineGunTypewriter: NFWeaponSubMachineGunTypewriter
 WeaponSubMachineGunWt550: NFWeaponSubMachineGunWt550
-#WeaponTaser: null #DH
+WeaponTaser: null
 WeaponTemperatureGun: NFWeaponEnergyRifleTemperature
-#WeaponTeslaGun: null #DH
+WeaponTeslaGun: null
 WeaponXrayCannon: NFWeaponEnergyRifleSniperXrayCannon
 
 # 2025-05-16 Syndicate Turret
