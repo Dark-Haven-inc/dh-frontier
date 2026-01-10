@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: KC Sprinter
   description: A light freighter often picked by bounty hunters due to its quick acceleration, expedition capable.
-  price: 55175 # 49452 0.2 59342.4
+  price: 55237 # 49452 0.2 59342.4
   category: Medium
   group: Expedition
   shuttlePath: /Maps/_NF/Shuttles/Expedition/sprinter.yml

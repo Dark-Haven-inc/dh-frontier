@@ -3,7 +3,7 @@
   id: Vitalis
   name: CTC Vitalis
   description: A medium medical support vessel designed for cryogenic deployment.
-  price: 70661 #DH 75000<80000 #DH Shuttle price balance #62702 0.2 75242.4
+  price: 70725 #DH 75000<80000 #DH Shuttle price balance #62702 0.2 75242.4
   category: Medium
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/vitalis.yml
