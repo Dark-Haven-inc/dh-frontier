@@ -39,7 +39,7 @@
       - PrizeTicket
   - type: Dumpable
   - type: StaticPrice
-    price: 8721.5
+    price: 55.5
   # - type: ItemToggle
   #   soundActivate: &soundActivate
   #     collection: sparks

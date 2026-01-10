@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NT Honker
   description: HONK HONK HONK HONK HONK HONK
-  price: 20545 #overpriced but ignoring for now. Dusto
+  price: 20540 #overpriced but ignoring for now. Dusto
   category: Small
   group: Honk #DH
   shuttlePath: /Maps/_NF/Shuttles/honker.yml

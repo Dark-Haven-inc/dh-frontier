@@ -36,7 +36,7 @@
       - Ghost
       - Santa
   - type: StackPrice #DH
-    price: 18288
+    price: 100000
 
 - type: entity
   id: PresentRandomInsane
@@ -50,7 +50,7 @@
     - type: RandomGift
       insaneMode: true
     - type: StackPrice #DH
-      price: 18288
+      price: 10000
 
 - type: entity
   id: PresentRandom
@@ -393,7 +393,7 @@
     sound:
       path: /Audio/Effects/unwrap.ogg
   - type: StackPrice #DH
-    price: 18288
+    price: 200
 
 - type: entity
   id: PresentRandomCoal
@@ -454,7 +454,7 @@
     sound:
       path: /Audio/Effects/unwrap.ogg
   - type: StackPrice #DH
-    price: 18288
+    price: 400
 
 - type: entity
   id: PresentTrash

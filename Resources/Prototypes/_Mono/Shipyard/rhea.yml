@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: SKR Rhea
   description: A very small food ship.
-  price: 26750 #DH 29250<30250 #DH Shuttle price balance
+  price: 26432 #DH 29250<30250 #DH Shuttle price balance
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/rhea.yml

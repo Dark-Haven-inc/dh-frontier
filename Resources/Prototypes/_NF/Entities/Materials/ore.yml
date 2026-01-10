@@ -137,7 +137,7 @@
   unit: materials-unit-chunk
   icon: { sprite: /Textures/_NF/Objects/Materials/ore.rsi, state: scrapmaterials }
   color: "#FFD700"
-  price: 50545.02
+  price: 0.02
 
 - type: material
   id: RawScrapTech
@@ -146,7 +146,7 @@
   unit: materials-unit-chunk
   icon: { sprite: /Textures/_NF/Objects/Materials/ore.rsi, state: scrapore }
   color: "#478200" # circuitboard green
-  price: 50545.02
+  price: 0.02
 
 #region Random spawners
 # Ore spawner (random between material and tech scrap)

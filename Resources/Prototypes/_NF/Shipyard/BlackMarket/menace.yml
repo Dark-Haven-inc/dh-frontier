@@ -13,7 +13,7 @@
   parent: BaseVesselAntag
   name: Menace
   description: 'Mail is no longer an option: you either receive it or you die.'
-  price: 18795 #16476 1.25 37071
+  price: 18652 #16476 1.25 37071
   category: Small
   group: BlackMarket
   shuttlePath: /Maps/_NF/Shuttles/BlackMarket/menace.yml
