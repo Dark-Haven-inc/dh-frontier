@@ -14,7 +14,7 @@
     sprite: _DH/Objects/Weapons/Guns/StrikeBall/Bolt-Snipers/heavy_sniper.rsi
     state: base
   product: ADTWeaponAirsoftCrate
-  cost: 18000
+  cost: 40000
   category: cargoproduct-category-name-fun
   group: market
 
