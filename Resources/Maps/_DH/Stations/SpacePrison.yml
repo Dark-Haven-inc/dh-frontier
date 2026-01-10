@@ -5017,44 +5017,6 @@ entities:
           - 0
         chunkSize: 4
     - type: ImplicitRoof
-- proto: ActionToggleBlock
-  entities:
-  - uid: 4187
-    mapInit: true
-    paused: true
-    components:
-    - type: Transform
-      parent: 5884
-    - type: Action
-      originalIconColor: '#FFFFFFFF'
-      container: 5884
-  - uid: 4190
-    mapInit: true
-    paused: true
-    components:
-    - type: Transform
-      parent: 6768
-    - type: Action
-      originalIconColor: '#FFFFFFFF'
-      container: 6768
-  - uid: 6763
-    mapInit: true
-    paused: true
-    components:
-    - type: Transform
-      parent: 6762
-  - uid: 6765
-    mapInit: true
-    paused: true
-    components:
-    - type: Transform
-      parent: 6764
-  - uid: 6767
-    mapInit: true
-    paused: true
-    components:
-    - type: Transform
-      parent: 6766
 - proto: ActionToggleInternals
   entities:
   - uid: 9273
@@ -23506,20 +23468,6 @@ entities:
     - type: Transform
       pos: 59.445213,34.769413
       parent: 1
-    - type: HandheldLight
-      toggleActionEntity: 6324
-    - type: ContainerContainer
-      containers:
-        cell_slot: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        actions: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 6324
-    - type: ActionsContainer
 - proto: FlashlightSeclite
   entities:
   - uid: 4515
@@ -23551,20 +23499,6 @@ entities:
     - type: Transform
       pos: 58.55661,35.52733
       parent: 1
-    - type: HandheldLight
-      toggleActionEntity: 2
-    - type: ContainerContainer
-      containers:
-        cell_slot: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        actions: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 2
-    - type: ActionsContainer
   - uid: 6310
     components:
     - type: Transform
@@ -30995,22 +30929,6 @@ entities:
     - type: Transform
       pos: 44.50398,30.032547
       parent: 1
-    - type: HandheldLight
-      toggleActionEntity: 1776
-    - type: ContainerContainer
-      containers:
-        cell_slot: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        actions: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 1776
-    - type: Physics
-      canCollide: True
-    - type: ActionsContainer
   - uid: 1777
     components:
     - type: Transform
@@ -31040,22 +30958,6 @@ entities:
     - type: Transform
       pos: 44.40796,27.975723
       parent: 1
-    - type: HandheldLight
-      toggleActionEntity: 1744
-    - type: ContainerContainer
-      containers:
-        cell_slot: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        actions: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 1744
-    - type: Physics
-      canCollide: True
-    - type: ActionsContainer
 - proto: LessLethalVendingMachine
   entities:
   - uid: 8077
@@ -36748,34 +36650,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 131.5,40.5
       parent: 1
-- proto: RiotBulletShield
-  entities:
-  - uid: 5884
-    components:
-    - type: Transform
-      pos: 26.52692,34.509857
-      parent: 1
-    - type: Blocking
-      blockingToggleActionEntity: 4187
-    - type: ActionsContainer
-    - type: ContainerContainer
-      containers:
-        actions: !type:Container
-          ents:
-          - 4187
-  - uid: 6768
-    components:
-    - type: Transform
-      pos: 26.272448,34.603607
-      parent: 1
-    - type: Blocking
-      blockingToggleActionEntity: 4190
-    - type: ActionsContainer
-    - type: ContainerContainer
-      containers:
-        actions: !type:Container
-          ents:
-          - 4190
 - proto: RiotLaserShield
   entities:
   - uid: 6769
@@ -36788,47 +36662,6 @@ entities:
     - type: Transform
       pos: 28.6152,33.531116
       parent: 1
-- proto: RiotShield
-  entities:
-  - uid: 6762
-    components:
-    - type: Transform
-      pos: 29.269197,30.004217
-      parent: 1
-    - type: Blocking
-      blockingToggleActionEntity: 6763
-    - type: ActionsContainer
-    - type: ContainerContainer
-      containers:
-        actions: !type:Container
-          ents:
-          - 6763
-  - uid: 6764
-    components:
-    - type: Transform
-      pos: 29.269197,29.775051
-      parent: 1
-    - type: Blocking
-      blockingToggleActionEntity: 6765
-    - type: ActionsContainer
-    - type: ContainerContainer
-      containers:
-        actions: !type:Container
-          ents:
-          - 6765
-  - uid: 6766
-    components:
-    - type: Transform
-      pos: 29.29003,29.577133
-      parent: 1
-    - type: Blocking
-      blockingToggleActionEntity: 6767
-    - type: ActionsContainer
-    - type: ContainerContainer
-      containers:
-        actions: !type:Container
-          ents:
-          - 6767
 - proto: RockMineralSpawnerPrison
   entities:
   - uid: 1328

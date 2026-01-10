@@ -51006,14 +51006,6 @@ entities:
     - type: Transform
       pos: -36.508293,52.6143
       parent: 1
-- proto: ClothingEyesArcadiaVisor
-  entities:
-  - uid: 7639
-    components:
-    - type: Transform
-      parent: 7638
-    - type: Physics
-      canCollide: False
 - proto: ClothingEyesGlassesOutlawGlasses
   entities:
   - uid: 7672
@@ -51057,14 +51049,6 @@ entities:
     - type: StoreRefund
       boughtTime: 2740.663926
       # storeEntity: invalid
-- proto: ClothingHandsGlovesArcadiaCombat
-  entities:
-  - uid: 7640
-    components:
-    - type: Transform
-      parent: 7638
-    - type: Physics
-      canCollide: False
 - proto: ClothingHandsGlovesCombat
   entities:
   - uid: 35
@@ -51457,14 +51441,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingOuterCoatArcadiaTrench
-  entities:
-  - uid: 7641
-    components:
-    - type: Transform
-      parent: 7638
-    - type: Physics
-      canCollide: False
 - proto: ClothingOuterHardsuitSyndieElite
   entities:
   - uid: 199
@@ -51586,14 +51562,6 @@ entities:
     - type: Transform
       pos: -54.48932,1.3279842
       parent: 1
-- proto: ClothingUniformJumpskirtArcadia
-  entities:
-  - uid: 7642
-    components:
-    - type: Transform
-      parent: 7638
-    - type: Physics
-      canCollide: False
 - proto: ClothingUniformJumpskirtTacticalMaid
   entities:
   - uid: 7681
@@ -51618,14 +51586,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpsuitArcadia
-  entities:
-  - uid: 7643
-    components:
-    - type: Transform
-      parent: 7638
-    - type: Physics
-      canCollide: False
 - proto: ClothingUniformJumpsuitColorRed
   entities:
   - uid: 7711
