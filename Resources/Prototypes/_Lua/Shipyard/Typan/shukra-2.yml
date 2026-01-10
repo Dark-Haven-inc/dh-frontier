@@ -8,7 +8,7 @@
   name: SYN-GF Shukra-2
   description: Штурмовая версия корабля поддержки "Шукра". Этот шаттл схож по форме со своим предком, однако имеет более крепкую броню.
   limit: 2
-  price: 149475
+  price: 150125
   category: Large
   group: Typan
   class:

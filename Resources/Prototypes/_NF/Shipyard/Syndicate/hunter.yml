@@ -3,7 +3,7 @@
 #   parent: BaseVesselAntag
 #   name: Hunter
 #   description: A small armored Syndicate assault shuttle, perfect for devious operations!
-#   price: 62880
+#   price: 63530
 #   category: Small
 #   group: Syndicate
 #   shuttlePath: /Maps/_NF/Shuttles/Syndicate/hunter.yml

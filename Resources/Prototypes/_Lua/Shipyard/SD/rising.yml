@@ -8,7 +8,7 @@
   name: SD-GF Восход
   description: Тяжелая артиллерия с радаром. Обладает неплохой защитой
   limit: 1
-  price: 308638
+  price: 309288
   category: Large
   group: Security
   class:

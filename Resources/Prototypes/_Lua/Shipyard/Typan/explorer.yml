@@ -6,7 +6,7 @@
   parent: BaseVessel
   id: Explorer
   name: TY Explorer
-  price: 25852
+  price: 26502
   category: Small
   group: Typan
   access: SyndicateAgent

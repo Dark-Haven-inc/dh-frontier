@@ -4,7 +4,7 @@
   name: SYN-Kinetic-Lancer
   description: A light syndicate frigate meant for raiding enemy stations. Armed to the teeth in missiles and CYREXAs.
   limit: 1
-  price: 248391 # 2000 below max
+  price: 249041 # 2000 below max
   category: Large
   group: Typan
   access: SyndicateAgent

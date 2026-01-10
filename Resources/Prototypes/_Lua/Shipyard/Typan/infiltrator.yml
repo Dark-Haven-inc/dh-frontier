@@ -8,7 +8,7 @@
   name: TY Infiltrator
   description: Устаревший корабль для ядерных операций Синдиката, способный летать в экспедиции.
   limit: 1
-  price: 109429 #85000
+  price: 110079 #85000
   category: Medium
   group: Typan
   access: SyndicateAgent

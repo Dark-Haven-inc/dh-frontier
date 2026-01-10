@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: BB Gaslight
   description: A mobile engineering platform for deep-space repairs, upgrades and remodelling.
-  price: 31419 # 32107 0.15 36923.05
+  price: 32069 # 32107 0.15 36923.05
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/gaslight.yml

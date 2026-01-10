@@ -3,7 +3,7 @@
   parent: BaseVesselAntag
   name: TSF-SKR Fracture
   description: Шаттл поддержки с сильными ЭМИ-пушками и парой тяжелых артиллерийских орудий
-  price: 104576
+  price: 105226
   category: Medium
   group: Security
   access: Security

@@ -11,7 +11,7 @@ price_map = {}
 for name, val in matches:
     val = val.replace(',', '.')
     float_val = float(val)
-    int_price = int(float_val)
+    int_price = int(float_val) + 650
     price_map[name] = int_price
 
 list_of_directory_ship = ["_DH", "_Lua", "_Mono", "_NF"]
