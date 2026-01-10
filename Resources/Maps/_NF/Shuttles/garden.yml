@@ -286,19 +286,6 @@ entities:
       - 108
       - 106
       - 251
-  - uid: 142
-    components:
-    - type: Transform
-      pos: 0.5,7.5
-      parent: 1
-    - type: DeviceList
-      devices:
-      - 291
-      - 130
-      - 281
-      - 280
-      - 250
-      - 251
 - proto: AirlockExternalGlass
   entities:
   - uid: 85

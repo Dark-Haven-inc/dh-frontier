@@ -12,6 +12,10 @@
   id: Cheetah
   parent: BaseVesselBus
   shuttlePath: /Maps/_NF/Shuttles/Bus/cheetah.yml
+  class:
+  - Civilian
+  engine:
+  - AME
   addComponents:
 
     - type: IFF

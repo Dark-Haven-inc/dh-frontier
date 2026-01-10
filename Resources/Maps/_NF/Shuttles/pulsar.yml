@@ -942,14 +942,6 @@ entities:
       - 465
       - 513
       - 557
-  - uid: 581
-    components:
-    - type: Transform
-      pos: -3.5,8.5
-      parent: 1
-    - type: DeviceList
-      devices:
-      - 588
 - proto: AirlockCommandGlass
   entities:
   - uid: 197

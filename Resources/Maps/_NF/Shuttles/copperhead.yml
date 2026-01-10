@@ -476,19 +476,6 @@ entities:
       - 203
       - 67
       - 207
-  - uid: 225
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -2.5,-3.5
-      parent: 1
-    - type: DeviceList
-      devices:
-      - 47
-      - 196
-      - 197
-      - 206
-      - 209
 - proto: AirlockCommand
   entities:
   - uid: 297
