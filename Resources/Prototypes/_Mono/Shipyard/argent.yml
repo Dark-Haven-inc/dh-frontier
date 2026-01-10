@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: TSF-SKR Argent
   description: A retired frigate gutted out and refurbished for cargo transport.
-  price: 54058
+  price: 54865
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/argent.yml

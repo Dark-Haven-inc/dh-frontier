@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NSF Broadhead
   description: A medium size detective ship with facilities for autopsies, interrogations and detailed investigations.
-  price: 57788 # 52879 0.05 55522.95
+  price: 58670 # 52879 0.05 55522.95
   category: Medium
   group: Security
   access: Detective

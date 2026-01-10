@@ -7,7 +7,7 @@
   id: Ayhiva
   name: Айхива
   description: Боевой корабль из группы поддержки корпорации LuaTech, требует особый уровень доступа для покупки.
-  price: 150769 #151543 #149543 #DH Shuttle price balance
+  price: 151486 #151543 #149543 #DH Shuttle price balance
   category: Large
   marker: LuaTech
   group: LuaTech

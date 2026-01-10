@@ -2990,7 +2990,7 @@ entities:
       parent: 1
     - type: Physics
       bodyType: Static
-- proto: SubstationBasic
+- proto: SubstationWallBasic
   entities:
   - uid: 257
     components:
