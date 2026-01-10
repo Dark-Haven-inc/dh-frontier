@@ -1,7 +1,7 @@
 import re
 import os
 
-# Текст ошибок (вставьте весь текст ошибок сюда)
+# Текст ошибки
 errors_text = """
 """
 # Парсинг ошибок
@@ -14,7 +14,7 @@ for name, val in matches:
     int_price = int(float_val)
     price_map[name] = int_price
 
-# Директория с файлами (замените на вашу)
+# Директория с файлами, где надо изменить
 directory = ''
 
 for root, _, files in os.walk(directory):
