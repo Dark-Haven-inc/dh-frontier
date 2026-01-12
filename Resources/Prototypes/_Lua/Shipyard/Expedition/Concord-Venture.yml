@@ -7,7 +7,7 @@
   parent: BaseVessel
   name: Concord-Venture
   description: небольшое медико-научное судно с минимальными удобствами.
-  price: 45945 #54500 #48000 #DH Shuttle price balance
+  price: 46595 # DH-Tweak #54500 #48000 #DH Shuttle price balance
   category: Medium
   group: Expedition
   shuttlePath: /Maps/_Lua/Shuttles/Expedition/Concord-Venture.yml

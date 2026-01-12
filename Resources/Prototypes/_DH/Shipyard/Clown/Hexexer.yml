@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: HM Hexexer
   description: HONK HONK HONK HONK HONK HONK
-  price: 32629 #overpriced but ignoring for now. Dusto
+  price: 33553 # DH-Tweak #overpriced but ignoring for now. Dusto
   category: Small
   group: HonkExped #DH
   shuttlePath: /Maps/_DH/Shuttles/Clown/Hexexer.yml
