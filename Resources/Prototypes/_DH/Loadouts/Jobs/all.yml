@@ -76,6 +76,18 @@
     eyes: ClothingEyesGlassesSecurity
 
 - type: loadout
+  id: ClothingEyesGlassesNfsd
+  price: 0
+  equipment:
+    eyes: ClothingEyesGlassesNfsd
+
+- type: loadout
+  id: PrisonGuardPDA
+  price: 0
+  equipment:
+    belt: PrisonGuardPDA
+
+- type: loadout
   id: ClothingEyesHudSecurity
   price: 0
   equipment:

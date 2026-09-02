@@ -1,0 +1,38 @@
+- type: vessel
+  id: Gaslight
+  parent: BaseVessel
+  name: BB Gaslight
+  description: A mobile engineering platform for deep-space repairs, upgrades and remodelling.
+  price: 32069 # 32107 0.15 36923.05
+  category: Medium
+  group: Shipyard
+  shuttlePath: /Maps/_NF/Shuttles/gaslight.yml
+  guidebookPage: ShipyardGaslight
+  class:
+  - Engineering
+  engine:
+  - Plasma
+  addComponents:
+
+    - type: IFF
+      color: "#ffffff"
+
+- type: gameMap
+  id: Gaslight
+  mapName: 'BB Gaslight'
+  mapPath: /Maps/_NF/Shuttles/gaslight.yml
+  minPlayers: 0
+  stations:
+    Kestrel:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Gaslight {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]

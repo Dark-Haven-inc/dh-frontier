@@ -1,6 +1,6 @@
 - type: uiTheme
   id: SS14OperativeTheme
-  path: /Textures/_DH/Interface/Operative/
+  path: /Textures/_DH/interface/Operative/
   colors:
     whiteText: "#FFF5EE"
     slotSelectedGold: "#e6b812"

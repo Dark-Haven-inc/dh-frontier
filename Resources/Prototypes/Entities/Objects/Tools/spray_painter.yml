@@ -117,7 +117,6 @@
   - type: Item
     sprite: Objects/Tools/spray_painter.rsi
     heldPrefix: ammo
-    color: "#27cf97"
   - type: PhysicalComposition
     materialComposition:
       Steel: 20

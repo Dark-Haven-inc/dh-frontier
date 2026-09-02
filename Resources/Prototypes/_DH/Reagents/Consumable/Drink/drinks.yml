@@ -7,5 +7,5 @@
   flavor: bread
   color: "#381600"
   metamorphicSprite:
-    sprite: _DH/Objects/Consumable/Drinks/kvass.rsi
+    sprite: _DH/Objects/Consumable/kvass.rsi
     state: icon

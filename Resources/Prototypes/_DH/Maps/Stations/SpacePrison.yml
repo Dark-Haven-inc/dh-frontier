@@ -17,8 +17,8 @@
         mapNameTemplate: 'Космическая Тюрьма'
       - type: ExtraStationInformation
         iconPath: /Textures/_DH/Structures/Wallmounts/posters.rsi/poster2.png
-        stationSubtext: 'zzzz'
-        stationDescription: 'zzz'
+        stationSubtext: station-subtext
+        stationDescription: station-description
       - type: StationJobs
         availableJobs:
           HeadOfPrison: [ 0, 1 ]

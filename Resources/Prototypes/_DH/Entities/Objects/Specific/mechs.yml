@@ -90,7 +90,7 @@
       mech-equipment-container: !type:Container
       mech-battery-slot: !type:ContainerSlot
   - type: Damageable
-    damageContainer: Mech
+    damageContainer: StructuralInorganic # Mech -> StructuralInorganic. Если что, то поменять на более подходящее
     damageModifierSet: LightArmor
   - type: GuideHelp
     guides:
@@ -157,9 +157,9 @@
     pilotWhitelist:
       components:
         - HumanoidAppearance
-    pilotBlacklist:
-      species:
-      - Felinid
+    # pilotBlacklist:
+    #   species: # Доделать систему с запретом для пилотирования
+    #   - Felinid
     equipmentWhitelist:
       tags:
       - CombatMech

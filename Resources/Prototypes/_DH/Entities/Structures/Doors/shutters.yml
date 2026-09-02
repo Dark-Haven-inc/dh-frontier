@@ -37,7 +37,7 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: Weldable
-    enabled: false
+    isWelded: false
   - type: RadiationBlocker
     enabled: false
   - type: InteractionPopup

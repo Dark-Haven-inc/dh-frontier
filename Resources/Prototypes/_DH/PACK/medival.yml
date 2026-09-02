@@ -5,9 +5,9 @@
   description: Магическая шляпа из лунного шёлка с вкраплениями ярких металлов на полях.
   components:
   - type: Sprite
-    sprite: _DH/Medieval/Clothing/Head/bib_hat.rsi
+    sprite: _DH/Clothing/Head/Hats/bib_hat.rsi
   - type: Clothing
-    sprite: _DH/Medieval/Clothing/Head/bib_hat.rsi
+    sprite: _DH/Clothing/Head/Hats/bib_hat.rsi
 
 - type: entity
   parent: ClothingHandsButcherable
@@ -16,12 +16,12 @@
   description: Украшена изящными извилистыми узорами, что постоянно играют на свету.
   components:
   - type: Sprite
-    sprite: _DH/Clothing/Gloves/bib_gloves.rsi
+    sprite: _DH/Clothing/Hands/Gloves/bib_gloves.rsi
     layers:
     - state: icon
   - type: Item
   - type: Clothing
-    sprite: _DH/Clothing/Gloves/bib_gloves.rsi
+    sprite: _DH/Clothing/Hands/Gloves/bib_gloves.rsi
 
 - type: entity
   parent: ClothingMaskBase
@@ -46,7 +46,7 @@
   description: Полотно позолоченного у кромок лунного шёлка, что принято обвязывать у шеи.
   components:
   - type: Sprite
-    sprite: _DH/Clothing/Cloaks/bib_neck.rsi
+    sprite: _DH/Clothing/Neck/Cloaks/bib_neck.rsi
   - type: Insulated
 
 - type: entity
@@ -56,7 +56,7 @@
   description: Мрачная накидка из шкуры вендиго.
   components:
   - type: Sprite
-    sprite: _DH/Clothing/Cloaks/spookyvendigo.rsi
+    sprite: _DH/Clothing/Neck/Cloaks/spookyvendigo.rsi
   - type: Insulated
   - type: IngestionBlocker
   - type: IdentityBlocker
@@ -117,9 +117,9 @@
   description: Покоцанная пара толстых сапог, протоптавшая не один десяток руин.
   components:
   - type: Sprite
-    sprite: _DH/Clothing/Shoes/bib_boots.rsi
+    sprite: _DH/Clothing/Shoes/Boots/bib_boots.rsi
   - type: Clothing
-    sprite: _DH/Clothing/Shoes/bib_boots.rsi
+    sprite: _DH/Clothing/Shoes/Boots/bib_boots.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -128,9 +128,9 @@
   description: Грубо сшитая, но инкрустированная яркими металлами роба из лунного шёлка.
   components:
   - type: Sprite
-    sprite: _DH/Clothing/ShitCloth/shit_cloth_78.rsi
+    sprite: _DH/Clothing/Uniforms/Costume/shit_cloth_78.rsi
   - type: Clothing
-    sprite: _DH/Clothing/ShitCloth/shit_cloth_78.rsi
+    sprite: _DH/Clothing/Uniforms/Costume/shit_cloth_78.rsi
 
 - type: entity
   id: MedievalBaseTree
@@ -600,7 +600,8 @@
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
           - !type:PlaySoundBehavior
-            sound: _DH/Medieval/ES_Wood_Break_8_-_SFX_Producer.ogg
+            sound:
+              collection: BreakWood
   - type: ExplosionResistance
     damageCoefficient: 3
   - type: Appearance
@@ -624,15 +625,10 @@
 
 - type: construction
   id: MedievalStockade
-  name: деревянный частокол
-  description: На случай, если на стену из дерева не хватает.
   graph: MedievalStockade
   startNode: start
   targetNode: medievalstockade
   category: construction-category-furniture
-  icon:
-    sprite: _DH/Structures/Walls/Medieval/wood_wall_light.rsi
-    state: wall0
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -690,7 +686,8 @@
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
           - !type:PlaySoundBehavior
-            sound: _DH/Medieval/ES_Wood_Break_8_-_SFX_Producer.ogg
+            sound:
+              collection: BreakWood
           - !type:SpawnEntitiesBehavior
             offset: 0.3
             spawn:
@@ -705,15 +702,10 @@
 
 - type: construction
   id: MedievalStockadeHigh
-  name: деревянная стена
-  description: Прочная стена из дерева.
   graph: MedievalStockadeHigh
   startNode: start
   targetNode: medievalstockadeHigh
   category: construction-category-furniture
-  icon:
-    sprite: _DH/Structures/Walls/Medieval/wood_wall_new.rsi
-    state: full
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -870,15 +862,10 @@
 
 - type: construction
   id: WallTentCloth
-  name: стена палатки
-  description: Дешевое укрытие
   graph: WallTentCloth
   startNode: start
   targetNode: WallTentCloth
   category: construction-category-furniture
-  icon:
-    sprite: _DH/Structures/Walls/Medieval/cloth_tent.rsi
-    state: p0
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -923,7 +910,7 @@
     mode: SnapgridCenter
   components:
   - type: Sprite
-    sprite: _DH/Structures/Walls/Medieval/Walls/gates.rsi
+    sprite: _DH/Structures/Walls/Medieval/gates.rsi
     drawdepth: BlastDoors
     layers:
     - state: closed
@@ -1058,15 +1045,10 @@
 
 - type: construction
   id: DoorTentCloth
-  name: дверь палатки
-  description: Простая тканевая шторка для палатки
   graph: DoorTentCloth
   startNode: start
   targetNode: DoorTentCloth
   category: construction-category-furniture
-  icon:
-    sprite: _DH/Structures/Walls/Medieval/cloth_tent.rsi
-    state: closed
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1111,9 +1093,9 @@
   - type: DoorBolt
     #boltsDown: True
     boltUpSound:
-      path: /Audio_DH/Medieval/door_lock1.ogg
+      path: /Audio/_DH/Medieval/door_lock1.ogg
     boltDownSound:
-      path: /Audio_DH/Medieval/door_lock2.ogg
+      path: /Audio/_DH/Medieval/door_lock2.ogg
   - type: InteractionOutline
   - type: Sprite
     netsync: false
@@ -1149,11 +1131,11 @@
     openingAnimationTime: 1.2
     closingAnimationTime: 1.2
     openSound:
-      path: _DH/Medieval/derevyannuyu-dver-zakryili.ogg
+      path: /Audio/_DH/Medieval/derevyannuyu-dver-zakryili.ogg
     closeSound:
-      path: _DH/Medieval/otkryili-steklyannuyu-dver.ogg
+      path: /Audio/_DH/Medieval/otkryili-steklyannuyu-dver.ogg
     denySound:
-      path: _DH/Medieval/lyazg-visyaschego-zamka-na-zakryitoy-dveri.ogg
+      path: /Audio/_DH/Medieval/lyazg-visyaschego-zamka-na-zakryitoy-dveri.ogg
   - type: Appearance
   - type: Airtight
     fixVacuum: true
@@ -1169,7 +1151,8 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
       - !type:PlaySoundBehavior
-        sound: _DH/Medieval/zvuk-vyibivaniya-dveri-24274.ogg
+        sound:
+          collection: BreakDoor
   - type: IconSmooth
     key: walls
     mode: NoSprite
@@ -1180,15 +1163,10 @@
 
 - type: construction
   id: MedievalAirlock
-  name: деревянная дверь
-  description: Простая деревянная дверь.
   graph: MedievalAirlock
   startNode: start
   targetNode: medievalairlock
   category: construction-category-furniture
-  icon:
-    sprite: _DH/Structures/Walls/Medieval/medieval_door.rsi
-    state: closed
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1219,7 +1197,7 @@
               prototype: MaterialWoodPlank
               amount: 10
           steps:
-            - tool: MedievalBlacksmithing
+            - tool: Sawing
               doAfter: 150
 
 - type: entity
@@ -1231,9 +1209,9 @@
   - type: DoorBolt
     #boltsDown: True
     boltUpSound:
-      path: _DH/Medieval/metal_door_lock2.ogg
+      path: /Audio/_DH/Medieval/door_lock2.ogg
     boltDownSound:
-      path: _DH/Medieval/metal_door_lock1.ogg
+      path: /Audio/_DH/Medieval/door_lock1.ogg
   - type: InteractionOutline
   - type: Sprite
     netsync: false
@@ -1272,7 +1250,7 @@
     closeSound:
       path: /Audio/Effects/stonedoor_openclose.ogg
     denySound:
-      path: _DH/Medieval/lyazg-visyaschego-zamka-na-zakryitoy-dveri.ogg
+      path: /Audio/_DH/Medieval/lyazg-visyaschego-zamka-na-zakryitoy-dveri.ogg
   - type: Appearance
   - type: Airtight
     fixVacuum: true
@@ -1288,7 +1266,8 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
       - !type:PlaySoundBehavior
-        sound: _DH/Medieval/zvuk-vyibivaniya-dveri-24274.ogg
+        sound:
+          collection: BreakDoor
   - type: IconSmooth
     key: walls
     mode: NoSprite
@@ -1305,9 +1284,9 @@
   - type: DoorBolt
     #boltsDown: True
     boltUpSound:
-      path: _DH/Medieval/door_lock1.ogg
+      path: /Audio/_DH/Medieval/door_lock1.ogg
     boltDownSound:
-      path: _DH/Medieval/door_lock2.ogg
+      path: /Audio/_DH/Medieval/door_lock2.ogg
   - type: InteractionOutline
   - type: Sprite
     netsync: false
@@ -1342,11 +1321,11 @@
     openingAnimationTime: 1.2
     closingAnimationTime: 1.2
     openSound:
-      path: _DH/Medieval/derevyannuyu-dver-zakryili.ogg
+      path: /Audio/_DH/Medieval/derevyannuyu-dver-zakryili.ogg
     closeSound:
-      path: _DH/Medieval/otkryili-steklyannuyu-dver.ogg
+      path: /Audio/_DH/Medieval/otkryili-steklyannuyu-dver.ogg
     denySound:
-      path: _DH/Medieval/lyazg-visyaschego-zamka-na-zakryitoy-dveri.ogg
+      path: /Audio/_DH/Medieval/lyazg-visyaschego-zamka-na-zakryitoy-dveri.ogg
   - type: Appearance
   - type: Airtight
     fixVacuum: true
@@ -1362,7 +1341,8 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
       - !type:PlaySoundBehavior
-        sound: _DH/Medieval/zvuk-vyibivaniya-dveri-24274.ogg
+        sound:
+          collection: BreakDoor
   - type: IconSmooth
     key: walls
     mode: NoSprite
@@ -1401,7 +1381,7 @@
   - type: SpawnAfterInteract
     prototype: MedievalPrisonGrille
     doAfter: 5
-    deleteOnInteract: true
+    removeOnInteract: true
   - type: Sprite
     sprite: _DH/Structures/Walls/Medieval/stone_wall.rsi
     state: icon
@@ -1412,9 +1392,9 @@
   name: MedievalChest
   components:
   - type: Sprite
-    sprite: _DH/Structures/Storage/Crateschest.rsi
+    sprite: _DH/Structures/Storage/Crates/chest.rsi
   - type: Icon
-    sprite: _DH/Structures/Storage/Crateschest.rsi
+    sprite: _DH/Structures/Storage/Crates/chest.rsi
   - type: Destructible
     thresholds:
     - trigger:
@@ -1423,7 +1403,7 @@
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          path: _DH/Medieval/ES_Wood_Break_8_-_SFX_Producer.ogg
+          collection: BreakWood
       - !type:SpawnEntitiesBehavior
         spawn:
           MaterialWoodPlank1:
@@ -1452,13 +1432,11 @@
 
 - type: construction
   hide: true
-  name: Ящик
   id: CrateLivestockM
   graph: CrateLivestockM
   startNode: start
   targetNode: CrateLivestockM
   category: construction-category-storage
-  description: Деревянный ящик.
   objectType: Structure
 
 - type: constructionGraph
@@ -1494,9 +1472,9 @@
   name: MedievalChest2
   components:
   - type: Sprite
-    sprite: _DH/Structures/Storage/Crateschest2.rsi
+    sprite: _DH/Structures/Storage/Crates/chest2.rsi
   - type: Icon
-    sprite: _DH/Structures/Storage/Crateschest2.rsi
+    sprite: _DH/Structures/Storage/Crates/chest2.rsi
   - type: Destructible
     thresholds:
     - trigger:
@@ -1505,7 +1483,7 @@
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          path: _DH/Medieval/ES_Wood_Break_8_-_SFX_Producer.ogg
+          collection: BreakWood
       - !type:SpawnEntitiesBehavior
         spawn:
           MaterialWoodPlank1:
@@ -1538,9 +1516,9 @@
   name: MedievalChest3
   components:
   - type: Sprite
-    sprite: _DH/Structures/Storage/Crateschest3.rsi
+    sprite: _DH/Structures/Storage/Crates/chest3.rsi
   - type: Icon
-    sprite: _DH/Structures/Storage/Crateschest3.rsi
+    sprite: _DH/Structures/Storage/Crates/chest3.rsi
   - type: Destructible
     thresholds:
     - trigger:
@@ -1549,7 +1527,7 @@
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          path: _DH/Medieval/ES_Wood_Break_8_-_SFX_Producer.ogg
+            collection: BreakWood
       - !type:SpawnEntitiesBehavior
         spawn:
           MaterialWoodPlank1:
@@ -1582,9 +1560,9 @@
   name: MedievalChest4
   components:
   - type: Sprite
-    sprite: _DH/Structures/Storage/Crateschest4.rsi
+    sprite: _DH/Structures/Storage/Crates/chest4.rsi
   - type: Icon
-    sprite: _DH/Structures/Storage/Crateschest4.rsi
+    sprite: _DH/Structures/Storage/Crates/chest4.rsi
   - type: Destructible
     thresholds:
     - trigger:
@@ -1593,7 +1571,7 @@
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          path: _DH/Medieval/ES_Wood_Break_8_-_SFX_Producer.ogg
+          collection: BreakWood
       - !type:SpawnEntitiesBehavior
         spawn:
           MaterialWoodPlank1:
@@ -1620,15 +1598,10 @@
 
 - type: construction
   id: MedievalChest4
-  name: деревянный сундук
-  description: Самый простой сундук.
   graph: MedievalChest4
   startNode: start
   targetNode: MedievalChest4
   category: construction-category-furniture
-  icon:
-    sprite: _DH/Structures/Storage/Crateschest4.rsi
-    state: base
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -1692,11 +1665,9 @@
   footstepSounds:
     collection: FootstepAsteroid
   heatCapacity: 99910000
-  badSmellMod: 1.5
 
 
 - type: tile
-  editorHidden: false
   id: FloorPlanetDirtMedieval
   name: грязь (переход)
   sprite: /Textures/_DH/Tiles/Planet/DirtCP/cavedrought.png
@@ -1735,10 +1706,8 @@
     collection: FootstepAsteroid
   heatCapacity: 999100000
   weather: true
-  badSmellMod: 2
 
 - type: tile
-  editorHidden: false
   id: FloorDirtMedieval
   name: грязь (переход)
   sprite: /Textures/_DH/Tiles/Planet/Dirt/dirt.png
@@ -1765,10 +1734,8 @@
     collection: FootstepAsteroid
   heatCapacity: 999100000
   weather: true
-  badSmellMod: 2
 
 - type: tile
-  editorHidden: false
   id: FloorDesertMedieval
   name: песок (переход)
   sprite: /Textures/_DH/Tiles/Planet/Sand/sand.png
@@ -1796,11 +1763,9 @@
     collection: FootstepSnow #TODO
   heatCapacity: 99910000
   weather: true
-  badSmellMod: 1.5
 
 - type: tile
   id: FloorAstroGrassMedieval
-  editorHidden: false
   name: трава (переход)
   sprite: /Textures/_DH/Tiles/Planet/GrassCP/grass.png
   variants: 6
@@ -1828,11 +1793,9 @@
     collection: FootstepGrass
   heatCapacity: 99910000
   weather: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass2
-  editorHidden: false
   name: трава светлая (переход)
   sprite: /Textures/_DH/Tiles/Planet/GrassLightCP/grass.png
   variants: 6
@@ -1860,11 +1823,9 @@
     collection: FootstepGrass
   heatCapacity: 99910000
   weather: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass1
-  editorHidden: false
   name: трава кислотная (переход)
   sprite: /Textures/_DH/Tiles/Planet/GrassTallCP/grass.png
   variants: 6
@@ -1892,11 +1853,9 @@
     collection: FootstepGrass
   heatCapacity: 99910000
   weather: true
-  badSmellMod: 0
 
 - type: tile
   id: FloorPlanetGrassAutumn
-  editorHidden: false
   name: трава (переход) осень
   sprite: /Textures/_DH/Tiles/Planet/GrassCPAutumn/grass.png
   variants: 6
@@ -1924,11 +1883,9 @@
     collection: FootstepGrass
   heatCapacity: 99910000
   weather: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass2Autumn
-  editorHidden: false
   name: трава светлая (переход) осень
   sprite: /Textures/_DH/Tiles/Planet/GrassLightCPAutumn/grass.png
   variants: 6
@@ -1956,11 +1913,9 @@
     collection: FootstepGrass
   heatCapacity: 99910000
   weather: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass1Autumn
-  editorHidden: false
   name: трава кислотная (переход) осень
   sprite: /Textures/_DH/Tiles/Planet/GrassTallCPAutumn/grass.png
   variants: 6
@@ -1988,7 +1943,6 @@
     collection: FootstepGrass
   heatCapacity: 99910000
   weather: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass3
@@ -2014,14 +1968,13 @@
   deconstructTools: [ Digging ]
   #baseTurf: FloorPlanetDirt
   isSubfloor: true
-  canCrowbar: false
+  # canCrowbar: false
   footstepSounds:
     collection: FootstepGrass
   itemDrop: FloorTileItemGrass
   heatCapacity: 99910000
   weather: true
   indestructible: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass4
@@ -2046,14 +1999,13 @@
   baseTurf: FloorDirt
   deconstructTools: [ Digging ]
   isSubfloor: true
-  canCrowbar: false
+  # canCrowbar: false
   footstepSounds:
     collection: FootstepGrass
   itemDrop: FloorTileItemGrass
   heatCapacity: 99910000
   weather: true
   indestructible: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass5
@@ -2078,14 +2030,13 @@
   baseTurf: FloorDirt
   deconstructTools: [ Digging ]
   isSubfloor: true
-  canCrowbar: false
+  # canCrowbar: false
   footstepSounds:
     collection: FootstepGrass
   itemDrop: FloorTileItemGrass
   heatCapacity: 99910000
   weather: true
   indestructible: true
-  badSmellMod: 1.25
 
 - type: tile
   id: MedievalFloorPlanetGrass6
@@ -2110,14 +2061,13 @@
   baseTurf: FloorDirt
   deconstructTools: [ Digging ]
   isSubfloor: true
-  canCrowbar: false
+  # canCrowbar: false
   footstepSounds:
     collection: FootstepGrass
   itemDrop: FloorTileItemGrass
   heatCapacity: 99910000
   weather: true
   indestructible: true
-  badSmellMod: 1.25
 
 #Water
 
@@ -2191,7 +2141,7 @@
     volume: -13
     range: 2
     sound:
-      path: _DH/Medieval/water.ogg
+      path: /Audio/_DH/Medieval/water.ogg
 
 - type: entity
   id: MedievalWaterDeepDarkEntity
@@ -2213,11 +2163,8 @@
     sprite: _DH/Tiles/Planet/water_new.rsi
     drawdepth: Overdoors
   - type: MovementSpeedModifier
-    walkSpeedModifier: 0.25
-    sprintSpeedModifier: 0.25
-    ignoreWhitelist:
-      tags:
-      - Lamian
+    baseWalkSpeed: 0.25
+    baseSprintSpeed: 0.25
   - type: Physics
     bodyType: Static
   - type: Fixtures

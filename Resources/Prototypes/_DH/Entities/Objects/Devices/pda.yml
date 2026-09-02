@@ -93,3 +93,23 @@
   - type: Icon
     sprite: _DH/Objects/Devices/pda.rsi
     state: pda-space-prison-boss
+
+
+- type: entity
+  parent: BasePDA
+  id: MercenaryPDAEmpty
+  name: mercenary PDA
+  description: This PDA smells of war.
+  components:
+  - type: Pda
+    id: MercenaryIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-mercenary
+  - type: PdaBorderColor
+    borderColor: "#717059"
+    accentVColor: "#A32D26"
+  - type: Icon
+    state: pda-mercenary

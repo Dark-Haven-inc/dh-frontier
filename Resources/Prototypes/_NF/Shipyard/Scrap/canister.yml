@@ -7,7 +7,7 @@
   parent: BaseVessel
   name: UAC Canister
   description: Whatever you're bringing, it won't fit. Seats two. Gravity included.
-  price: 11750 #8000 #DH Shuttle price balance
+  price: 7014 #8000 #DH Shuttle price balance
   category: Micro
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/canister.yml

@@ -4831,7 +4831,7 @@ entities:
     - type: Transform
       pos: 1.5,-1.5
       parent: 1
-- proto: SubstationBasic
+- proto: SubstationWallBasic
   entities:
   - uid: 563
     components:

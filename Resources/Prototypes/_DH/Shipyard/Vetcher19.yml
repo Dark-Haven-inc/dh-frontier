@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: Vetcher-19
   description: Собранный из развалин все еще не потерял возможность летать и это его единственный плюс.
-  price: 23365 #overpriced but ignoring for now. Dusto
+  price: 24121 #overpriced but ignoring for now. Dusto
   limit: 3
   category: Small
   group: Scrap

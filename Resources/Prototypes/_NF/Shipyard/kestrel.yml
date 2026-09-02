@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NC Kestrel
   description: Этот судно, ранее использовавшееся в качестве грузового судна на местных судоходных маршрутах, было переоборудовано для использования в работах по добыче обломков и спасательных операциях.
-  price: 162030 # ~41754 0.06 44259.24
+  price: 46124 # ~41754 0.06 44259.24
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/kestrel.yml

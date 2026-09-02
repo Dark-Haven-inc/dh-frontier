@@ -427,7 +427,7 @@
   position: 3, 5
 
 - type: technology
-  id: GravityManipulation
+  id: GravityManipulationTetherGun
   name: research-technology-gravity-manipulation
   entityIcon: WeaponTetherGun
   discipline: NFScience
@@ -438,7 +438,7 @@
   position: 7, 4
 
 - type: technology
-  id: GravityManipulation
+  id: GravityManipulationForceFun
   name: research-technology-gravity-manipulation
   entityIcon: WeaponForceGun
   discipline: NFScience
@@ -1426,7 +1426,7 @@
 
 - type: technology
   id: DHPowerCellHyper
-  name: Hyper power cells
+  name: title-hyper-power-cells
   entityIcon: PowerCellMicroreactor
   discipline: NFEngineering
   tier: 1
@@ -1923,7 +1923,7 @@
 
 - type: technology
   id: DHSecurityBorgModules
-  name: Security Borg Modules
+  name: title-security-borg-modules
   entityIcon: BorgModuleSecurity
   discipline: NFArsenalNfsd
   tier: 1

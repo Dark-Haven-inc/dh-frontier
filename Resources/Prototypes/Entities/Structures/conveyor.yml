@@ -83,9 +83,9 @@
   - type: Sprite
     sprite: Structures/conveyor.rsi
     state: conveyor_loose
-  - type: Construction #DH
-    graph: ConveyorGraph
-    node: item
+  # - type: Construction #DH
+  #   graph: ConveyorGraph
+  #   node: item
   - type: StaticPrice
     price: 40
 

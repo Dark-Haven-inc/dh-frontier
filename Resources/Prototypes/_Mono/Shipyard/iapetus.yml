@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: TSF-SKR Iapetus
   description: Базовый исследовательский корабль для изучения артефактов с минимальным вооружением.
-  price: 155320
+  price: 41469
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/iapetus.yml

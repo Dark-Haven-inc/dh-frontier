@@ -8,7 +8,7 @@
   name: Тиния
   description: Корабль-станция Тиния, предпочтителен для большой команды, в наличии Бар, Кухня, Ботаника.
   limit: 2
-  price: 518000 #134500 #DH Shuttle price balance
+  price: 119053 #134500 #DH Shuttle price balance
   category: Large
   group: Shipyard # Lua ShipyardLarge<Shipyard
   class:

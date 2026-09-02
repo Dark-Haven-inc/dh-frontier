@@ -13,7 +13,6 @@
   icon:
     sprite: _DH/Structures/Machines/server.rsi
     state: server
-    state: variant-shiparmory
   product: ShiparmoryResearchAndDevelopmentServerFlatpack
   cost: 16450
   category: Корабельное вооружение

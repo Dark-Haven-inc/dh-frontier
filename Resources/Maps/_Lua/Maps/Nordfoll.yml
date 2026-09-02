@@ -49701,7 +49701,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2595.7307376
-      storeEntity: invalid
+      # storeEntity: invalid
     - type: InsideEntityStorage
   - uid: 63
     mapInit: true
@@ -49775,7 +49775,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2772.8638938
-      storeEntity: invalid
+      # storeEntity: invalid
     - type: InsideEntityStorage
   - uid: 85
     mapInit: true
@@ -49849,7 +49849,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2773.7305596
-      storeEntity: invalid
+      # storeEntity: invalid
     - type: InsideEntityStorage
   - uid: 107
     mapInit: true
@@ -49923,7 +49923,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2777.1972228
-      storeEntity: invalid
+      # storeEntity: invalid
     - type: InsideEntityStorage
   - uid: 129
     mapInit: true
@@ -49997,7 +49997,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2779.3972206
-      storeEntity: invalid
+      # storeEntity: invalid
     - type: InsideEntityStorage
   - uid: 154
     mapInit: true
@@ -50070,7 +50070,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2593.4640731
-      storeEntity: invalid
+      # storeEntity: invalid
   - uid: 175
     mapInit: true
     paused: true
@@ -50142,7 +50142,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2781.2638854
-      storeEntity: invalid
+      # storeEntity: invalid
 - proto: CircuitImprinter
   entities:
   - uid: 7585
@@ -50704,69 +50704,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -64.5,-11.5
       parent: 1
-- proto: ClothingBackpackDuffelArcadia
-  entities:
-  - uid: 7638
-    components:
-    - type: Transform
-      anchored: True
-      pos: -26.5,57.5
-      parent: 1
-    - type: Storage
-      storedItems:
-        7641:
-          position: 3,2
-          _rotation: North
-        7642:
-          position: 6,0
-          _rotation: South
-        7639:
-          position: 6,3
-          _rotation: South
-        7643:
-          position: 0,0
-          _rotation: South
-        7640:
-          position: 0,4
-          _rotation: East
-    - type: ContainerContainer
-      containers:
-        storagebase: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 7641
-          - 7642
-          - 7639
-          - 7643
-          - 7640
-    - type: UserInterface
-      actors:
-        enum.StorageUiKey.Key:
-        - invalid
-    - type: Physics
-      canCollide: False
-      bodyType: Static
-    - type: GroupExamine
-      group:
-      - hoverMessage: ""
-        contextText: verb-examine-group-other
-        icon: /Textures/Interface/examine-star.png
-        components:
-        - Armor
-        - ClothingSpeedModifier
-        entries:
-        - message: >-
-            Обеспечивает следующую защиту:
-
-            - [color=orange]Взрывной[/color] урон [color=white]к содержимому[/color] снижается на [color=lightblue]10%[/color].
-          priority: 0
-          component: Armor
-        - message: Понижает вашу скорость бега на [color=yellow]10%[/color].
-          priority: 0
-          component: ClothingSpeedModifier
-        title: null
-    - type: ActiveUserInterface
 - proto: ClothingBackpackDuffelSurgeryAdvancedFilled
   entities:
   - uid: 7644
@@ -50796,22 +50733,6 @@ entities:
     - type: Physics
       canCollide: False
       bodyType: Static
-- proto: ClothingBackpackDuffelSyndicateCostumeClown
-  entities:
-  - uid: 7647
-    components:
-    - type: Transform
-      anchored: True
-      pos: -43.5,-60.5
-      parent: 1
-    - type: UserInterface
-      actors:
-        enum.StorageUiKey.Key:
-        - invalid
-    - type: Physics
-      canCollide: False
-      bodyType: Static
-    - type: ActiveUserInterface
 - proto: ClothingBackpackDuffelSyndicateEliteHardsuitBundle
   entities:
   - uid: 196
@@ -50899,7 +50820,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2546.7307866
-      storeEntity: invalid
+      # storeEntity: invalid
 - proto: ClothingBackpackDuffelSyndicateFilledMedical
   entities:
   - uid: 7648
@@ -51085,14 +51006,6 @@ entities:
     - type: Transform
       pos: -36.508293,52.6143
       parent: 1
-- proto: ClothingEyesArcadiaVisor
-  entities:
-  - uid: 7639
-    components:
-    - type: Transform
-      parent: 7638
-    - type: Physics
-      canCollide: False
 - proto: ClothingEyesGlassesOutlawGlasses
   entities:
   - uid: 7672
@@ -51135,15 +51048,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2740.663926
-      storeEntity: invalid
-- proto: ClothingHandsGlovesArcadiaCombat
-  entities:
-  - uid: 7640
-    components:
-    - type: Transform
-      parent: 7638
-    - type: Physics
-      canCollide: False
+      # storeEntity: invalid
 - proto: ClothingHandsGlovesCombat
   entities:
   - uid: 35
@@ -51299,7 +51204,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 2564.664102
-      storeEntity: invalid
+      # storeEntity: invalid
     - type: InsideEntityStorage
 - proto: ClothingHandsGlovesNitrile
   entities:
@@ -51536,14 +51441,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingOuterCoatArcadiaTrench
-  entities:
-  - uid: 7641
-    components:
-    - type: Transform
-      parent: 7638
-    - type: Physics
-      canCollide: False
 - proto: ClothingOuterHardsuitSyndieElite
   entities:
   - uid: 199
@@ -51665,14 +51562,6 @@ entities:
     - type: Transform
       pos: -54.48932,1.3279842
       parent: 1
-- proto: ClothingUniformJumpskirtArcadia
-  entities:
-  - uid: 7642
-    components:
-    - type: Transform
-      parent: 7638
-    - type: Physics
-      canCollide: False
 - proto: ClothingUniformJumpskirtTacticalMaid
   entities:
   - uid: 7681
@@ -51697,14 +51586,6 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: ClothingUniformJumpsuitArcadia
-  entities:
-  - uid: 7643
-    components:
-    - type: Transform
-      parent: 7638
-    - type: Physics
-      canCollide: False
 - proto: ClothingUniformJumpsuitColorRed
   entities:
   - uid: 7711
@@ -94492,7 +94373,7 @@ entities:
       fingerprints: []
     - type: StoreRefund
       boughtTime: 13164.5868354
-      storeEntity: invalid
+      # storeEntity: invalid
 - proto: KitchenKnife
   entities:
   - uid: 14008

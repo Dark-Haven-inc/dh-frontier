@@ -46,7 +46,7 @@
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: nitrogen_liquid # Frontier red<nitrogen_liquid
   product: LiquidNitrogenCanister
-  cost: 2800
+  cost: 4000 # DH-Tweak
   category: cargoproduct-category-name-atmospherics
   group: market
 

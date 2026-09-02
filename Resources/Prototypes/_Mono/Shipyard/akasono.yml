@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: SKR Akasono
   description: A small entry-level gas deposit mining ship.
-  price: 538250
+  price: 34573
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/akasono.yml

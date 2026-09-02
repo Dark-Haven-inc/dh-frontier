@@ -120,26 +120,12 @@
   components:
   - type: StorageFill
     contents:
-      - id: ClothingHandsGlovesLeather
       # - id: ClothingOuterApronBotanist
       # - id: ClothingHeadBandBotany
-      - id: ChemistryBottleRobustHarvest
-        prob: 0.2
-      - id: ChemistryBottleEZNutrient
-        prob: 0.2
-      - id: ClothingBeltPlant
-        prob: 0.1
       - id: ClothingBeltPlantFilled # Frontier
       - id: PlantBag ##Some maps don't have nutrivend
-      - id: PlantAnalyzer
-        prob: 0.05
       - id: BoxMouthSwab
       - id: Dropper
-      - id: HandLabeler
-        prob: 0.4
-      #- id: ClothingUniformOveralls # Frontier
-      - id: ClothingHeadHatTrucker # Frontier
-        prob: 0.1
 
 - type: entity
   id: LockerBotanistLoot

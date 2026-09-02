@@ -4819,7 +4819,7 @@ entities:
     - type: Transform
       pos: -2.5,-2.5
       parent: 2
-- proto: SubstationBasic
+- proto: SubstationWallBasic
   entities:
   - uid: 369
     components:

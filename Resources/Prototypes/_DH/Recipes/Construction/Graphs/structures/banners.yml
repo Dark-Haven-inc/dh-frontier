@@ -26,9 +26,9 @@
             - material: Cloth
               amount: 2
               doAfter: 1
-            - material: bluespace
-              amount: 1
-              doAfter: 2
+            # - material: MaterialBluespace # DH Доделать
+            #   amount: 1
+            #   doAfter: 2
 
     - node: BannerWhiteNode
       entity: BannerWhite

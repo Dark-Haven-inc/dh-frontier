@@ -21,6 +21,9 @@
     state: bluespacebag
   - type: EntityStorage
     capacity: 50
+  - type: Tag
+    tags:
+      - BodyBagBluespaceTag
 
 - type: entity
   parent: BodyBagBluespace
@@ -85,6 +88,9 @@
     state: prisonerbag
   - type: EntityStorage
     capacity: 1
+  - type: Tag
+    tags:
+      - BodyBagPrisoner
 
 - type: entity
   parent: BodyBagPrisoner
@@ -174,9 +180,10 @@
     layers:
       - state: box
       - state: bodybags
+  - type: Storage
     whitelist:
       tags:
-        - BodyBag
+        - BodyBagBluespaceTag
 
 - type: entity
   parent: BoxCardboard
@@ -192,9 +199,10 @@
     layers:
       - state: box
       - state: bodybags
+  - type: Storage
     whitelist:
       tags:
-        - BodyBag
+        - BodyBagNanoTrasenTag
 
 - type: entity
   parent: BoxCardboard
@@ -210,9 +218,10 @@
     layers:
       - state: box
       - state: bodybags
+  - type: Storage
     whitelist:
       tags:
-        - BodyBag
+        - BodyBagPrisoner
 
 - type: entity
   parent: BoxCardboard
@@ -228,9 +237,10 @@
     layers:
       - state: box
       - state: bodybags
+  - type: Storage
     whitelist:
       tags:
-        - BodyBag
+        - BodyBagRadiation
 
 - type: entity
   parent: BoxCardboard
@@ -246,9 +256,10 @@
     layers:
       - state: box_of_doom
       - state: bodybags
+  - type: Storage
     whitelist:
       tags:
-        - BodyBag
+        - BodyBagSyndicate
 
 - type: entity
   name: bluespace pill canister

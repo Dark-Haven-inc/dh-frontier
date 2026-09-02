@@ -190,8 +190,8 @@
   - type: AccessReader
     access: [["HeadOfSecurity"], ["HeadOfPersonnel"]]
   - type: DeviceNetwork
-    receiveFrequencyId: TurretFrontier
-    transmitFrequencyId: TurretControlFrontier
+    receiveFrequencyId: TurretControl
+    transmitFrequencyId: TurretControlAI
 
 - type: entity
   parent: WeaponEnergyTurretStationControlPanelBase #DH

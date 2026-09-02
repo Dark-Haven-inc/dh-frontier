@@ -2,7 +2,7 @@
 
 - type: technology
   id: tracking
-  name: Слежка
+  name: title-surveillance
   entityIcon: Binoculars
   discipline: NFArsenalMercenary
   tier: 2
@@ -20,7 +20,7 @@
 
 - type: technology
   id: painting
-  name: Покраска
+  name: title-painting
   entityIcon: SprayPainter
   discipline: NFService
   tier: 1
@@ -36,7 +36,7 @@
 
 - type: technology
   id: AdvancedPainting
-  name: Улучшенная покраска
+  name: title-painting-update
   entityIcon: SprayPainterAdvanced
   discipline: NFService
   tier: 1
@@ -50,7 +50,7 @@
 
 - type: technology
   id: ExperementalPainting
-  name: Эксперементальная покраска
+  name: title-painting-experemental
   entityIcon: SprayPainterExperemental
   discipline: NFService
   tier: 1

@@ -2202,12 +2202,6 @@
     state: dispenser
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
-    #DH
-    soundVend:
-      path: /Audio/_DH/Items/GasTanks/remove.ogg
-      params:
-        volume: -3
-    #DH
 
 - type: entity
   parent: VendingMachine

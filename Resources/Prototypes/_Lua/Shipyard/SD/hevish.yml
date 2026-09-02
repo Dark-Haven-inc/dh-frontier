@@ -7,7 +7,7 @@
    id: Hevish
    name: Хевиш
    description: Линкор Lua Technologies, упрощенная версия корабля LuaTech, оснащенная только самым необходимым, рекомендуемый экипаж 10 человек, требует сопровождения Эсминцем Хаяр.
-   price: 1340250 #130600 #DH Shuttle price balance #1130092 # Lua (minimal on test 994074) #DH Shuttle price balance
+   price: 946338 #130600 #DH Shuttle price balance #1130092 # Lua (minimal on test 994074) #DH Shuttle price balance
    category: Large
    marker: LuaTech
    group: Security

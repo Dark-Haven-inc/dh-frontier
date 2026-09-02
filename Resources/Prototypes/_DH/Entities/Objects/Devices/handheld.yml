@@ -179,9 +179,6 @@
   - type: HealthAnalyzer
     scanningEndSound:
       path: "/Audio/Items/Medical/healthscanner.ogg"
-    damageContainers:
-    - Synth
-    - Silicon
   - type: Tag
     tags:
     - DiscreteHealthAnalyzer
@@ -241,10 +238,10 @@
     state: mecha_analyzer
     layers:
     - state: mecha_analyzer
-    - state: mecha_analyzer_anim
-      shader: unshaded
-      visible: true
-      map: [ "enum.PowerDeviceVisualLayers.Powered" ]
+    # - state: mecha_analyzer_anim # Fix error: нет такого спрайта
+    #   shader: unshaded
+    #   visible: true
+    #   map: [ "enum.PowerDeviceVisualLayers.Powered" ]
   - type: Item
     storedRotation: -90
   - type: ActivatableUI
@@ -256,8 +253,6 @@
   - type: HealthAnalyzer
     scanningEndSound:
       path: "/Audio/Items/Medical/healthscanner.ogg"
-    damageContainers:
-    - Mech
   - type: Tag
     tags:
     - DiscreteHealthAnalyzer
@@ -289,10 +284,10 @@
     state: mecha_analyzer
     layers:
     - state: mecha_analyzer
-    - state: mecha_analyzer_anim
-      shader: unshaded
-      visible: false
-      map: [ "enum.PowerDeviceVisualLayers.Powered" ]
+    # - state: mecha_analyzer_anim # Fix error: нет такого спрайта
+    #   shader: unshaded
+    #   visible: false
+    #   map: [ "enum.PowerDeviceVisualLayers.Powered" ]
   - type: ItemSlots
     slots:
       cell_slot:
@@ -371,8 +366,6 @@
       visible: true
       map: [ "enum.PowerDeviceVisualLayers.Powered" ]
   - type: AtmosAlertsComputer
-    beepSound:
-      path: /Audio/_DH/Effects/beeps.ogg
   - type: ActivatableUI
     singleUser: true
     key: enum.AtmosAlertsComputerUiKey.Key

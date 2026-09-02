@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: DYS Dragonfly
   description: Highly modular salvaging vessel welded together from smaller re-purposed hulls.
-  price: 298900 # 69747 0.2 83696.4
+  price: 75205 # 69747 0.2 83696.4
   category: Medium
   group: Expedition
   shuttlePath: /Maps/_NF/Shuttles/Expedition/dragonfly.yml

@@ -6,7 +6,7 @@
     shoes: ADTClothingHandsSupremeCommanderBoots
     gloves: ADTClothingHandsSupremeCommanderGloves
     eyes: ADTClothingEyesSupremeCommanderGlass
-    belt: ADTClothingBeltSupremeCommanderSheathFilled
+    belt: ADTClothingBeltSupremeCommanderSheath # Если будет пустая, то заполнить
     neck: ADTClothingNeckSupremeCommanderCloak
     id: UniversalIDCard
     ears: ClothingHeadsetAltCentCom

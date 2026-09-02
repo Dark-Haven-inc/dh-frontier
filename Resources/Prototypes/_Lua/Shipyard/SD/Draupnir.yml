@@ -8,7 +8,7 @@
   name: SD Draupnir
   description: Медицинский корабль департамента Шерифа
   limit: 2
-  price: 337800 #100000
+  price: 148287 #100000
   category: Medium
   group: Security
   class:

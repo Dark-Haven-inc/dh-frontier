@@ -341,7 +341,7 @@
   description: A machine printed circuit board for a reagent grinder.
   components:
     - type: MachineBoard
-      prototype: ADTAdvancedKitchenReagentGrinder
+      prototype: KitchenReagentGrinder # ADTAdvancedKitchenReagentGrinder -> KitchenReagentGrinder
       stackRequirements:
         MatterBin: 2
         Manipulator: 4

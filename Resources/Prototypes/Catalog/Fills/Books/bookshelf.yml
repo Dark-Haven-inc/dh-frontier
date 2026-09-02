@@ -20,12 +20,12 @@
     # Guidebooks
     - !type:NestedSelector
       rolls: !type:RangeNumberSelector
-        range: 0, 3 #DH
+        range: 0, 2
       tableId: RandomGuidebookTable
     # Handwritten books
     - !type:NestedSelector
       rolls: !type:RangeNumberSelector
-        range: 0, 4 #DH
+        range: 0, 3
       tableId: RandomHandwrittenBookTable
 
 - type: entityTable
@@ -81,7 +81,6 @@
     - id: BookSpaceEncyclopedia
     - id: NFHyperlinkBookSpaceLaw # Frontier: BookSpaceLaw<NFHyperlinkBookSpaceLaw
     - id: BookTheBookOfControl
-    - id: BookStationsAndAgents #DH
 
 - type: entityTable
   id: RandomBookTable

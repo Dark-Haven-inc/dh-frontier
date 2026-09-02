@@ -5,7 +5,7 @@
   - StationEngineerJumpsuit
   - StationEngineerBackpack
   - StationEngineerOuterClothing
-  - TrinketsEngineering
+  # - TrinketsEngineering # Смотреть примечания для этой группы по пути - Resources\Prototypes\_DH\Loadouts\loadout_groups.yml
   - Trinkets
   - SurvivalExtended
   - GroupSpeciesBreathTool
@@ -50,7 +50,7 @@
    - PrisonGuardJumpsuit
    - NfsdGlovesBrown #
    - NfsdBackpackBrown
-   - PrisonGuardOuterClothing
+  #  - PrisonGuardOuterClothing # Смотреть примечания для этой группы по пути - Resources\Prototypes\_DH\Loadouts\loadout_groups.yml
    - NfsdForcedOuterClothing
    - NfsdShoesBrown
    - NfsdFace
@@ -58,7 +58,7 @@
    - NfsdBelt
    - NfsdEarsGreen
    - NfsdBoxSurvival
-   - PrisonGuardPDA #
+   - PrisonGuardPDA
    - ContractorWallet
    - ContractorCartridge
    - ContractorImplanter
@@ -78,7 +78,7 @@
    - PrisonGuardJumpsuit
    - PrisonGuardGloves
    - PrisonGuardBackpack
-   - PrisonGuardOuterClothing
+  #  - PrisonGuardOuterClothing # Смотреть примечания для этой группы по пути Resources\Prototypes\_DH\Loadouts\Jobs\all.yml
    - NfsdForcedOuterClothing
    - PrisonGuardShoes
    - NfsdFace

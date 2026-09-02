@@ -7,4 +7,3 @@
   components:
     - type: SurveillanceCameraRouter
       subnetFrequency: SurveillanceCameraHandheld
-      subnetColor: "#DE20AA"

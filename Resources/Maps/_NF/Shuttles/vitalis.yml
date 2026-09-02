@@ -4580,7 +4580,7 @@ entities:
     - type: Transform
       pos: 5.5,7.5
       parent: 1
-- proto: SubstationBasic
+- proto: SubstationWallBasic
   entities:
   - uid: 172
     components:

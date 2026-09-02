@@ -19163,7 +19163,7 @@ entities:
       releasePressure: 1013.25
     - type: Lock
       locked: False
-- proto: SubstationBasic
+- proto: SubstationWallBasic
   entities:
   - uid: 2885
     components:

@@ -7,7 +7,7 @@
   cost:
     Speso: 7600
   categories:
-    - UplinkClothing
+    - UplinkClothingUniform
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:

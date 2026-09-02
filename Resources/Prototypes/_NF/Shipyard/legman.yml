@@ -13,11 +13,11 @@
   parent: BaseVessel
   name: LVHI Legman
   description: A small maneuverable shuttle with low operational costs for reporters who want to be first on a scene. Manufactured by Langstad-Voigt Heavy Industries.
-  price: 42700 # 10675 0.05 11208.75 temporarily very expensive until a more robust version can be made, at present it's an obscene cheap shuttle with a broadcaster.
+  price: 12823 # 10675 0.05 11208.75 temporarily very expensive until a more robust version can be made, at present it's an obscene cheap shuttle with a broadcaster.
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/legman.yml
-  guidebookPage: ShipyardLegman
+  guidebookPage: ShipyardLoader # ShipyardLegman -> ShipyardLoader. Пока что не существует гайда, либо у него другое id, поэтому поставлю заглушку
   class:
   - Civilian
   engine:

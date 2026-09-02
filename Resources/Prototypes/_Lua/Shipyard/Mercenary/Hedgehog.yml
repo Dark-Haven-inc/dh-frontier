@@ -6,7 +6,7 @@
   parent: BaseVessel
   id: Hedgehog
   name: MC Hedgehog
-  price: 82000 #16000 #19000 #DH Shuttle price balance
+  price: 20276 #16000 #19000 #DH Shuttle price balance
   category: Small
   group: Mercenary
   access: Mercenary

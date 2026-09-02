@@ -26,3 +26,6 @@ genpop-locket-ui-button-done = Готово (запереть шкаф)
 genpop-locker-action-end-early = Открыть досрочно
 genpop-locker-action-clear-id = Отчистить ID
 genpop-locker-action-reset-sentence = Сбросить преступление  ({NATURALFIXED($percent, 0)}% отбыл)
+
+station-subtext = zzzz
+station-description = zzz

@@ -40,6 +40,12 @@
     },
     {
       "name": "zero"
+    },
+    {
+      "name": "genpop"
+    },
+    {
+      "name": "rent"
     }
   ]
 }

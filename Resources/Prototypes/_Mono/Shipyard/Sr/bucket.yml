@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: Bucket
   description: The janitorial wing of the combined service ship.
-  price: 519017
+  price: 18938
   category: Small
   group: Sr
   access: Janitor

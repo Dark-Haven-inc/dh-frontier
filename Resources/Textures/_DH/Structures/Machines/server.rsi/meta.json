@@ -11,9 +11,6 @@
             "name": "server"
         },
         {
-            "name": "server-shiparmory"
-        },
-        {
             "name": "server-nopower"
         },
         {
@@ -45,6 +42,9 @@
         },
         {
             "name": "variant-prison"
+        },
+        {
+            "name": "variant-shiparmory"
         },
         {
             "name": "variant-syndicate"

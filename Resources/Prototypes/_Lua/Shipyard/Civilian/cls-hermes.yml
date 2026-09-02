@@ -7,7 +7,7 @@
   parent: BaseVessel
   name: CLS-Hermes
   description: утилизаторское судно для промышленной горно и газодобычи. Производитель - Nakamura Engineering
-  price: 381350 #95450 #DH Shuttle price balance #83000 x 1,15
+  price: 84554 #95450 #DH Shuttle price balance #83000 x 1,15
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_Lua/Shuttles/Civilian/cls-hermes.yml

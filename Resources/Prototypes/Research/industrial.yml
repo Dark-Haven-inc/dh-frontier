@@ -255,7 +255,7 @@
 
 - type: technology
   id: RapidConstruction
-  name: research-technology-rapid-construction
+  name: dh-research-technology-rapid-construction
   icon:
     sprite: _NF/Objects/Tools/rcd.rsi
     state: icon-shipyard # Frontier

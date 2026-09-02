@@ -6,7 +6,7 @@
   parent: BaseVessel
   id: Caretaker
   name: MC Caretaker
-  price: 200355 #54150 #64000 #DH Shuttle price balance
+  price: 45595 #54150 #64000 #DH Shuttle price balance
   category: Small
   group: Mercenary
   access: Mercenary

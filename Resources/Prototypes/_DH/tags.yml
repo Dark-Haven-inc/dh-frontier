@@ -46,6 +46,45 @@
 - type: Tag
   id: NAMEFuel
 
+- type: Tag
+  id: BluespaceBox
+
+- type: Tag
+  id: BodyBagBluespaceTag
+
+- type: Tag
+  id: BodyBagNanoTrasenTag
+
+- type: Tag
+  id: BodyBagPrisoner
+
+- type: Tag
+  id: BodyBagRadiation
+
+- type: Tag
+  id: BodyBagSyndicate
+
+- type: Tag
+  id: SpacePrisonerGreyUniform
+
+- type: Tag
+  id: NFBlueprintServiceTechfab
+
+- type: Tag
+  id: NFBlueprintEngineeringTechfab
+
+- type: Tag
+  id: NTUplink
+
+- type: Tag
+  id: Steel
+
+- type: Tag
+  id: ClothingUplink
+
+- type: Tag
+  id: Felinid
+
 #ADT
 - type: Tag
   id: ADTCartridgeBibis # Обычне
@@ -79,3 +118,6 @@
 
 - type: Tag
   id: DHMaintInterior
+
+- type: Tag
+  id: ADTPatch

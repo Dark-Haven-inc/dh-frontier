@@ -6,7 +6,7 @@
   id: ADTDeconstruct
   name: rpd-component-deconstruct
   category: Main
-  sprite: /Textures/_DH/Interface/Radial/RPD/deconstruct.png
+  sprite: /Textures/_DH/interface/Radial/RPD/deconstruct.png
   mode: Deconstruct
   prototype: EffectRCDDeconstructPreview
   rotation: Camera
@@ -15,7 +15,7 @@
   id: ADTFireAlarm
   name: rpd-component-FireAlarm
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/FireAlarm.png
+  sprite: /Textures/_DH/interface/Radial/RPD/FireAlarm.png
   mode: ConstructObject
   prototype: FireAlarm
   cost: 1
@@ -30,7 +30,7 @@
   id: ADTGasPipeBend
   name: rpd-component-GasPipeBend
   category: Gaspipes
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasPipeBend.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasPipeBend.png
   mode: ConstructObject
   prototype: GasPipeBend
   cost: 2
@@ -47,7 +47,7 @@
   id: ADTGasPipeStraight
   name: rpd-component-GasPipeStraight
   category: Gaspipes
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasPipeStraight.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasPipeStraight.png
   mode: ConstructObject
   prototype: GasPipeStraight
   cost: 2
@@ -64,7 +64,7 @@
   id: ADTGasPipeHalf
   name: rpd-component-GasPipeHalf
   category: Gaspipes
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasPipeHalf.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasPipeHalf.png
   mode: ConstructObject
   prototype: GasPipeHalf
   cost: 2
@@ -81,7 +81,7 @@
   id: ADTGasPipeFourway
   name: rpd-component-GasPipeFourway
   category: Gaspipes
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasPipeFourway.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasPipeFourway.png
   mode: ConstructObject
   prototype: GasPipeFourway
   cost: 4
@@ -98,7 +98,7 @@
   id: ADTGasPipeTJunction
   name: rpd-component-GasPipeTJunction
   category: Gaspipes
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasPipeTJunction.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasPipeTJunction.png
   mode: ConstructObject
   prototype: GasPipeTJunction
   cost: 3
@@ -115,7 +115,7 @@
   id: ADTGasPressurePump
   name: rpd-component-GasPressurePump
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasPressurePump.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasPressurePump.png
   mode: ConstructObject
   prototype: GasPressurePump
   cost: 2
@@ -129,7 +129,7 @@
   id: ADTGasMixer
   name: rpd-component-GasMixer
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasMixer.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasMixer.png
   mode: ConstructObject
   prototype: GasMixer
   cost: 3
@@ -143,7 +143,7 @@
   id: ADTGasMixerFlipped
   name: rpd-component-GasMixerFlipped
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasMixerFlipped.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasMixerFlipped.png
   mode: ConstructObject
   prototype: GasMixerFlipped
   cost: 3
@@ -157,7 +157,7 @@
   id: ADTGasFilter
   name: rpd-component-GasFilter
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasFilter.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasFilter.png
   mode: ConstructObject
   prototype: GasFilter
   cost: 3
@@ -171,7 +171,7 @@
   id: ADTGasFilterFlipped
   name: rpd-component-GasFilterFlipped
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasFilterFlipped.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasFilterFlipped.png
   mode: ConstructObject
   prototype: GasFilterFlipped
   cost: 3
@@ -185,7 +185,7 @@
   id: ADTGasVolumePump
   name: rpd-component-GasVolumePump
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasVolumePump.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasVolumePump.png
   mode: ConstructObject
   prototype: GasVolumePump
   cost: 3
@@ -199,7 +199,7 @@
   id: ADTGasPassiveVent
   name: rpd-component-GasPassiveVent
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasPassiveVent.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasPassiveVent.png
   mode: ConstructObject
   prototype: GasPassiveVent
   cost: 4
@@ -213,7 +213,7 @@
   id: ADTGasOutletInjector
   name: rpd-component-GasOutletInjector
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasOutletInjector.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasOutletInjector.png
   mode: ConstructObject
   prototype: GasOutletInjector
   cost: 4
@@ -227,7 +227,7 @@
   id: ADTGasVentPump
   name: rpd-component-GasVentPump
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasVentPump.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasVentPump.png
   mode: ConstructObject
   prototype: GasVentPump
   cost: 4
@@ -241,7 +241,7 @@
   id: ADTGasValve
   name: rpd-component-GasValve
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasValve.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasValve.png
   mode: ConstructObject
   prototype: GasValve
   cost: 4
@@ -255,7 +255,7 @@
   id: ADTGasVentScrubber
   name: rpd-component-GasVentScrubber
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasVentScrubber.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasVentScrubber.png
   mode: ConstructObject
   prototype: GasVentScrubber
   cost: 4
@@ -269,7 +269,7 @@
   id: ADTAtmosDeviceFanTiny
   name: rpd-component-AtmosDeviceFanTiny
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/AtmosDeviceFanTiny.png
+  sprite: /Textures/_DH/interface/Radial/RPD/AtmosDeviceFanTiny.png
   mode: ConstructObject
   prototype: ADTAtmosDeviceFanRPD
   cost: 6
@@ -285,7 +285,7 @@
   id: ADTGasPassiveGate
   name: rpd-component-GasPassiveGate
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasPassiveGate.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasPassiveGate.png
   mode: ConstructObject
   prototype: GasPassiveGate
   cost: 4
@@ -299,7 +299,7 @@
   id: ADTGasDualPortVentPump
   name: rpd-component-GasDualPortVentPump
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasDualPortVentPump.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasDualPortVentPump.png
   mode: ConstructObject
   prototype: GasDualPortVentPump
   cost: 4
@@ -313,7 +313,7 @@
   id: ADTPressureControlledValve
   name: rpd-component-PressureControlledValve
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/PressureControlledValve.png
+  sprite: /Textures/_DH/interface/Radial/RPD/PressureControlledValve.png
   mode: ConstructObject
   prototype: PressureControlledValve
   cost: 4
@@ -327,7 +327,7 @@
   id: ADTDisposalUnit
   name: rpd-component-DisposalUnit
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/DisposalUnit.png
+  sprite: /Textures/_DH/interface/Radial/RPD/DisposalUnit.png
   mode: ConstructObject
   prototype: DisposalUnit
   cost: 10
@@ -341,7 +341,7 @@
   id: ADTMailingUnit
   name: rpd-component-MailingUnit
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/MailingUnit.png
+  sprite: /Textures/_DH/interface/Radial/RPD/MailingUnit.png
   mode: ConstructObject
   prototype: MailingUnit
   cost: 10
@@ -355,7 +355,7 @@
   id: ADTGasPort
   name: rpd-component-GasPort
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/GasPort.png
+  sprite: /Textures/_DH/interface/Radial/RPD/GasPort.png
   mode: ConstructObject
   prototype: GasPort
   cost: 5
@@ -369,7 +369,7 @@
   id: ADTDisposalJunctionFlipped
   name: rpd-component-DisposalJunctionFlipped
   category: DisposalPipe
-  sprite: /Textures/_DH/Interface/Radial/RPD/DisposalJunctionFlipped.png
+  sprite: /Textures/_DH/interface/Radial/RPD/DisposalJunctionFlipped.png
   mode: ConstructObject
   prototype: DisposalJunctionFlipped
   cost: 3
@@ -386,7 +386,7 @@
   id: ADTDisposalJunction
   name: rpd-component-DisposalJunction
   category: DisposalPipe
-  sprite: /Textures/_DH/Interface/Radial/RPD/DisposalJunction.png
+  sprite: /Textures/_DH/interface/Radial/RPD/DisposalJunction.png
   mode: ConstructObject
   prototype: DisposalJunction
   cost: 3
@@ -403,7 +403,7 @@
   id: ADTDisposalRouterFlipped
   name: rpd-component-DisposalRouterFlipped
   category: DisposalPipe
-  sprite: /Textures/_DH/Interface/Radial/RPD/DisposalRouterFlipped.png
+  sprite: /Textures/_DH/interface/Radial/RPD/DisposalRouterFlipped.png
   mode: ConstructObject
   prototype: DisposalRouterFlipped
   cost: 3
@@ -420,7 +420,7 @@
   id: ADTDisposalRouter
   name: rpd-component-DisposalRouter
   category: DisposalPipe
-  sprite: /Textures/_DH/Interface/Radial/RPD/DisposalRouter.png
+  sprite: /Textures/_DH/interface/Radial/RPD/DisposalRouter.png
   mode: ConstructObject
   prototype: DisposalRouter
   cost: 3
@@ -437,7 +437,7 @@
   id: ADTDisposalTagger
   name: rpd-component-DisposalTagger
   category: DisposalPipe
-  sprite: /Textures/_DH/Interface/Radial/RPD/DisposalTagger.png
+  sprite: /Textures/_DH/interface/Radial/RPD/DisposalTagger.png
   mode: ConstructObject
   prototype: DisposalTagger
   cost: 3
@@ -454,7 +454,7 @@
   id: ADTDisposalBend
   name: rpd-component-DisposalBend
   category: DisposalPipe
-  sprite: /Textures/_DH/Interface/Radial/RPD/DisposalBend.png
+  sprite: /Textures/_DH/interface/Radial/RPD/DisposalBend.png
   mode: ConstructObject
   prototype: DisposalBend
   cost: 2
@@ -471,7 +471,7 @@
   id: ADTDisposalYJunction
   name: rpd-component-DisposalYJunction
   category: DisposalPipe
-  sprite: /Textures/_DH/Interface/Radial/RPD/DisposalYJunction.png
+  sprite: /Textures/_DH/interface/Radial/RPD/DisposalYJunction.png
   mode: ConstructObject
   prototype: DisposalYJunction
   cost: 3
@@ -488,7 +488,7 @@
   id: ADTDisposalSignalRouter
   name: rpd-component-DisposalSignalRouter
   category: DisposalPipe
-  sprite: /Textures/_DH/Interface/Radial/RPD/DisposalSignalRouter.png
+  sprite: /Textures/_DH/interface/Radial/RPD/DisposalSignalRouter.png
   mode: ConstructObject
   prototype: DisposalSignalRouter
   cost: 3
@@ -505,7 +505,7 @@
   id: ADTDisposalSignalRouterFlipped
   name: rpd-component-DisposalSignalRouterFlipped
   category: DisposalPipe
-  sprite: /Textures/_DH/Interface/Radial/RPD/DisposalSignalRouterFlipped.png
+  sprite: /Textures/_DH/interface/Radial/RPD/DisposalSignalRouterFlipped.png
   mode: ConstructObject
   prototype: DisposalSignalRouterFlipped
   cost: 3
@@ -522,7 +522,7 @@
   id: ADTDisposalTrunk
   name: rpd-component-DisposalTrunk
   category: DisposalPipe
-  sprite: /Textures/_DH/Interface/Radial/RPD/DisposalTrunk.png
+  sprite: /Textures/_DH/interface/Radial/RPD/DisposalTrunk.png
   mode: ConstructObject
   prototype: DisposalTrunk
   cost: 2
@@ -539,7 +539,7 @@
   id: ADTDisposalPipe
   name: rpd-component-DisposalPipes
   category: DisposalPipe
-  sprite: /Textures/_DH/Interface/Radial/RPD/DisposalPipe.png
+  sprite: /Textures/_DH/interface/Radial/RPD/DisposalPipe.png
   mode: ConstructObject
   prototype: DisposalPipe
   cost: 2
@@ -556,7 +556,7 @@
   id: ADTAirSensor
   name: rpd-component-AirSensor
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/AirSensor.png
+  sprite: /Textures/_DH/interface/Radial/RPD/AirSensor.png
   mode: ConstructObject
   prototype: AirSensor
   cost: 4
@@ -570,7 +570,7 @@
   id: ADTFloorDrain
   name: rpd-component-FloorDrain
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/FloorDrain.png
+  sprite: /Textures/_DH/interface/Radial/RPD/FloorDrain.png
   mode: ConstructObject
   prototype: FloorDrain
   cost: 10
@@ -584,7 +584,7 @@
   id: ADTAirAlarm
   name: rpd-component-AirAlarm
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/AirAlarm.png
+  sprite: /Textures/_DH/interface/Radial/RPD/AirAlarm.png
   mode: ConstructObject
   prototype: AirAlarm
   cost: 6
@@ -600,7 +600,7 @@
   id: ADTSignalControlledValve
   name: rpd-component-SignalControlledValve
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/SignalControlledValve.png
+  sprite: /Textures/_DH/interface/Radial/RPD/SignalControlledValve.png
   mode: ConstructObject
   prototype: SignalControlledValve
   cost: 3
@@ -614,7 +614,7 @@
   id: ADTRadiator
   name: rpd-component-Radiator
   category: Devices
-  sprite: /Textures/_DH/Interface/Radial/RPD/HeatExchanger.png
+  sprite: /Textures/_DH/interface/Radial/RPD/HeatExchanger.png
   mode: ConstructObject
   prototype: HeatExchanger
   cost: 3

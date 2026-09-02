@@ -5791,7 +5791,7 @@ entities:
     - type: Transform
       pos: -3.1625307,10.762159
       parent: 1
-- proto: SubstationBasic
+- proto: SubstationWallBasic
   entities:
   - uid: 577
     components:

@@ -345,6 +345,9 @@
             "name": "genpop"
         },
         {
+            "name": "genpop_door_0"
+        },
+        {
             "name": "genpop_door_1"
         },
         {
@@ -367,6 +370,12 @@
         },
         {
             "name": "genpop_door_8"
+        },
+        {
+            "name": "genpop_door_9"
+        },
+        {
+            "name": "genpop_door_nt"
         },
         {
             "name": "genpop_open"

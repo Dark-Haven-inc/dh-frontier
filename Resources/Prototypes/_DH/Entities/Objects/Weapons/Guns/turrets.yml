@@ -5,7 +5,7 @@
   components:
   - type: NpcFactionMember
     factions:
-    - AiTurret
+    - NanoTrasen
 
 - type: entity
   parent: BaseStructure

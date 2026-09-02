@@ -132,9 +132,9 @@
     sprite: _DH/Clothing/Neck/Misc/atmos_cross.rsi
   - type: Item
     sprite: _DH/Clothing/Neck/Misc/atmos_cross.rsi
-  - type: Construction
-    graph: AtmosCrossCraft
-    node: cross
+  # - type: Construction
+  #   graph: AtmosCrossCraft # НЕ существует
+  #   node: cross
 
 - type: entity
   parent: ClothingNeckBase
